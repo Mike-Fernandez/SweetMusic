@@ -9,5 +9,14 @@
         android:id="@+id/mainMenuFragment"
         android:name="com.programoviles.sweetmusic.MainMenuFragment"
         android:label="fragment_main_menu"
-        tools:layout="@layout/fragment_main_menu" />
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_glosario"
+            app:destination="@id/glosario" />
+    </fragment>
+    <fragment
+        android:id="@+id/glosario"
+        android:name="com.programoviles.sweetmusic.Glosario"
+        android:label="fragment_glosario"
+        tools:layout="@layout/fragment_glosario" />
 </navigation>

@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_glosario"
             app:destination="@id/glosario" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_metronomo"
+            app:destination="@id/metronomo" />
     </fragment>
     <fragment
         android:id="@+id/glosario"
         android:name="com.programoviles.sweetmusic.Glosario"
         android:label="fragment_glosario"
         tools:layout="@layout/fragment_glosario" />
+    <fragment
+        android:id="@+id/metronomo"
+        android:name="com.programoviles.sweetmusic.metronomo"
+        android:label="fragment_metronomo"
+        tools:layout="@layout/fragment_metronomo" />
 </navigation>

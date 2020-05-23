@@ -28,6 +28,12 @@ class MainMenuFragment : Fragment() {
             }
         }
 
+        binding.toolbarMainMenu.setOnNavigationItemReselectedListener {
+            when(it.itemId){
+                R.id.chord_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_acordesFragment)
+            }
+        }
+
         return binding.root
     }
 

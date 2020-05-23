@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_glosario"
             app:destination="@id/glosario" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_acordesFragment"
+            app:destination="@id/acordesFragment" />
     </fragment>
     <fragment
         android:id="@+id/glosario"
         android:name="com.programoviles.sweetmusic.Glosario"
         android:label="fragment_glosario"
         tools:layout="@layout/fragment_glosario" />
+    <fragment
+        android:id="@+id/acordesFragment"
+        android:name="com.programoviles.sweetmusic.AcordesFragment"
+        android:label="fragment_acordes"
+        tools:layout="@layout/fragment_acordes" />
 </navigation>

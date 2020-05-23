@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_acordesFragment"
             app:destination="@id/acordesFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_metronomo"
+            app:destination="@id/metronomo" />
     </fragment>
     <fragment
         android:id="@+id/glosario"
@@ -27,4 +30,9 @@
         android:name="com.programoviles.sweetmusic.AcordesFragment"
         android:label="fragment_acordes"
         tools:layout="@layout/fragment_acordes" />
+    <fragment
+        android:id="@+id/metronomo"
+        android:name="com.programoviles.sweetmusic.metronomo"
+        android:label="fragment_metronomo"
+        tools:layout="@layout/fragment_metronomo" />
 </navigation>

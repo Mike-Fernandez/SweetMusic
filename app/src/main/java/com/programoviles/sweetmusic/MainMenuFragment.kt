@@ -25,6 +25,7 @@ class MainMenuFragment : Fragment() {
         binding.toolbarMainMenu.setOnNavigationItemReselectedListener {
             when(it.itemId){
                 R.id.glosario_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_glosario)
+                R.id.metronomo_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_metronomo)
             }
         }
 

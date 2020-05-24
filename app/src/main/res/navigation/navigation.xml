@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_main_menu" >
         <action
             android:id="@+id/action_mainMenuFragment_to_glosario"
-            app:destination="@id/glosario" />
+            app:destination="@id/glosario_access" />
         <action
             android:id="@+id/action_mainMenuFragment_to_acordesFragment"
             app:destination="@id/acordesFragment" />
@@ -24,7 +24,7 @@
             app:destination="@id/afinador" />
     </fragment>
     <fragment
-        android:id="@+id/glosario"
+        android:id="@+id/glosario_access"
         android:name="com.programoviles.sweetmusic.Glosario"
         android:label="fragment_glosario"
         tools:layout="@layout/fragment_glosario" />

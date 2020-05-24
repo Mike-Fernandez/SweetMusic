@@ -3,19 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/glosario_access_afinador"
+        android:id="@+id/glosario_access_metronomo"
         android:icon="@drawable/ic_glosario2blanco"
-        android:title="Glosario" />
+        android:title="Glosario"/>
     <item
-        android:id="@+id/metronomo_access"
-        android:icon="@drawable/ic_metronomovector"
-        android:title="Metronomo" />
+        android:id="@+id/Home_access_metronomo"
+        android:icon="@drawable/ic_homeicon"
+        android:title="Home" />
     <item
-        android:id="@+id/afinador_access"
+        android:id="@+id/Afinador_access_metronomo"
         android:icon="@drawable/ic_tuner_logoblanco"
         android:title="Afinador" />
     <item
-        android:id="@+id/chord_access"
+        android:id="@+id/Acordes_access_metronomo"
         android:icon="@drawable/ic_corchea_blanco"
         android:title="Acordes" />
 </menu>

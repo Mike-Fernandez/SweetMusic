@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_metronomo"
             app:destination="@id/metronomo" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_afinador"
+            app:destination="@id/afinador" />
     </fragment>
     <fragment
         android:id="@+id/glosario"
@@ -35,4 +38,9 @@
         android:name="com.programoviles.sweetmusic.metronomo"
         android:label="fragment_metronomo"
         tools:layout="@layout/fragment_metronomo" />
+    <fragment
+        android:id="@+id/afinador"
+        android:name="com.programoviles.sweetmusic.Afinador"
+        android:label="fragment_afinador"
+        tools:layout="@layout/fragment_afinador" />
 </navigation>

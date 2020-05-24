@@ -27,6 +27,7 @@ class MainMenuFragment : Fragment() {
                 R.id.glosario_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_glosario)
                 R.id.metronomo_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_metronomo)
                 R.id.chord_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_acordesFragment)
+                R.id.afinador_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_afinador)
             }
         }
         

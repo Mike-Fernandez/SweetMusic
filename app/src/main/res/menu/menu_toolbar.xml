@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/glosario_access"
-        android:icon="@android:drawable/ic_lock_lock"
+        android:icon="@drawable/ic_glosario2blanco"
         android:title="Glosario" />
     <item
         android:id="@+id/metronomo_access"

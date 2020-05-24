@@ -26,15 +26,10 @@ class MainMenuFragment : Fragment() {
             when(it.itemId){
                 R.id.glosario_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_glosario)
                 R.id.metronomo_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_metronomo)
-            }
-        }
-
-        binding.toolbarMainMenu.setOnNavigationItemReselectedListener {
-            when(it.itemId){
                 R.id.chord_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_acordesFragment)
             }
         }
-
+        
         return binding.root
     }
 

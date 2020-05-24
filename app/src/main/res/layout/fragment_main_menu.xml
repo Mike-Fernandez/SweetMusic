@@ -93,8 +93,9 @@
             android:id="@+id/toolbar_main_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#e53935"
-            app:itemIconTint="@color/colorPrimaryDark"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="#FFFFFF"
+            app:itemTextColor="#FFFFFF"
             app:labelVisibilityMode="labeled"
             app:layout_constraintBottom_toBottomOf="parent"
 

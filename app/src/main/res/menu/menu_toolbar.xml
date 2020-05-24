@@ -8,14 +8,14 @@
         android:title="Glosario" />
     <item
         android:id="@+id/metronomo_access"
-        android:icon="@android:drawable/ic_lock_lock"
+        android:icon="@drawable/ic_metronomovector"
         android:title="Metronomo" />
     <item
         android:id="@+id/afinador_access"
-        android:icon="@android:drawable/ic_lock_lock"
+        android:icon="@drawable/ic_tuner_logoblanco"
         android:title="Afinador" />
     <item
         android:id="@+id/chord_access"
-        android:icon="@android:drawable/ic_lock_lock"
+        android:icon="@drawable/ic_corchea_blanco"
         android:title="Acordes" />
 </menu>

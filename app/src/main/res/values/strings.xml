@@ -3,4 +3,21 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="acordes_array">
+        <item>Triada Mayor</item>
+        <item>Triada Menor</item>
+        <item>Triada Aumentada</item>
+        <item>Triada Disminuida</item>
+        <item>Power Chords</item>
+        <item>Suspendido en segunda</item>
+        <item>Suspendido en cuarta</item>
+        <item>Septima dominante</item>
+        <item>Maj septima Mayor</item>
+        <item>Menor con septima menor</item>
+        <item>Menor con septima mayor</item>
+        <item>Aumentando con septima dominante</item>
+        <item>Aumentado con septima mayor</item>
+        <item>Semidisminuido con septima</item>
+    </string-array>
+
 </resources>

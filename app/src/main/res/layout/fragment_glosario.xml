@@ -3,12 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Glosario">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/palabra"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Acordes"
+        android:textAlignment="center"
+        android:textSize="11pt"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:id="@+id/definicion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Conjunto de 3 notas o más diferentes que suenan simultanemenete."
+        android:textAlignment="center"
+        android:textSize="9pt"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/toolbar_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_toolbar_glosario" />
+
+
 
 </FrameLayout>

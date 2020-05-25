@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Glosario">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/palabra"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Acordes"
-        android:textAlignment="center"
-        android:textSize="11pt"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="16dp" />
-    <TextView
-        android:id="@+id/definicion"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Conjunto de 3 notas o más diferentes que suenan simultanemenete."
-        android:textAlignment="center"
-        android:textSize="9pt"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_height="match_parent">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/toolbar_main_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_toolbar_glosario" />
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/palabra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acordes"
+            android:textAlignment="center"
+            android:textSize="11pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/definicion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/wideMargin"
+            android:text="Conjunto de 3 notas o más diferentes que suenan simultanemenete."
+            android:textAlignment="center"
+            android:textSize="9pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/palabra" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/toolbar_main_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="#FFFFFF"
+            app:itemTextColor="#FFFFFF"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/menu_toolbar_glosario" />
 
 
 
-</FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

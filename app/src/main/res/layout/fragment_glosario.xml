@@ -34,7 +34,7 @@
             app:layout_constraintTop_toBottomOf="@+id/palabra" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/toolbar_main_menu"
+            android:id="@+id/toolbar_glosario_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"

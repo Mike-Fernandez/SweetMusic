@@ -68,5 +68,18 @@
         android:id="@+id/afinador"
         android:name="com.programoviles.sweetmusic.Afinador"
         android:label="fragment_afinador"
-        tools:layout="@layout/fragment_afinador" />
+        tools:layout="@layout/fragment_afinador" >
+        <action
+            android:id="@+id/action_afinador_to_glosarioFragment"
+            app:destination="@id/glosarioFragment" />
+        <action
+            android:id="@+id/action_afinador_to_metronomo"
+            app:destination="@id/metronomo" />
+        <action
+            android:id="@+id/action_afinador_to_acordesFragment"
+            app:destination="@id/acordesFragment" />
+        <action
+            android:id="@+id/action_afinador_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
 </navigation>

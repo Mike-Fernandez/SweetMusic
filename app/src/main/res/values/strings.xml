@@ -19,7 +19,185 @@
         <item>Aumentado con septima mayor</item>
         <item>Semidisminuido con septima</item>
     </string-array>
+    <string-array name="Nombre_glosario">
+        <item>Acentos
+        La acentuación constituye uno de los elementos de la expresión musical. Así como ocurre en el lenguaje que ciertas frases, palabras o sílabas deben decirse o escribirse de una determinada manera para expresar diferentes sentidos</item>
+        <item>Acordes
+        Conjunto de tres o más notas diferentes que suenan simultáneamente y que constituyen una unidad armónica </item>
+        <item>Acorde pivote
+        Acorde puente, representado en el cifrado con una equivalencia–, que acumula en sí dos funciones simultáneas –una en la tonalidad nueva y otra en la antigua</item>
+        <item>Acorde abierto
+        Acorde que exceden la octava. </item>
+        <item>Acorde cerrado
+        Es un acorde que está dentro de  una octava. </item>
+        <item>Alteración accidental
+        Es aquella que se coloca en cualquier punto de la partitura a la izquierda de la cabeza de la nota a la que afecta.</item>
+        <item>Alteración propia
+        Las alteraciones propias son aquellas que se colocan en la armadura de clave, después de la clave y antes del indicador del compás.</item>
+        <item>Alteraciones de cortesía
+        Son alteraciones que se colocan para que el intérprete no cometa algún error en la lectura.</item>
+        <item>Altura
+        Es una de las cuatro cualidades esenciales del sonido. Dicha cualidad determina si un sonido es agudo o grave, la cual dependerá de la frecuencia (Hz)</item>
+        <item>Armadura
+        La armadura no es más que el conjunto de alteraciones (propias) que se escriben al principio del pentagrama y tienen efecto durante toda la pieza o movimiento, o hasta que haya algún cambio de armadura</item>
+        <item>Armonía
+        Es la combinación de diferentes sonidos o notas que se emiten al mismo tiempo, aunque el término también se utiliza para referirse a la sucesión de estos sonidos emitidos a la vez.</item>
+        <item>Armonicos(frecuencias)
+        Conjunto de frecuencias con la cual se define el timbre.</item>
+        <item>Becuadro
+        Alteración que afecta a la frecuencia de una nota, cancelando o anulando el efecto de un sostenido o un bemol de tal manera que la nota o notas a que se refiere deben sonar con su entonación natural</item>
+        <item>Bemol
+        Alteración que afecta a la frecuencia (altura) de una nota reduciendo ésta en un semitono (hasta un tono si es doble)</item>
+        <item>BPM
+        Beats Per Minute, en español Beats por minuto. Manera en estimar la velocidad de la pieza</item>
+        <item>Cifrado
+        Sistema de notación musical para la representación de la armonía, que en lugar de usar el sistema tradicional basado en el pentagrama, utiliza caracteres numéricos o alfanuméricos según el caso, así como otros símbolos.</item>
+        <item>Círculo de quintas
+        Herramienta que representa las relaciones entre los doce semitonos de la escala cromática, sus respectivas armaduras de clave y las tonalidades relativas mayores y menores.
+        </item>
+        <item>Clave
+        Las claves musicales son unos símbolos que están al principio de cada línea del pentagrama. Nos sirven para tener una referencia (de hay el nombre declave). </item>
+        <item>Compás
+        Es la estructura métrica que llevan las canciones, la división de tiempo en partes iguales. Esto nos permite dar a nuestras canciones partes acentuadas y sin acento.</item>
+        <item>Compás amalgama
+        Amalgamar es unir o pegar dos o más cosas. Los compases de amalgama son los que se obtienen sumando dos o más compases, que pueden ser simples entre sí, o compuestos entre sí.</item>
+        <item>Compás binario
+        Es el que se mide en dos tiempos o pulsos fuerte-débil, que sería por ejemplo una marcha militar (2/4, 6/8...)</item>
+        <item>Compás cuartenario
+        Es el que se mide en cuatro tiempos o pulsos fuerte-débil-semifuerte-débil, que sería por ejemplo una marcha militar (4/4, 12/8...)</item>
+        <item>Compás compuesto
+        Son los compases que tienen por numerador 6, 9 ó 12 . La forma de marcar los tiempos en los compases compuestos es diferente que en los simples, porque derivan de ellos. </item>
+        <item>Compás simple
+        Son los compases que tienen por numerador 2, 3 ó 4 . Generalmente tiene de numerador 4 (negras). Son los compases más ocupados, en especial 4/4.</item>
+        <item>Compás ternario
+        Es el que se mide en tres tiempos o pulsos fuerte-débil-débil, que sería por ejemplo una marcha militar (3/4, 9/8...)</item>
+        <item> Contratiempo
+            Se denomina contratiempo al sonido métrico que ocurre por la aparición de silencios en las partes del compás (o del tiempo) normalmente acentuadas que alternan con sonidos que se presentan en las partes no acentuadas.
+        </item>
+        <item>Consonancia
+        Es la sonoridad “agradable” producida sonidos simultáneos extraídos de la misma serie armónica. </item>
+        <item>Cromatismo(movimiento)
+        Uso de notas que no pertenecen a la escala musical sobre la que se basa la composición. En esencia, un tono cromático es aquél producido por la elevación o descenso de un semitono.
+        </item>
+        <item> Cromatismo (sistema)
+         Sistema musical de composición basado en la escala formada por doce semitonos que recibe el nombre de cromática.
+        </item>
+        <item>Diatonismo
+            Sistema que se aplica a toda la escala de siete sonidos conjuntos y que resulta de una alternancia entre tonos y semitonos naturales.
+        </item>
+        <item>Dinámicas
+            Son graduaciones de intensidad del sonido. Muestra la  intensidad a cada uno de los distintos grados o niveles de intensidad.
+        </item>
+        <item>Disonancia
+         Combinación de sonidos que resultan “desagradables” o suenan “mal”.
+        </item>
+        <item>Doble barra
+        Es un signo que se usa en notación musical representado como una línea vertical que atraviesa el pentagrama separando los compases. Se ocupa para indicar un cambio. </item>
+        <item>Duración
+        Es una de las cuatro cualidades esenciales del sonido. Corresponde al tiempo que se mantienen las vibraciones producidas por un sonido
+        </item>
+        <item> Enarmonia
+        Relación entre dos o más sonidos que, a pesar de poseer distintos nombres, se aproximan en su entonación, resultando casi idéntica en la afinación temperada, como la de los instrumentos de teclado modernos.</item>
+        <item>Escalas
+            Sucesión ordenada de sonidos musicales o notas, dentro del ámbito limitado.
+        </item>
+        <item>Escala cromatica
+            La escala cromática está formada por doce sonidos separados entre sí por semitonos . Cuando asciende, la escala cromática utiliza sostenidos y cuando desciende bemoles.
+        </item>
+        <item>Escala diatónica
+        Es  una escala musical formada por intervalos de segunda consecutivos. Es una escala conformada por 7 tonos </item>
+        <item> Escala pentatónica
+            Es una escala o modo musical constituido por una sucesión de cinco sonidos, alturas o notas diferentes dentro de una octava.
+        </item>
+        <item> Escala relativas
+            Se refiere alusión a la relación entre una  escala mayor íntimamente relacionada con una escala menor. Se trata de una escala mayor que comparte con otra menor la misma armadura de clave, es decir, las mismas alteraciones.
+        </item>
+        <item> Escalas modales
+            Diferentes escalas formadas al construir una escala diatónica natural con las 7 notas, son jónico, Dórico, frigio, Lidio, Mixolido, Eólico y Locrio.
+        </item>
+        <item>Figuras musicales
+        Son los signos que se usan para representar la duración de los sonidos de las notas o de su ausencia (silencios).</item>
+        <item>Frecuencia fundamental
+        La frecuencia resonante más baja de un objeto vibrante se llama frecuencia fundamental. Con esta se define la altura.</item>
+        <item>Grados
+        Es la posición de cada nota dentro de una escala musical en el sistema tonal. Los grados se designan mediante números romanos correlativos I, II, III, IV, V, VI y VII. </item>
+        <item>Homónimo
+        Son dos notas con el mismo nombre y diferente sonido, es decir que la segunda nota se diferencia de la primera porque tiene una alteración diferente.
+        </item>
+        <item> Itensidad
+        Es una de las cuatro cualidades esenciales del sonido. Describe la diferencia un sonido si es suave o sonido fuerte. Se mide en decibeles (dB)</item>
+        <item>Intervalos
+        Es la diferencia de frecuencia (altura) entre dos notas musicales, medida cualitativamente en grados o notas naturales y cuantitativamente en tonos y semitonos.</item>
+        <item>Intervalos compuestos
+        Son aquellos intervalos que sobrepasan la octava. </item>
+        <item>Intervalos simple
+        Son aquellos intervalos que no son mayores a una octava. </item>
+        <item>Ligadura
+        Signo de prolongación con forma de una línea curva que conecta las cabezas de dos notas consecutivas de la misma altura, aunque no necesariamente del mismo valor.</item>
+        <item>Melodía
+        Sucesión de sonidos que es percibida como una sola </item>
+        <item>Metrónomo
+        Herramienta para ayudar a mantener el tempo y pulso. </item>
+        <item>Modo dórico
+        Escala modal menor. Estructura T-ST-T-T-T-ST-T</item>
+        <item>Modo Eólico
+        Escala modal menor. Estructura T-ST-T-T-ST-T-T</item>
+        <item>Modo frigio
+        Escala modal menor. Estructura ST-T-T-T-ST-T-T</item>
+        <item>Modo Jónico
+        Escala modal mayor. Estructura T-T-ST-T-T-T-ST</item>
+        <item>Modo lidio
+        Escala modal mayor. Estructura T-T-T-ST-T-T-ST</item>
+        <item>Modo locrio
+        Escala modal menor (disminuido). Estructura ST-T-T-ST-T-T-T
+        </item>
+        <item> Modulación
+            Es el cambio de una tonalidad a otra durante el desarrollo de una obra, sin indicarlo con doble barra.
+        </item>
+        <item>Música
+        Arte de combinar los sonidos en una secuencia temporal atendiendo a las leyes de la armonía, la melodía y el ritmo, o de producirlos con instrumentos musicales.</item>
+        <item>Notas
+        Se utilizan en la notación musical para representar la altura de un sonido.</item>
+        <item>Octavas
+            Intervalo de ocho grados entre dos notas de la escala musical.
+        </item>
+        <item>Pentagramas
+        Es el lugar donde se escriben las notas y todos los demás signos musicales en el sistema de notación musical occidental</item>
+        <item>Progresiones de acordes
+        Son series de dos o más acordes usados en una composición. Los acordes de una progresión están representados por números romanos y definidos por una escala.</item>
+        <item>Puntillo
+        Signo el cual alarga la mitad de su valor a la figura que acompañe.</item>
+        <item>Reposo
+            Acorde base donde reposa la obra.
+        </item>
+        <item>Tetracordio
+            Es un grupo ordenado de cuatro notas secuenciales. Estos cuatro sonidos generan tres intervalos en su interior
+        </item>
+        <item>Ritmo
+            Es un grupo ordenado de cuatro notas secuenciales. Estos cuatro sonidos generan tres intervalos en su interior.
+        </item>
+        <item>Signo de repetición
+        Son signos que indica que un compás se repita, para no volver a escribirlo.</item>
+        <item>Silencios
+            Signo que representa gráficamente la duración de una determinada pausa en una pieza musical.
+        </item>
+        <item>Sincopa
+        Es la estrategia compositiva destinada a romper la regularidad del ritmo, por medio de la acentuación de una nota en un lugar débil o semifuerte de un compás.</item>
+        <item>Sostenido
+        Alteración que afecta a la frecuencia (altura) de una nota subiéndole  un semitono (hasta un tono si es doble)</item>
+        <item>Timbre
+        Es una de las cuatro propiedades del sonido. Nos permite diferenciar dos sonidos con igual sonoridad, altura y duración.</item>
+        <item>Tonalidad
+        Es un conjunto de sonidos que se sostienen en una misma nota principal llamada tónica. La sucesión de esas notas componen las escalas.</item>
+        <item>Tónica
+        Hace referencia al primer grado de la escala musical, que es la nota que define la tonalidad.</item>
+        <item>Tono y semitono
+        Se llama tono a la diferencia de altura o distancia que hay entre dos sonidos sucesivos, excepto en Mi-Fa y Si-Do, donde la distancia es de semitono. </item>
+        <item>Tríadas
+        Es un conjunto de sonidos que se sostienen en una misma nota principal llamada tónica. La sucesión de esas notas componen las escalas.</item>
+        <item>Unísono
+        Es un intervalo musical de proporción 1:1 y ningún semitono ni cent. Se considera que dos tonos al unísono tienen la misma altura.</item>
 
-    <string name="glosario1">Acordes: alsdkfjalskdfjalskdjflskfjldkfjlf</string>
+    </string-array>
 
 </resources>

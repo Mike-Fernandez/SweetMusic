@@ -50,7 +50,20 @@
         android:id="@+id/metronomo"
         android:name="com.programoviles.sweetmusic.metronomo"
         android:label="fragment_metronomo"
-        tools:layout="@layout/fragment_metronomo" />
+        tools:layout="@layout/fragment_metronomo" >
+        <action
+            android:id="@+id/action_metronomo_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+        <action
+            android:id="@+id/action_metronomo_to_afinador"
+            app:destination="@id/afinador" />
+        <action
+            android:id="@+id/action_metronomo_to_glosarioFragment"
+            app:destination="@id/glosarioFragment" />
+        <action
+            android:id="@+id/action_metronomo_to_acordesFragment"
+            app:destination="@id/acordesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/afinador"
         android:name="com.programoviles.sweetmusic.Afinador"

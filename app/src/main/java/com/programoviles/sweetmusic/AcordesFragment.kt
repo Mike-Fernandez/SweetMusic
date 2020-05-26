@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.programoviles.sweetmusic.databinding.FragmentAcordesBinding
 
 /**
@@ -18,7 +19,7 @@ class AcordesFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val binding = DataBindingUtil.inflate<FragmentAcordesBinding>(inflater, R.layout.fragment_acordes,
             container, false)
 
@@ -31,6 +32,17 @@ class AcordesFragment : Fragment() {
                     spinnerAcordes.adapter = adapter
                 }
         }
+
+
+        binding.toolbarAcordesMenu.setOnNavigationItemReselectedListener {
+            when(it.itemId) {
+                R.id.glosario_access_acordes -> findNavController().navigate(R.id.action_acordesFragment_to_glosarioFragment)
+                R.id.afinador_access_acordes -> findNavController().navigate(R.id.action_acordesFragment_to_afinador)
+                R.id.home_access_acordes -> findNavController().navigate(R.id.action_acordesFragment_to_mainMenuFragment)
+                R.id.metronomo_access_acordes -> findNavController().navigate(R.id.action_acordesFragment_to_metronomo)
+            }
+        }
+
         return binding.root
     }
 

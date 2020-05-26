@@ -32,7 +32,20 @@
         android:id="@+id/acordesFragment"
         android:name="com.programoviles.sweetmusic.AcordesFragment"
         android:label="fragment_acordes"
-        tools:layout="@layout/fragment_acordes" />
+        tools:layout="@layout/fragment_acordes" >
+        <action
+            android:id="@+id/action_acordesFragment_to_glosarioFragment"
+            app:destination="@id/glosarioFragment" />
+        <action
+            android:id="@+id/action_acordesFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+        <action
+            android:id="@+id/action_acordesFragment_to_afinador"
+            app:destination="@id/afinador" />
+        <action
+            android:id="@+id/action_acordesFragment_to_metronomo"
+            app:destination="@id/metronomo" />
+    </fragment>
     <fragment
         android:id="@+id/metronomo"
         android:name="com.programoviles.sweetmusic.metronomo"

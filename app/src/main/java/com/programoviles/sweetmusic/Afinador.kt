@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
-import com.programoviles.sweetmusic.databinding.FragmentAcordesBinding
+import com.programoviles.sweetmusic.databinding.FragmentAfinadorBinding
 
 /**
  * A simple [Fragment] subclass.
@@ -20,10 +20,10 @@ class Afinador : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        val binding = DataBindingUtil.inflate<FragmentAcordesBinding>(inflater, R.layout.fragment_acordes,
+        val binding = DataBindingUtil.inflate<FragmentAfinadorBinding>(inflater, R.layout.fragment_afinador,
         container, false)
 
-        binding.toolbarAcordesMenu.setOnNavigationItemReselectedListener {
+        binding.toolbarMenuAfinador.setOnNavigationItemReselectedListener {
             when(it.itemId) {
                 R.id.acordes_access_afinador -> findNavController().navigate(R.id.action_afinador_to_acordesFragment)
                 R.id.glosario_access_afinador -> findNavController().navigate(R.id.action_afinador_to_glosarioFragment)

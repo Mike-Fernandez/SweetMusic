@@ -1,6 +1,8 @@
 package com.programoviles.sweetmusic
 
+import android.media.MediaPlayer
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +15,8 @@ import com.programoviles.sweetmusic.databinding.FragmentAfinadorBinding
  * A simple [Fragment] subclass.
  */
 class Afinador : Fragment() {
+
+    private lateinit var mp: MediaPlayer
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,9 +36,14 @@ class Afinador : Fragment() {
             }
         }
 
+        binding.bt1ra.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.a)
+            mp.start()
+            Log.i("TunerActivity", "Pressed Tuner Button")
+        }
+
         return binding.root
 
-        //return inflater.inflate(R.layout.fragment_afinador, container, false)
     }
 
 }

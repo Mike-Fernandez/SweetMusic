@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.programoviles.sweetmusic.databinding.FragmentAfinadorBinding
+import kotlinx.android.synthetic.main.fragment_afinador.*
 
 /**
  * A simple [Fragment] subclass.
@@ -37,9 +38,33 @@ class Afinador : Fragment() {
         }
 
         binding.bt1ra.setOnClickListener {
-            mp = MediaPlayer.create(this.context, R.raw.a)
+            mp = MediaPlayer.create(this.context, R.raw.e1)
             mp.start()
-            Log.i("TunerActivity", "Pressed Tuner Button")
+        }
+
+        binding.bt2da.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.b2)
+            mp.start()
+        }
+
+        binding.bt3ra.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.g3)
+            mp.start()
+        }
+
+        binding.bt4ta.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.d4)
+            mp.start()
+        }
+
+        binding.bt5ta.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.a5)
+            mp.start()
+        }
+
+        binding.bt6ta.setOnClickListener {
+            mp = MediaPlayer.create(this.context, R.raw.e6)
+            mp.start()
         }
 
         return binding.root

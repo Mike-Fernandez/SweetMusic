@@ -16,6 +16,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Intriduccion"
+                    android:padding="8dp"
+                    android:text="@string/Titulo_glosario"
+                    android:textAlignment="center"
+                    android:textSize="11pt"/>
                 <TextView
                     android:id="@+id/Acentos"
                     android:layout_width="wrap_content"

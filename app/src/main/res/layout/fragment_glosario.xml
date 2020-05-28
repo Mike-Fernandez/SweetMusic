@@ -20,6 +20,7 @@
                     android:id="@+id/Acentos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Acentos_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -27,6 +28,7 @@
                     android:id="@+id/Acorde"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Acordes_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -34,6 +36,7 @@
                     android:id="@+id/AcordePivote"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/AcordePivote_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -41,6 +44,7 @@
                     android:id="@+id/AcordesAbiertos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/AcordesAbiertos_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -48,6 +52,7 @@
                     android:id="@+id/AcordesCerrados"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/AcordesCerrados_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -55,6 +60,7 @@
                     android:id="@+id/AlteracionAccidental"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/AlteracionAccidental_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -62,6 +68,7 @@
                     android:id="@+id/AlteracionesDeCortesia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/AlteracionesDeCortesia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -69,6 +76,7 @@
                     android:id="@+id/Altura"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Altura_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -76,6 +84,7 @@
                     android:id="@+id/Armadura"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Armadura_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -83,6 +92,7 @@
                     android:id="@+id/Armonia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Armonia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -90,6 +100,7 @@
                     android:id="@+id/ArmonicosFrecuencias"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ArmonicosFrecuencias_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -97,6 +108,7 @@
                     android:id="@+id/Becuadro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Becuadro_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -104,6 +116,7 @@
                     android:id="@+id/Bemol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Bemol_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -111,6 +124,7 @@
                     android:id="@+id/BPM"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/BPM_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -118,6 +132,7 @@
                     android:id="@+id/Cifrado"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Cifrado_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -125,6 +140,7 @@
                     android:id="@+id/Circulo_de_quintas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CirculoDeQuintas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -132,6 +148,7 @@
                     android:id="@+id/Clave"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Clave_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -139,6 +156,7 @@
                     android:id="@+id/Compas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Compas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -146,6 +164,7 @@
                     android:id="@+id/CompasAmalgama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasAmalgama_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -153,6 +172,7 @@
                     android:id="@+id/CompasBinario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasBinario_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -160,6 +180,7 @@
                     android:id="@+id/CompasCuarternario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasCuarternario_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -167,6 +188,7 @@
                     android:id="@+id/CompasCompuesto"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasCompuesto_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -174,6 +196,7 @@
                     android:id="@+id/CompasSimple"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasSimple_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -181,6 +204,7 @@
                     android:id="@+id/CompasTernario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CompasTernario_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -188,6 +212,7 @@
                     android:id="@+id/Contratiempo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Contratiempo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -195,6 +220,7 @@
                     android:id="@+id/Consonancia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Consonancia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -202,6 +228,7 @@
                     android:id="@+id/CromatismoMovimiento"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CromatismoMovimiento_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -209,6 +236,7 @@
                     android:id="@+id/CromatismoSistema"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/CromatismoSistema_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -216,6 +244,7 @@
                     android:id="@+id/Diatonismo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Diatonismo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -223,6 +252,7 @@
                     android:id="@+id/Dinamicas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Dinamicas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -230,6 +260,7 @@
                     android:id="@+id/Disonancia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Disonancia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -237,6 +268,7 @@
                     android:id="@+id/DobleBarra"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/DobleBarra_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -244,6 +276,7 @@
                     android:id="@+id/Duracion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Duracion_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -251,6 +284,7 @@
                     android:id="@+id/Enarmonia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Enarmonia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -258,6 +292,7 @@
                     android:id="@+id/Escalas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Escalas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -265,6 +300,7 @@
                     android:id="@+id/EscalaCromatica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/EscalaCromatica_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -272,6 +308,7 @@
                     android:id="@+id/EscalaDiatonica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/EscalaDiatonica_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -279,6 +316,7 @@
                     android:id="@+id/EscalaPentatonica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/EscalaPentatonica_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -286,6 +324,7 @@
                     android:id="@+id/EscalaRelativa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/EscalaRelativas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -293,6 +332,7 @@
                     android:id="@+id/EscalasModales"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/EscalasModales_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -300,6 +340,7 @@
                     android:id="@+id/FigurasMusicales"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/FigurasMusicales_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -307,6 +348,7 @@
                     android:id="@+id/FrecuenciaFundamental"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/FrecuenciaFundamental_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -314,6 +356,7 @@
                     android:id="@+id/Grados"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Grados_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -321,6 +364,7 @@
                     android:id="@+id/Homonimo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Homonimo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -328,6 +372,7 @@
                     android:id="@+id/Intensidad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Intensidad_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -335,6 +380,7 @@
                     android:id="@+id/Intervalos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Intervalos_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -342,6 +388,7 @@
                     android:id="@+id/IntervalosCompuestos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/IntervalosCompuestos_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -349,6 +396,7 @@
                     android:id="@+id/IntervalosSimples"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/IntervalosSimples_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -356,6 +404,7 @@
                     android:id="@+id/Ligadura"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Ligadura_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -363,6 +412,7 @@
                     android:id="@+id/Melodia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Melodia_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -370,6 +420,7 @@
                     android:id="@+id/MetronomoDef"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Metronomo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -377,6 +428,7 @@
                     android:id="@+id/ModoDorico"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoDorico_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -384,6 +436,7 @@
                     android:id="@+id/ModoEolico"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoEolico_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -391,6 +444,7 @@
                     android:id="@+id/ModoFrigio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoFrigio_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -398,6 +452,7 @@
                     android:id="@+id/ModoJonico"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoJonico_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -405,6 +460,7 @@
                     android:id="@+id/ModoLidio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoLidio_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -412,6 +468,7 @@
                     android:id="@+id/ModoLocrio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ModoLocrio_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -419,6 +476,7 @@
                     android:id="@+id/Modulacion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Modulacion_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -426,6 +484,7 @@
                     android:id="@+id/Musica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Musica_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -433,6 +492,7 @@
                     android:id="@+id/Notas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Notas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -440,6 +500,7 @@
                     android:id="@+id/Octavas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Octavas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -447,6 +508,7 @@
                     android:id="@+id/Pentagrama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Pentagrama_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -454,6 +516,7 @@
                     android:id="@+id/ProgresionesDeAcordes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/ProgresionesDeAcordes_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -461,6 +524,7 @@
                     android:id="@+id/Puntillo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Puntillo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -468,6 +532,7 @@
                     android:id="@+id/Reposo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Reposo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -475,6 +540,7 @@
                     android:id="@+id/Tetracordio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Tetracordio_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -482,6 +548,7 @@
                     android:id="@+id/Ritmo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Ritmo_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -489,6 +556,7 @@
                     android:id="@+id/SignoDeRepeticion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/SignoDeRepeticion_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -496,6 +564,7 @@
                     android:id="@+id/Silencios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Silencios_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -503,6 +572,7 @@
                     android:id="@+id/Sincopa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Sincopa_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -510,6 +580,7 @@
                     android:id="@+id/Sostenido"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Sostenido_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -517,6 +588,7 @@
                     android:id="@+id/Timbre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Timbre_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -524,6 +596,7 @@
                     android:id="@+id/Tonalidad"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Tonalidad_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -531,6 +604,7 @@
                     android:id="@+id/Tonica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Tonica_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -538,6 +612,7 @@
                     android:id="@+id/TonoYSemitono"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/TonoYSemitono_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -545,6 +620,7 @@
                     android:id="@+id/Triadas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Triadas_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>
@@ -552,6 +628,7 @@
                     android:id="@+id/Unisono"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:padding="8dp"
                     android:text="@string/Unisono_glosario"
                     android:textAlignment="center"
                     android:textSize="11pt"/>

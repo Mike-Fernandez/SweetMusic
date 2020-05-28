@@ -19,7 +19,7 @@
         <item>Aumentado con septima mayor</item>
         <item>Semidisminuido con septima</item>
     </string-array>
-
+    <string name="Titulo_glosario"> En este glosario hemos colocado términos que te serán de utilidad en tus lecciones</string>
     <string name="Acentos_glosario"><b>Acentos: </b>La acentuación constituye uno de los elementos de la expresión musical. Así como ocurre en el lenguaje que ciertas frases, palabras o sílabas deben decirse o escribirse de una determinada manera para expresar diferentes sentidos</string>
     <string name="Acordes_glosario"><b>Acordes: </b>Conjunto de tres o más notas diferentes que suenan simultáneamente y que constituyen una unidad armónica </string>
     <string name="AcordePivote_glosario"><b>Acorde pivote: </b>Acorde puente, representado en el cifrado con una equivalencia–, que acumula en sí dos funciones simultáneas –una en la tonalidad nueva y otra en la antigua </string>

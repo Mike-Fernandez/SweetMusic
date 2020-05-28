@@ -13,8 +13,7 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_glosario"
             app:destination="@id/glosarioFragment"
-            app:popUpTo="@id/mainMenuFragment"
-            app:popUpToInclusive="true" />
+            app:popUpTo="@id/mainMenuFragment" />
         <action
             android:id="@+id/action_mainMenuFragment_to_acordesFragment"
             app:destination="@id/acordesFragment" />
@@ -27,8 +26,7 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_bloqueUnidad"
             app:destination="@id/bloqueUnidad"
-            app:popUpTo="@id/mainMenuFragment"
-            app:popUpToInclusive="true" />
+            app:popUpTo="@id/mainMenuFragment" />
     </fragment>
     <fragment
         android:id="@+id/glosarioFragment"
@@ -106,5 +104,14 @@
         android:id="@+id/bloqueUnidad"
         android:name="com.programoviles.sweetmusic.BloqueUnidad"
         android:label="fragment_bloque_unidad"
-        tools:layout="@layout/fragment_bloque_unidad" />
+        tools:layout="@layout/fragment_bloque_unidad" >
+        <action
+            android:id="@+id/action_bloqueUnidad_to_bloqueLeccion"
+            app:destination="@id/bloqueLeccion" />
+    </fragment>
+    <fragment
+        android:id="@+id/bloqueLeccion"
+        android:name="com.programoviles.sweetmusic.BloqueLeccion"
+        android:label="fragment_bloque_leccion"
+        tools:layout="@layout/fragment_bloque_leccion" />
 </navigation>

@@ -34,6 +34,26 @@ class MainMenuFragment : Fragment() {
         binding.btUnidad1.setOnClickListener {
             this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
         }
+
+        binding.btUnidad2.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
+
+        binding.btUnidad3.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
+
+        binding.btUnidad4.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
+
+        binding.btUnidad5.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
+
+        binding.btUnidad6.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
         
         return binding.root
     }

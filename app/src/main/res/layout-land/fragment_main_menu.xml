@@ -8,92 +8,83 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <Button
             android:id="@+id/bt_unidad1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
             android:background="@drawable/rounded_button"
             android:text="Unidad 1"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/bt_unidad2"
+            app:layout_constraintEnd_toStartOf="@+id/bt_unidad3"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.126" />
+            app:layout_constraintVertical_bias="0.14" />
 
         <Button
             android:id="@+id/bt_unidad2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
             android:background="@drawable/rounded_button"
             android:text="Unidad 2"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/bt_unidad1"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.126" />
-
-
-        <Button
-            android:id="@+id/bt_unidad3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@drawable/rounded_button"
-            android:text="Unidad 3"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/bt_unidad4"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.469" />
+            app:layout_constraintVertical_bias="0.67" />
+
+        <Button
+            android:id="@+id/bt_unidad3"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
+            android:background="@drawable/rounded_button"
+            android:text="Unidad 3"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bt_unidad1"
+            app:layout_constraintEnd_toStartOf="@+id/bt_unidad5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/bt_unidad1" />
 
 
         <Button
             android:id="@+id/bt_unidad4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
             android:background="@drawable/rounded_button"
             android:text="Unidad 4"
             android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bt_unidad2"
+            app:layout_constraintEnd_toStartOf="@+id/bt_unidad6"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/bt_unidad3"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.469" />
-
+            app:layout_constraintStart_toEndOf="@+id/bt_unidad2" />
 
         <Button
             android:id="@+id/bt_unidad5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
             android:background="@drawable/rounded_button"
             android:text="Unidad 5"
             android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/bt_unidad6"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bt_unidad3"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.796" />
+            app:layout_constraintStart_toEndOf="@+id/bt_unidad3" />
 
         <Button
             android:id="@+id/bt_unidad6"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/menu_button"
+            android:layout_height="@dimen/menu_button"
             android:background="@drawable/rounded_button"
             android:text="Unidad 6"
             android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bt_unidad4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/bt_unidad5"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.796" />
+            app:layout_constraintStart_toEndOf="@+id/bt_unidad4" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/toolbar_main_menu"

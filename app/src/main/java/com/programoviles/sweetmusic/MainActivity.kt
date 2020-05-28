@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
 /*        supportActionBar?.setDisplayShowHomeEnabled(true);
         supportActionBar?.setLogo(R.mipmap.ic_launcher);
         supportActionBar?.setDisplayUseLogoEnabled(true);*/
+
+
     }
 }

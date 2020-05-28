@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_mainMenuFragment_to_afinador"
             app:destination="@id/afinador" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_bloqueUnidad"
+            app:destination="@id/bloqueUnidad" />
     </fragment>
     <fragment
         android:id="@+id/glosarioFragment"
@@ -95,4 +98,9 @@
             android:id="@+id/action_afinador_to_mainMenuFragment"
             app:destination="@id/mainMenuFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/bloqueUnidad"
+        android:name="com.programoviles.sweetmusic.BloqueUnidad"
+        android:label="fragment_bloque_unidad"
+        tools:layout="@layout/fragment_bloque_unidad" />
 </navigation>

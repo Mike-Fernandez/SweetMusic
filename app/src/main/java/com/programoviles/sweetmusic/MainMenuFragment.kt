@@ -30,6 +30,10 @@ class MainMenuFragment : Fragment() {
                 R.id.afinador_access -> this.findNavController().navigate(R.id.action_mainMenuFragment_to_afinador)
             }
         }
+
+        binding.btUnidad1.setOnClickListener {
+            this.findNavController().navigate(R.id.action_mainMenuFragment_to_bloqueUnidad)
+        }
         
         return binding.root
     }

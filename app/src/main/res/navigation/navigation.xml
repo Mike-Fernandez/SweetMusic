@@ -108,6 +108,18 @@
         <action
             android:id="@+id/action_bloqueUnidad_to_bloqueLeccion"
             app:destination="@id/bloqueLeccion" />
+        <action
+            android:id="@+id/action_bloqueUnidad_to_glosarioFragment3"
+            app:destination="@id/glosarioFragment" />
+        <action
+            android:id="@+id/action_bloqueUnidad_to_acordesFragment2"
+            app:destination="@id/acordesFragment" />
+        <action
+            android:id="@+id/action_bloqueUnidad_to_afinador2"
+            app:destination="@id/afinador" />
+        <action
+            android:id="@+id/action_bloqueUnidad_to_metronomo"
+            app:destination="@id/metronomo" />
     </fragment>
     <fragment
         android:id="@+id/bloqueLeccion"

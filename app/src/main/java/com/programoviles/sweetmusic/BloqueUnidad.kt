@@ -50,6 +50,16 @@ class BloqueUnidad : Fragment() {
             this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
         }
 
+        binding.toolbarMainMenu.setOnNavigationItemReselectedListener{
+            when(it.itemId){
+                R.id.glosario_access -> this.findNavController().navigate(R.id.action_bloqueUnidad_to_glosarioFragment3)
+                R.id.metronomo_access -> this.findNavController().navigate(R.id.action_bloqueUnidad_to_metronomo)
+                R.id.chord_access -> this.findNavController().navigate(R.id.action_bloqueUnidad_to_acordesFragment2)
+                R.id.afinador_access -> this.findNavController().navigate(R.id.action_bloqueUnidad_to_afinador2)
+            }
+        }
+
+
         return binding.root
     }
 

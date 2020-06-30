@@ -9,12 +9,19 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.programoviles.sweetmusic.databinding.FragmentBloqueUnidadBinding
 
 /**
  * A simple [Fragment] subclass.
  */
 class BloqueUnidad : Fragment() {
+
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var viewAdapter: RecyclerView.Adapter<*>
+    private lateinit var viewManager: RecyclerView.LayoutManager
+    private lateinit var dataSet: Array<String>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,7 +33,17 @@ class BloqueUnidad : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentBloqueUnidadBinding>(inflater, R.layout.fragment_bloque_unidad,
             container, false)
 
-        binding.btLeccion1.setOnClickListener {
+        dataSet = resources.getStringArray(R.array.unidad1)
+
+        viewManager = LinearLayoutManager(this.context)
+        viewAdapter = UnidadAdapter(dataSet)
+
+        recyclerView = binding.recyclerViewUnidad?.apply {
+            layoutManager = viewManager
+            adapter = viewAdapter
+        }!!
+
+/*        binding.btLeccion1.setOnClickListener {
             this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
         }
 
@@ -48,7 +65,7 @@ class BloqueUnidad : Fragment() {
 
         binding.btLeccion6.setOnClickListener {
             this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
+        }*/
 
         binding.toolbarMainMenu.setOnNavigationItemReselectedListener{
             when(it.itemId){

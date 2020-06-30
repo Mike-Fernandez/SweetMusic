@@ -136,6 +136,7 @@
         <item>Lección 6: Acordes IV</item>
         <item>Lección 7: Acordes V</item>
     </string-array>
+
     <string-array name="Unidad5">
         <item>Lección 1: Introducción a las escalas modales</item>
         <item>Lección 2: Modos mayores</item>
@@ -143,6 +144,7 @@
         <item>Lección 4: Otras escalas I</item>
         <item>Lección 5: Otras escalas II</item>
     </string-array>
+
     <string-array name="Unidad6">
         <item>Lección 1: Rango vocales</item>
         <item>Lección 2: Improvisación</item>

@@ -26,7 +26,12 @@ class metronomo : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentMetronomoBinding>(inflater,
             R.layout.fragment_metronomo,container,false)
 
-        Log.d("Metronome BPM", "${binding.etBPM.text}")
+        var pruebaLong : Long = 60L
+
+        Log.d("Metronome edit text BPM", "${binding.etBPM.text}")
+        Log.d("Metronome edit text BPM", "${pruebaLong}")
+        Log.d("Metronome Switch", "${binding.metronomeSwitch}")
+
 
         binding.etBPM.setOnTouchListener{_, _->
             binding.etBPM.isCursorVisible = true
@@ -74,7 +79,7 @@ class metronomo : Fragment() {
             }
         }
 
-        updateBpmButtons()
+        //updateBpmButtons()
         return binding.root
     }
 
@@ -92,10 +97,10 @@ class metronomo : Fragment() {
     }
 
     fun getCurrentBpm(): Long {
-        if (etBPM.text.toString() != 0.toString()) {
-            return etBPM.text.toString().toLong()
-        } else {
+        if (etBPM.text.isBlank()) {
             return 0L
+        } else {
+            return etBPM.text.toString().toLong()
         }
     }
 
@@ -108,19 +113,19 @@ class metronomo : Fragment() {
     }
 
     private fun enableCurrentBpm() {
-        etBPM.isEnabled = true
+        //etBPM.isEnabled = true
     }
 
     private fun disableCurrentBpm() {
-        etBPM.isEnabled = false
+        //etBPM.isEnabled = false
     }
 
     private fun enableMetronomeSwitch() {
-        metronomeSwitch.isEnabled = true
+        //metronomeSwitch.isEnabled = true
     }
 
     private fun disableMetronomeSwitch(){
-        metronomeSwitch.isEnabled = false
+        //metronomeSwitch.isEnabled = false
     }
 
     private fun updateBpmButtons() {

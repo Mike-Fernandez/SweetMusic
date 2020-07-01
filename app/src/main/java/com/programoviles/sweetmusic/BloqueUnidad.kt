@@ -13,17 +13,19 @@ import androidx.navigation.ui.NavigationUI
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.programoviles.sweetmusic.databinding.FragmentBloqueUnidadBinding
+import kotlinx.android.synthetic.main.fragment_afinador.view.*
 import java.lang.Exception
 
 /**
  * A simple [Fragment] subclass.
  */
-class BloqueUnidad : Fragment() {
+class BloqueUnidad : Fragment(), OnLessonClickListener {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
     private lateinit var dataSet: Array<String>
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -50,7 +52,8 @@ class BloqueUnidad : Fragment() {
 
 
         viewManager = LinearLayoutManager(this.context)
-        viewAdapter = UnidadAdapter(dataSet, { lessonListener() })
+        //Adapter recibe el metodo parte de la interfaz especificado por el fragmento
+        viewAdapter = UnidadAdapter(dataSet, this)
 
         recyclerView = binding.recyclerViewUnidad?.apply {
             layoutManager = viewManager
@@ -58,29 +61,7 @@ class BloqueUnidad : Fragment() {
         }!!
 
 
-/*        binding.btLeccion1.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
 
-        binding.btLeccion2.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
-
-        binding.btLeccion3.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
-
-        binding.btLeccion4.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
-
-        binding.btLeccion5.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }
-
-        binding.btLeccion6.setOnClickListener {
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
-        }*/
 
         binding.toolbarMainMenu.setOnNavigationItemReselectedListener{
             when(it.itemId){
@@ -93,11 +74,10 @@ class BloqueUnidad : Fragment() {
         return binding.root
     }
 
-    fun lessonListener(/*lesson: String*/){
-/*        val args = Bundle()
-        args.putString("lesson", lesson)*/
-        this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
+    //Funcion que define accion de cuando se presiona un titulo de leccion
+    override fun onItemClick(lesson: String, position: Int) {
+        val args = Bundle()
+        args.putString("lesson", lesson)
+        this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion, args)
     }
-
-
 }

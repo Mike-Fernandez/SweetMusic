@@ -153,4 +153,9 @@
         <item>Lección 5: Como componer</item>
     </string-array>
 
+    <string-array name="El_sonido">
+        <item name="image">something1.jpeg</item>
+        <item name="image">something.jpeg</item>
+    </string-array>
+
 </resources>

@@ -13,10 +13,11 @@ data class Leccion(
     var hasAudio: Boolean,
 
     @ColumnInfo(name = "unidad")
-    var unidad: String
+    var unidad: String,
+    var estructura: String
 //    var texto: String,
 //    var images: String,
 //    var audios: String
 )
 
-//"texto@@a@@texto@@i"
+//"texto@@a@@texto@@i1"

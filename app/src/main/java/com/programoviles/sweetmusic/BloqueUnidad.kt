@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.get
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
@@ -49,12 +50,13 @@ class BloqueUnidad : Fragment() {
 
 
         viewManager = LinearLayoutManager(this.context)
-        viewAdapter = UnidadAdapter(dataSet)
+        viewAdapter = UnidadAdapter(dataSet, { lessonListener() })
 
         recyclerView = binding.recyclerViewUnidad?.apply {
             layoutManager = viewManager
             adapter = viewAdapter
         }!!
+
 
 /*        binding.btLeccion1.setOnClickListener {
             this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
@@ -88,9 +90,14 @@ class BloqueUnidad : Fragment() {
                 R.id.afinador_access -> this.findNavController().navigate(R.id.action_bloqueUnidad_to_afinador2)
             }
         }
-
-
         return binding.root
     }
+
+    fun lessonListener(/*lesson: String*/){
+/*        val args = Bundle()
+        args.putString("lesson", lesson)*/
+        this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion)
+    }
+
 
 }

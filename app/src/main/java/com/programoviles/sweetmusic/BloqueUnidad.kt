@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.programoviles.sweetmusic.databinding.FragmentBloqueUnidadBinding
+import java.lang.Exception
 
 /**
  * A simple [Fragment] subclass.
@@ -22,7 +23,6 @@ class BloqueUnidad : Fragment() {
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
     private lateinit var dataSet: Array<String>
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -33,7 +33,20 @@ class BloqueUnidad : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentBloqueUnidadBinding>(inflater, R.layout.fragment_bloque_unidad,
             container, false)
 
-        dataSet = resources.getStringArray(R.array.unidad1)
+        val b = arguments
+        val unidadNum = b?.getInt("unidad")
+
+        when(unidadNum){
+            1 -> dataSet = resources.getStringArray(R.array.unidad1)
+            2 -> dataSet = resources.getStringArray(R.array.unidad2)
+            3 -> dataSet = resources.getStringArray(R.array.unidad3)
+            4 -> dataSet = resources.getStringArray(R.array.unidad4)
+            5 -> dataSet = resources.getStringArray(R.array.unidad5)
+            6 -> dataSet = resources.getStringArray(R.array.unidad6)
+            else -> throw Exception("Unidad no seleccionada")
+        }
+
+
 
         viewManager = LinearLayoutManager(this.context)
         viewAdapter = UnidadAdapter(dataSet)

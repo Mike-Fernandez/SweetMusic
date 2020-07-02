@@ -21,7 +21,6 @@
             android:layout_width="235dp"
             android:layout_height="173dp"
             android:layout_marginTop="@dimen/wideMargin"
-            android:src="@drawable/menor_septima_mayor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spChordName" />

@@ -58,13 +58,153 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
         //parent.getItemAtPosition(pos)
         //Toast.makeText(this.context,resources.getStringArray(R.array.acordes_array)[pos], Toast.LENGTH_LONG).show()
         when(pos){
-            0 -> imgChord.setImageResource(R.drawable.triadamayor)
-            1 -> imgChord.setImageResource(R.drawable.triadamenor)
-            2 -> imgChord.setImageResource(R.drawable.aug)
-            3 -> imgChord.setImageResource(R.drawable.dism)
-            4 -> imgChord.setImageResource(R.drawable.power)
-            5 -> imgChord.setImageResource(R.drawable.sus2)
-            6 -> imgChord.setImageResource(R.drawable.sus4)
+            0 -> {//imagen
+                imgChord.setImageResource(R.drawable.triadamayor)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Justa G"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayorasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayordes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.mayorarm)
+                    mp.start()
+                }
+            }
+            1 ->{//imagen
+                imgChord.setImageResource(R.drawable.triadamenor)
+                //texto
+                AcordeName2.text = "3ra Menor Eb"
+                AcordeName3.text = "5ta Justa G"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menorasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menordes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.menorarm)
+                    mp.start()
+                }
+            }
+            2 ->{//imagen
+                imgChord.setImageResource(R.drawable.aug)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Aumentada G#"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.augasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.augdes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.augarm)
+                    mp.start()
+                }
+            }
+            3 -> {//imagen
+                imgChord.setImageResource(R.drawable.dism)
+                //texto
+                AcordeName2.text = "3ra Menor Eb"
+                AcordeName3.text = "5ta Disminuida Gb"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.dimasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.dimdes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.dimarm)
+                    mp.start()
+                }
+            }
+            4 -> {//imagen
+                imgChord.setImageResource(R.drawable.power)
+                //texto
+                AcordeName2.text = "5ta Justa G"
+                AcordeName3.text = "8va Justa C"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.powerasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.powerdes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.powerarm)
+                    mp.start()
+                }
+            }
+            5 ->{//imagen
+                imgChord.setImageResource(R.drawable.sus2)
+                //texto
+                AcordeName2.text = "2da Mayor D"
+                AcordeName3.text = "5ta Justa G"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.sus2asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.sus2des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.sus2arm)
+                    mp.start()
+                }
+            }
+            6 ->{//imagen
+                imgChord.setImageResource(R.drawable.sus4)
+                //texto
+                AcordeName2.text = "4ta Justa F"
+                AcordeName3.text = "5ta Justa G"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.sus4asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.sus4des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.sus4arm)
+                    mp.start()
+                }
+            }
             7 -> {//imagen
                 imgChord.setImageResource(R.drawable.mayor7)
                 //texto
@@ -110,11 +250,116 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
                     mp.start()
                 }
             }
-            9 -> imgChord.setImageResource(R.drawable.menor7)
-            10 -> imgChord.setImageResource(R.drawable.menormaj7)
-            11 -> imgChord.setImageResource(R.drawable.augmaj7)
-            12 -> imgChord.setImageResource(R.drawable.aumentada7)
-            13 -> imgChord.setImageResource(R.drawable.dim7)
+            9 ->{//imagen
+                imgChord.setImageResource(R.drawable.menor7)
+                //texto
+                AcordeName2.text = "3ra Menor Eb"
+                AcordeName3.text = "5ta Justa G"
+                AcordeName4.text = "7ma Menor Bb"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menor7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menor7des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.menor7arm)
+                    mp.start()
+                }
+            }
+            10 ->{//imagen
+                imgChord.setImageResource(R.drawable.menormaj7)
+                //texto
+                AcordeName2.text = "3ra Menor Eb"
+                AcordeName3.text = "5ta Justa G"
+                AcordeName4.text = "7ma Mayor B"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menormaj7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.menormaj7des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.menor7mayorarm)
+                    mp.start()
+                }
+            }
+            11 ->{//imagen
+                imgChord.setImageResource(R.drawable.aumentada7)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Aumentada G#"
+                AcordeName4.text = "7ma Menor Bb"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.aumentada7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.aumentada7des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.aumentada7arm)
+                    mp.start()
+                }
+            }
+            12 ->{//imagen
+                imgChord.setImageResource(R.drawable.augmaj7)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Justa G"
+                AcordeName4.text = "7ma Mayor B"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.augmaj7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.augmaj7)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.augmaj7arm)
+                    mp.start()
+                }
+            }
+            13 ->{//imagen
+                imgChord.setImageResource(R.drawable.dim7)
+                //texto
+                AcordeName2.text = "3ra Menor Eb"
+                AcordeName3.text = "5ta Disminuida Gb"
+                AcordeName4.text = "7ma menor Bb"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.dim7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.dim7des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.dim7arm)
+                    mp.start()
+                }
+            }
         }
 
     }

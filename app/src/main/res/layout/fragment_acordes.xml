@@ -19,7 +19,7 @@
         <ImageView
             android:id="@+id/imgChord"
             android:layout_width="235dp"
-            android:layout_height="173dp"
+            android:layout_height="160dp"
             android:layout_marginTop="@dimen/wideMargin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,15 +28,14 @@
 
         <Button
             android:id="@+id/bt_NotaChord1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/rounded_button"
             android:text="1"
+            app:layout_constraintBaseline_toBaselineOf="@+id/AcordeName1"
             app:layout_constraintEnd_toStartOf="@+id/AcordeName1"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imgChord" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/AcordeName1"
@@ -56,25 +55,23 @@
             android:id="@+id/Acorde1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:text="C"
             android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/AcordeName1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/AcordeName1"
-            app:layout_constraintTop_toBottomOf="@+id/imgChord" />
+            app:layout_constraintStart_toEndOf="@+id/AcordeName1" />
 
         <Button
             android:id="@+id/bt_NotaChord2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:background="@drawable/rounded_button"
             android:text="3"
+            app:layout_constraintBaseline_toBaselineOf="@+id/AcordeName2"
             app:layout_constraintEnd_toStartOf="@+id/AcordeName2"
             app:layout_constraintHorizontal_bias="0.131"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bt_NotaChord1" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/AcordeName2"
@@ -94,18 +91,17 @@
             android:id="@+id/Acorde2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:text="E"
             android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/AcordeName2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/AcordeName2"
-            app:layout_constraintTop_toBottomOf="@+id/Acorde1" />
+            app:layout_constraintStart_toEndOf="@+id/AcordeName2" />
 
         <Button
             android:id="@+id/bt_NotaChord3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/rounded_button"
             android:text="5"
@@ -119,35 +115,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="15dp"
             android:layout_marginEnd="50dp"
             android:text="Quinta justa"
             android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/bt_NotaChord3"
             app:layout_constraintEnd_toStartOf="@+id/Acorde3"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/bt_NotaChord3"
-            app:layout_constraintTop_toBottomOf="@+id/AcordeName2" />
+            app:layout_constraintStart_toEndOf="@+id/bt_NotaChord3" />
 
         <TextView
             android:id="@+id/Acorde3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:text="G"
             android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/AcordeName3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/AcordeName3"
-            app:layout_constraintTop_toBottomOf="@+id/Acorde2" />
+            app:layout_constraintStart_toEndOf="@+id/AcordeName3" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="Ascendente"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
             android:background="@color/colorPrimary"
+            android:text="Ascendente"
             android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/toolbar_acordes_menu"
             app:layout_constraintEnd_toStartOf="@+id/button2"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -156,11 +151,12 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="Descendente"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
             android:background="@color/colorPrimary"
+            android:text="Descendente"
             android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/toolbar_acordes_menu"
             app:layout_constraintEnd_toStartOf="@+id/button3"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/button"
@@ -169,11 +165,12 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="Armonico"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
             android:background="@color/colorPrimary"
+            android:text="Armonico"
             android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/toolbar_acordes_menu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/button2"

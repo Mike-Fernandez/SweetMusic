@@ -1,14 +1,12 @@
 package com.programoviles.sweetmusic
 
+import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Spinner
-import android.widget.Toast
+import android.widget.*
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.programoviles.sweetmusic.databinding.FragmentAcordesBinding
@@ -18,6 +16,8 @@ import kotlinx.android.synthetic.main.fragment_acordes.*
  * A simple [Fragment] subclass.
  */
 class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
+
+    private lateinit var mp: MediaPlayer
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -65,8 +65,51 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
             4 -> imgChord.setImageResource(R.drawable.power)
             5 -> imgChord.setImageResource(R.drawable.sus2)
             6 -> imgChord.setImageResource(R.drawable.sus4)
-            7 -> imgChord.setImageResource(R.drawable.mayor7)
-            8 -> imgChord.setImageResource(R.drawable.maj7)
+            7 -> {//imagen
+                imgChord.setImageResource(R.drawable.mayor7)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Justa G"
+                AcordeName4.text = "7ma menor Bb"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7asc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7des)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7arm)
+                    mp.start()
+                }
+            }
+            8 -> {
+                //imagen
+                imgChord.setImageResource(R.drawable.maj7)
+                //texto
+                AcordeName2.text = "3ra Mayor E"
+                AcordeName3.text = "5ta Justa G"
+                AcordeName4.text = "7ma Mayor B"
+                //ascendente audio
+                button.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7mayorasc)
+                    mp.start()
+                }
+                //descendente audio
+                button2.setOnClickListener{
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7mayordes)
+                    mp.start()
+                }
+                //armonico audio
+                button3.setOnClickListener {
+                    mp = MediaPlayer.create(this.context, R.raw.mayor7mayorarm)
+                    mp.start()
+                }
+            }
             9 -> imgChord.setImageResource(R.drawable.menor7)
             10 -> imgChord.setImageResource(R.drawable.menormaj7)
             11 -> imgChord.setImageResource(R.drawable.augmaj7)

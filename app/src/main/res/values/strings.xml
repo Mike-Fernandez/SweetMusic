@@ -154,8 +154,9 @@
     </string-array>
 
     <string-array name="El_sonido">
-        <item name="image">something1.jpeg</item>
+        <item name="text">Lorem ipsum asdfasdfasdf</item>
         <item name="image">something.jpeg</item>
+        <item  name="text">Lorem 2</item>
     </string-array>
 
 

@@ -68,14 +68,26 @@ class metronomo : Fragment() {
 
         binding.toolbarMenuMetronomo.setOnNavigationItemReselectedListener {
             when(it.itemId){
-                R.id.Home_access_metronomo -> this.findNavController().
+                R.id.Home_access_metronomo -> {
+                    Metronome.stop()
+                    this.findNavController().
                     navigate(R.id.action_metronomo_to_mainMenuFragment)
-                R.id.glosario_access_metronomo -> this.findNavController().
+                }
+                R.id.glosario_access_metronomo -> {
+                    Metronome.stop()
+                    this.findNavController().
                     navigate(R.id.action_metronomo_to_glosarioFragment)
-                R.id.Afinador_access_metronomo -> this.findNavController().
+                }
+                R.id.Afinador_access_metronomo -> {
+                    Metronome.stop()
+                    this.findNavController().
                     navigate(R.id.action_metronomo_to_afinador)
-                R.id.Acordes_access_metronomo -> this.findNavController().
+                }
+                R.id.Acordes_access_metronomo -> {
+                    Metronome.stop()
+                    this.findNavController().
                     navigate(R.id.action_metronomo_to_acordesFragment)
+                }
             }
         }
 

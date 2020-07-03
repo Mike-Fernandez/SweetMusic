@@ -21,7 +21,7 @@ class BloqueLeccion : Fragment() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
-    private lateinit var dataSet: Leccion
+    private lateinit var dataSet: ArrayList<Any>
 //    private lateinit var dataSet: Array<Map<String, String>>
 
     override fun onCreateView(
@@ -38,9 +38,10 @@ class BloqueLeccion : Fragment() {
         titleTextView.text = arguments?.getString("lesson")
 
         when(arguments?.getString("lesson")){
-            "Lección 1: El sonido" -> {
-                dataSet = Leccion("Lección 1: El sonido", arrayOf(0) , arrayOf("Hola"), arrayOf(0,1),
-                    null, 0)
+            "Lección: 1 El sonido" -> {
+                dataSet = arrayListOf<Any>("Lección 1: El sonido", "Lorem Ipsum", R.drawable.aug)
+//                dataSet = Leccion("Lección 1: El sonido", arrayOf(0) , arrayOf("Hola"), arrayOf(0,1),
+//                    null, 0)
             }
             else -> {
                 throw Exception("Leccion no encontrada")
@@ -49,7 +50,7 @@ class BloqueLeccion : Fragment() {
 
         viewManager = LinearLayoutManager(this.context)
         //Adapter recibe el metodo parte de la interfaz especificado por el fragmento
-        viewAdapter = LeccionAdapter(dataSet, titleTextView)
+        viewAdapter = LeccionAdapter(dataSet)
 
         recyclerView = binding.recyclerViewLeccion?.apply {
             layoutManager = viewManager

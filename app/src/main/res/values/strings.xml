@@ -112,46 +112,58 @@
     </string-array>
 
     <string-array name="unidad2">
-        <item>Lección: 1 Teoría rítmica I</item>
-        <item>Lección: 2 Teoría rítmica II</item>
-        <item>Lección: 3 Sincopa vs contratiempo</item>
-        <item>Lección: 4 Signos de repetición y dinámicas</item>
+        <item>Lección: 10 Teoría rítmica I</item>
+        <item>Lección: 11 Teoría rítmica II</item>
+        <item>Lección: 12 Sincopa vs contratiempo</item>
+        <item>Lección: 13 Signos de repetición y dinámicas</item>
     </string-array>
 
     <string-array name="unidad3">
-        <item>Lección: 1 Introducción a las escalas</item>
-        <item>Lección: 2 Escala Mayor Natural</item>
-        <item>Lección: 3 Escala Menor Natural</item>
-        <item>Lección: 4 Tonalidades</item>
-        <item>Lección: 5 Escala Pentatónica y armónica</item>
-        <item>Lección: 6 Escala menor bachiana, menor melódica y cromática</item>
+        <item>Lección: 14 Introducción a las escalas</item>
+        <item>Lección: 15 Escala Mayor Natural</item>
+        <item>Lección: 16 Escala Menor Natural</item>
+        <item>Lección: 17 Tonalidades</item>
+        <item>Lección: 18 Escala Pentatónica y armónica</item>
+        <item>Lección: 19 Escala menor bachiana, menor melódica y cromática</item>
     </string-array>
 
     <string-array name="unidad4">
-        <item>Lección: 1 Intervalos</item>
-        <item>Lección: 2 Intervalos II</item>
-        <item>Lección: 3 Acordes I</item>
-        <item>Lección: 4 Acordes II</item>
-        <item>Lección: 5 Acordes III</item>
-        <item>Lección: 6 Acordes IV</item>
-        <item>Lección: 7 Acordes V</item>
+        <item>Lección: 20 Intervalos</item>
+        <item>Lección: 21 Intervalos II</item>
+        <item>Lección: 22 Acordes I</item>
+        <item>Lección: 23 Acordes II</item>
+        <item>Lección: 24 Acordes III</item>
+        <item>Lección: 25 Acordes IV</item>
+        <item>Lección: 26 Acordes V</item>
     </string-array>
 
     <string-array name="unidad5">
-        <item>Lección: 1 Introducción a las escalas modales</item>
-        <item>Lección: 2 Modos mayores</item>
-        <item>Lección: 3 Modos menores </item>
-        <item>Lección: 4 Otras escalas I</item>
-        <item>Lección: 5 Otras escalas II</item>
+        <item>Lección: 27 Introducción a las escalas modales</item>
+        <item>Lección: 28 Modos mayores</item>
+        <item>Lección: 29 Modos menores </item>
+        <item>Lección: 30 Otras escalas I</item>
+        <item>Lección: 31 Otras escalas II</item>
     </string-array>
 
     <string-array name="unidad6">
-        <item>Lección: 1 Rango vocales</item>
-        <item>Lección: 2 Improvisación</item>
-        <item>Lección: 3 Progresiones de acordes</item>
-        <item>Lección: 4 Re-armonización</item>
-        <item>Lección: 5 Como componer</item>
+        <item>Lección: 32 Rango vocales</item>
+        <item>Lección: 33 Improvisación</item>
+        <item>Lección: 34 Progresiones de acordes</item>
+        <item>Lección: 35 Re-armonización</item>
+        <item>Lección: 36 Como componer</item>
     </string-array>
 
+    <string name="L1T1">Sonido vs ruido</string>
+
+    <string name="L1T2">
+        Sonido es todo lo que nos llega al oído, y se produce mediante algo que vibre (puede ser un
+        instrumento musical o no) y un medio que se transmita que puede ser el aire, agua incluso algún
+        medio sólido, y algo que lo reciba, en el caso de todos, nuestros oídos.
+        No cualquier cuerpo que vibre, y genere ondas en el aire son necesariamente instrumentos musical,
+        podemos separar en 2 grupos: El sonido musical y ruido.
+        Según la definición de ruido por la RAE es: “Sonido que molesta o incomoda a los seres humanos”.
+        A base de esto concluimos que el ruido es cualquier sonido que nos molesta, un ejemplo el motor de
+        algún vehículo. Y el sonido musical es el que emiten los instrumentos musicales.
+    </string>
 
 </resources>

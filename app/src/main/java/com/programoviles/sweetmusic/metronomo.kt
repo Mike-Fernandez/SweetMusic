@@ -69,22 +69,22 @@ class metronomo : Fragment() {
         binding.toolbarMenuMetronomo.setOnNavigationItemReselectedListener {
             when(it.itemId){
                 R.id.Home_access_metronomo -> {
-                    Metronome.stop()
+                    //Metronome.stop()
                     this.findNavController().
                     navigate(R.id.action_metronomo_to_mainMenuFragment)
                 }
                 R.id.glosario_access_metronomo -> {
-                    Metronome.stop()
+                    //Metronome.stop()
                     this.findNavController().
                     navigate(R.id.action_metronomo_to_glosarioFragment)
                 }
                 R.id.Afinador_access_metronomo -> {
-                    Metronome.stop()
+                    //Metronome.stop()
                     this.findNavController().
                     navigate(R.id.action_metronomo_to_afinador)
                 }
                 R.id.Acordes_access_metronomo -> {
-                    Metronome.stop()
+                    //Metronome.stop()
                     this.findNavController().
                     navigate(R.id.action_metronomo_to_acordesFragment)
                 }
@@ -93,6 +93,11 @@ class metronomo : Fragment() {
 
         //updateBpmButtons()
         return binding.root
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Metronome.stop()
     }
 
     private fun updateMetronomeStatus(status: Boolean) {

@@ -107,15 +107,15 @@
         <item>Lección: 5 Alteraciones y Diatonismo vs cromatismo</item>
         <item>Lección: 6 Introducción a la lectura musical (Claves y notas)</item>
         <item>Lección: 7 Lectura musical I</item>
-        <item>Lección: 8 Lectura musical I</item>
-        <item>Lección: 9 Lectura musical II</item>
+        <item>Lección: 8 Lectura musical II</item>
+        <item>Lección: 9 Lectura musical III</item>
     </string-array>
 
     <string-array name="unidad2">
         <item>Lección: 10 Teoría rítmica I</item>
         <item>Lección: 11 Teoría rítmica II</item>
         <item>Lección: 12 Sincopa vs contratiempo</item>
-        <item>Lección: 13 Signos de repetición y dinámicas</item>
+        <item>Lección: 13 Signos de repetición, dinámicas y artículaciones</item>
     </string-array>
 
     <string-array name="unidad3">
@@ -150,7 +150,7 @@
         <item>Lección: 33 Improvisación</item>
         <item>Lección: 34 Progresiones de acordes</item>
         <item>Lección: 35 Re-armonización</item>
-        <item>Lección: 36 Como componer</item>
+        <item>Lección: 36 Composión: ideas generales y básicas</item>
     </string-array>
 
     <string name="L1T1">Sonido vs ruido</string>
@@ -164,6 +164,619 @@
         Según la definición de ruido por la RAE es: “Sonido que molesta o incomoda a los seres humanos”.
         A base de esto concluimos que el ruido es cualquier sonido que nos molesta, un ejemplo el motor de
         algún vehículo. Y el sonido musical es el que emiten los instrumentos musicales.
+    </string>
+    <string name="L2T1">Propiedades del sonido </string>
+    <string name="L2T2">
+        Ya hemos aprendido diferenciar el sonido y ruido, ahora aprenderemos las propiedades del sonido aplicada a los instrumentos musicales, las cuales son:
+ Altura: Es la afinación del sonido, nos dice que tan agudo, grave o medio.
+Duración: Es el tiempo en cual se mantiene.
+Intensidad: Es el volumen de este, si es débil o fuerte.
+Timbre: Nos indica el color del sonido, así podemos diferenciar que instrumento.
+    </string>
+    <string name="L2T3">
+        Otra manera de interpretar el sonido es con la física, el sonido lo podemos interpretar como frecuencias, y las frecuencias podemos interpretarlas como vibraciones; de las cuales podemos descomponer en 2 tipos: Frecuencia fundamental y armónicos. La frecuencia fundamental es la más baja de todas, nos indica que nota tocamos. Los armónicos son el resto de frecuencias con las cuales definimos el timbre.
+    </string>
+    <string name="L3T1">¿Qué es música?</string>
+    <string name="L3T2">
+        La definición de la RAE de música es: “Sonido grato al oído”. La música el conjunto de sonidos y silencios  ordenados los cuales son agradables al oído humano.
+Ya conocemos que es música, y siempre tendrá los siguientes elementos:
+La melodía es un conjunto de sonidos —concebidos dentro de un ámbito sonoro particular— que suenan sucesivamente uno después de otro.
+La armonía es el enlace entre los sonidos que suena sucesivamente.
+El ritmo, es el resultado final de los elementos anteriores que son el tiempo y el pulso.
+    </string>
+    <string name="L3T3">Las notas musicales</string>
+    <string name="L3T4">
+
+En la música occidental se utilizan 12 sonidos. Hay 7 sonidos naturales, y 5 alterados (en la siguiente lección veremos más sobre ellas). Estas son las notas, están siguen un patrón el cual cuando llegamos a los 12 sonidos, volvemos a repetirlos en el mismo orden. Cada repetición de los 12 sonidos lo llamamos octava.
+Notas naturales: DO-RE-MI-FA-SOL-LA-SI
+Notas alteradas: DO#/REb-RE#/Mib- FA#/SOLb-SOL#/LAb-LA#/SIb
+Para saber cuál es la octava, empezamos a contar desde cualquiera, ejemplo LA
+LA-LA#-SI-DO-DO#-RE-RE#-MI-FA-FA#-SOL-SOL#-LA(usando sostenido)
+LA-SIb-DO-REb-RE-MIb-MI-FA-SOLb-SOL-LAb-LA(usando bemol)
+Nomenclatura anglosajona
+La nomenclatura anglosajona consiste dar nombre a las notas utilizando las primeras 7 notas del abecedario, siendo esta así
+LA/A-SI/B-DO/C-RE/D-MI/E-FA/F-SOL/G
+    </string>
+    <string name="L3T5">Origen del nombre de las notas</string>
+    <string name="L3T6">
+        Ilustración de Guido D’Arezzo
+El nombre de las notas musicales se debe a Guido D’Arezzo (995-1050), monje benedictino considerado el padre de la música, le dio el nombre a las notas por las silabas iniciales de unos versos dedicados a San Juan Bautista, «Ut queant laxis», atribuidos a Pablo el Diácono.
+    </string>
+    <string name="L3T7">
+        Notas en el piano 
+En el piano tiene este patrón el cual se repite
+    </string>
+    <string name="L4T1"> El pentagrama </string>
+    <string name="L4T2">
+Pentagrama o pauta musical es el lugar donde se escriben las notas y todos los demás signos musicales en el sistema de notación musical occidental. Está formado por cinco líneas horizontales y cuatro espacios o interlíneas equidistantes que se enumeran de abajo hacia arriba. Existen también las líneas y espacios adicionales, los cuales sirven para escribir sobre o debajo del pentagrama
+    </string>
+    <string name="L4T3">
+        Tono y semitono
+Son las distancias básicas entre 2 notas seguidas. El sLección: 3 Introducción a la músicaemitono equivale a un medio todo, en el piano se puede interpretar como una tecla de distancia. El tono equivale a 2 semitonos, en el piano se puede interpretar como 2 teclas.
+    </string>
+    <string name="L5T1">Las alteraciones</string>
+    <string name="L5T2">
+        Son unos signos que se colocan a la izquierda de las notas y modifican la altura. Las alteraciones son las siguientes:
+    </string>
+    <string name="L5T3">
+        El sostenido: eleva el sonido un semitono cromático.
+El bemol: baja el sonido un semitono cromático.
+El becuadro: cancela el efecto de las demás alteraciones propias (Ya explicaremos eso).
+El doble sostenido: hace subir el sonido un tono.
+El doble bemol: hace bajar el sonido un tono.
+Alteraciones propias: Son  aquellas que se colocan en la armadura de clave (Más adelante explicaremos), después de la clave y antes del indicador del compás. Forman parte de la armadura de clave y también se les llama armadura. Alteran todos los sonidos del mismo nombre que se hallan en una pieza de música definiendo así la tonalidad.
+    </string>
+    <string name="L5T4">
+        Alteración accidental: Es aquella que se coloca en cualquier punto de la partitura a la izquierda de la cabeza de la nota a la que afecta.
+Las alteraciones de cortesía: O precaución son aquellas que, si bien son innecesarias, se colocan para evitar errores de lectura.
+    </string>
+    <string name="L5T5">Diatonismo y cromatismo</string>
+    <string name="L5T6">
+La música la podemos ver de 2 maneras:
+Diatónica: La música diatónica es aquella donde superponemos las notas naturales, en otras palabras las notas sin alteraciones, priorizamos las notas naturales, usando un piano como ejemplo la música diatónica es aquella que prioriza las teclas blancas (ya que estas son las notas naturales)
+Cromática: La música cromática  es aquella donde vemos  las notas 12 por igual, al contrario de el diatonismo que no incluye las alteraciones, esta si lo hace. En el piano sería visto utilizando todas las notas.
+    </string>
+    <string name="L6T1">Clave de Sol</string>
+    <string name="L6T2">
+        La clave de Sol es quizá la clave más usada de entre todas. Indica los sonidos agudos y es por esto que es útil para la mayoría de los instrumentos. Cuando nos referimos a la clave de Sol, esta se ubica en la segunda línea, y es la única línea donde se coloca.
+    </string>
+    <string name="L6T3">Clave de Fa</string>
+    <string name="L6T4">
+        La siguiente clave más usada es la clave de Fa en cuarta línea. Suele indicar todos los sonidos graves y es por esto que es usada para los instrumentos de ese registro, como el contrabajo, el bajo, fagot, entre otros.
+    </string>
+    <string name="L6T5">
+        Por último pero no menos importante, la clave de Fa en tercera línea, antiguamente llamada clave de Barítono. Actualmente se usa solo para transportar.
+    </string>
+    <string name="L6T6">Clave de Do</string>
+    <string name="L6T7">
+        Por último tenemos la clave de Do, irónicamente esta es la más antigua y la menos utilizada hoy en día. Tiene 5 posiciones, una por la línea, de las cuales 3 ya no se usan, veremos solo las utilizadas, en 3ra y 4ta línea. El símbolo está formado por dos C al revés, una encima de la otra.
+La clave de Do en tercera línea es la siguiente. Suele ser llamada clave de Alto, pues el registro que describe es útil para aquellos instrumentos con esta tesitura, y en principio, era usada para las cantantes contralto.
+    </string>
+    <string name="L6T8">
+        La clave de Do en cuarta línea se usa para los instrumentos de tesitura grave y de registro amplio, que en ocasiones suben demasiado, lo que resulta incómodo para el uso de su clave natural, la clave de Fa en cuarta línea, y un montón de líneas adicionales.
+    </string>
+    <string name="L7T1">Pulso</string>
+    <string name="L7T2">
+        Para hacer entender este concepto de manera sencilla podemos definirlo de la siguiente manera: el pulso es la manera de contar. Como la música es la organización de distintos elementos, debemos asegurarnos de que cada nota, cada figura musical esté exactamente donde debería. Para interpretar música debemos llevar la cuenta, y para ello contamos.
+    </string>
+    <string name="L7T3">Tempo</string>
+    <string name="L7T4">
+        Hablar del tempo es hablar de la velocidad con que se interpreta un tema musical. En la música el tempo se mide por “bpm” que viene del inglés: beats per minute, en español “Beats por minuto”.
+    </string>
+    <string name="L7T5">Compases</string>
+    <string name="L7T6">
+        El compás es la entidad métrica musical compuesta por varias unidades de tiempo (figuras musicales) que se organizan en grupos, en los que se da una contraposición entre partes acentuadas y átonas. Los compases se pueden clasificar atendiendo a diferentes criterios. En función del número de tiempos que los forman surgen los compases simples, compuestos, binarios, ternarios y cuaternarios, zorcico.
+    </string>
+    <string name="L7T7">Metrónomo</string>
+    <string name="L7T8">
+        El metrónomo es un aparato que sirve para marcar el tempo o velocidad en las obras musicales. Produce de forma regular una señal acústica y/o visual que permite al músico seguir el pulso del compás de forma exacta. Durante los estudios de instrumentos se utiliza mucho para trabajar algunos aspectos de la técnicos.
+Su utilidad abarca las distintas facetas que atañen al músico:
+•	Evita adquirir vicios al estudiar o ensayar.
+•	Permite que todos los músicos toquen de manera coordinada, en los tiempos exactos. Especialmente interesante si se está grabando.
+•	Es una guía precisa al componer y un soporte unificado de transmisión a otros músicos.
+    </string>
+    <string name="L8T1">Fórmula de compás</string>
+    <string name="L8T2">
+        La fórmula de compás son 2 números escritos, parecido a una fracción sin barra, después de escribir la clave. Determinamos cuantos tiempos es el compás por el numerador, y el valor de estos en el denominador (más adelante profundizaremos).
+    </string>
+    <string name="L8T3">
+        Los compases pueden ser (más adelante profundizaremos):
+2 tiempos (binario)
+3 tiempos (ternario)
+4 tiempos (cuartanario)
+5 tiempos (amalgama 2+3, o 3+2)
+6 tiempos (binario compuesto)
+7 tiempos (amalgama 4+3, o 3+4)
+9 tiempos (ternario compuesto)
+10 tiempos (zorcico 5+5)
+12 tiempos (cuartanario compuesto)
+    </string>
+    <string name="L8T4">Figuras simples</string>
+    <string name="L8T5">
+        Ahora veremos las figuras musicales simples, con estas sabemos que duración tiene la nota. Estas se pueden prolongar pero eso lo veremos en la siguiente lección (Figuras compuestas). Las figuras más utilizadas son siete y se denominan elementos gráficos de la música de la siguiente forma: redonda, blanca, negra, corchea, semicorchea, fusa y semifusa. Cada figura musical cuenta con su correspondiente silencio que representa su mismo valor o duración.
+En la siguiente tabla veremos su valor, la figura, su silencio.
+    </string>
+    <string name="L8T6">
+        Ahora veremos algunas equivalencias básicas. La figura simple que representa la unidad de duración es la redonda. Cada valor simple equivale a dos de su figura inmediata, así:
+•	una redonda equivale a dos blancas;
+•	una blanca equivale a dos negras;
+•	una negra equivale a dos corcheas;
+•	una corchea equivale a dos semicorcheas;
+•	una semicorchea equivale a dos fusas;
+•	una fusa equivale a dos semifusas.
+Resuelve estas equivalencias!!!
+    </string>
+    <string name="L8T7">Ligadura</string>
+    <string name="L8T8">
+        La ligadura es una notación musical y signo de prolongación con forma de una línea curva que conecta las cabezas de dos notas consecutivas de la misma altura, aunque no necesariamente del mismo valor.
+    </string>
+    <string name="L9T1">Figuras compuestas: Puntillo</string>
+    <string name="L9T2">
+        Los signos de puntillo se dibujan a la derecha de la figura musical a la que acompañan. Las figuras compuestas son aquellas que están acompañadas de uno o más puntillos que prolongan su duración la mitad, por ejemplo sabemos que la blanca equivale a 2 tiempos, con puntillo equivale. Los silencios también pueden llevar puntillo.
+Veamos otras equivalencias:
+•	La redonda con puntillo vale tres blancas.
+•	La blanca con puntillo vale tres negras.
+•	La negra con puntillo vale tres corcheas.
+•	La corchea con puntillo vale tres semicorcheas.
+•	La semicorchea con puntillo vale tres fusas.
+•	La fusa con puntillo vale tres semifusas.
+¡¡Resuelve estás equivalencias por tu cuenta!!
+    </string>
+    <string name="L10T1">Compases simple</string>
+    <string name="L10T2">
+Son compases que tienen como numerador 2, 3 o 4. Como vimos anteriormente está el binario (2), ternario (3), cuartanario (4). Pueden tener cualquier denominador, pero generalmente se ocupa 4(negras). Con los compases simples podemos formas los compases compuesto y amalgama.
+    </string>
+    <string name="L10T3">Compases compuestos</string>
+    <string name="L10T4">
+    Son los compases que tienen numerador 6, 9 o 12. La forma de marcar es diferente a los simples, pero derivan de estos. Para llegar a un compás compuesto de un compás simple, debemos multiplicar el numerador por 3, y el denominador por 2. Los tiempos débiles y fuertes los obtendremos al unir los 2(Más adelante profundizaremos)
+    </string>
+    <string name="L11T1">Compases amalgama</string>
+    <string name="L11T2">
+Se habla de compás de amalgama, cuando se suman dos o más compases diferentes. Los compases de amalgama se obtienen sumando 2 o más compases, pueden ser simples o compuestos entre sí. Los más comunes son los de numerador 5, 7 o 9. También los compuesto se pueden amalgamar, ejemplos 15/8(6+9), 21/8(9+12) y 27/8(6+9+12)
+    </string>
+    <string name="L11T3">Tiempos fuerte y débil</string>
+    <string name="L11T4">
+        Generalmente cuando seguimos un ritmo marcamos acentos en forma intuitiva. Los ACENTOS son los tiempos que suenan más fuertes que otros. Existen tres tipos:
+FUERTE - SEMIFUERTE - DÉBIL
+Los primeros tiempos de cualquiera de los compases vistos siempre es FUERTE.
+En un compás de dos tiempos el primero es FUERTE y el segundo DÉBIL.
+En un compás de tres tiempos el primero es FUERTE, y el segundo y el tercero son DÉBILES.
+En un compás de cuatro tiempos el primero es FUERTE, el segundo es DÉBIL, el tercero es SEMIFUERTE y el cuarto es DÉBIL.
+    </string>
+    <string name="L11T5">
+        Este concepto se aplica tanto a los compases simples como a los compuestos, porque ya vimos que estos últimos derivan de los simples, y al igual que ellos tienen, dos, tres y cuatro tiempos. En todo caso, la diferencia entre estos dos tipos de compases está en la división de los tiempos: en los simples es binaria y en los compuestos, ternaria.
+Un ejemplo 5/4, lo podemos escribir como F-D-D-SF-D (3+2) o F-D-SF-D-D (2+3). Otro ejemplo 9/8, lo podemos escribir como F-D-D-SF-D-D-SF-D-D (3+3+3) o F-D-SF-D-SF-D-D-SF-D (4+3+2) o más, depende como órdenes.
+Ahora escribe 7/8, 6/8 y 11/8
+    </string>
+    <string name="L12T1">Sincopa vs contratiempo</string>
+    <string name="L12T2">
+        Lo que tienen en común la sincopa y el contratiempo es que ambos refuerzan el tiempo débil del compás, lo que les diferencia: que la sincopa se alarga hasta el tiempo siguiente y el contratiempo se posa sobre el tiempo débil y sustituye los tiempos fuertes por silencios. Ejemplo:
+Sincopa
+Observa las flechas que señalan la nota sincopada y cómo en el tiempo siguiente no hay nota. En el penúltimo compás también tenemos una sincopa con ligadura. Escucha el audio para ver el efecto.
+    </string>
+    <string name="L12T3">
+        Contratiempo
+En el contratiempo, como se ha explicado antes, ocurre que tenemos silencios en los tiempos fuertes, consiguiendo un sonido distinto.
+    </string>
+    <string name="L13T1">Signo de repetición</string>
+    <string name="L13T2">
+Se han creado signos de repetición para ahorrarse de estar escribiendo más de una vez un compás el cual se repite. Veremos 3 de estos.
+    </string>
+    <string name="L13T3">
+El signo
+Consiste en una barra oblicua con dos puntos a cada lado que se centra en medio del compás. Su función es la de repetir el compás anterior.
+    </string>
+    <string name="L13T4">
+Barra de repetición
+Consiste en una doble barra con dos puntos colocados a los dos lados de la línea central del pentagrama. La barra de repetición se usa para repetir uno o más compases, o una sección completa. En este caso los puntos se verán enfrentados.
+    </string>
+    <string name="L13T5">
+Casillas de repetición
+Cuando una sección se repite, algunas veces su final puede ser diferente. En este caso, se utilizan las casillas de repetición. Lo que está en la casilla marcada con el número 1. se toca la primera vez. al momento de llegar a ella, se omite para pasar a la casilla 2
+    </string>
+    <string name="L13T6">Dinámicas</string>
+    <string name="L13T7">
+La dinámica, en la música, hace referencia a  las graduaciones de intensidad del sonido. Dentro de la terminología musical se denomina matiz dinámico o de intensidad a cada uno de los distintos grados o niveles de intensidad en que se pueden interpretar uno o varios sonidos, determinados pasajes o piezas musicales completas. A continuación veremos todas las dinámicas.
+    </string>
+    <string name="L13T8">Articulaciones</string>
+    <string name="L13T9">
+La articulación en música alude a la forma en que se produce la transición de un sonido a otro o bien sobre la misma nota. Se trata del conjunto de elementos que definen las diferentes posibilidades en las que se pueden conectar entre sí las notas que conforman una melodía o por extensión los acordes que conforman una sucesión de acordes en un pasaje o composición homofónico.
+    </string>
+    <string name="L14T1">Escalas</string>
+    <string name="L14T2">
+La escala musical o sonidos ordenados, de forma ascendente (de grave a agudo) o descendente (de agudo a grave), uno a uno en posiciones específicas, llamadas grados. Ya sabemos cuál es la definición formal, pero un ejemplo más cotidiano sería; el atuendo quiero ir, y que colores combinan.
+En toda escalas tendremos un acorde de reposo (más adelante profundizamos sobre ello), un orden el cuál lo llamaremos grados, los cuales los expresamos en números romanos. Existe un montón de escalas, de diferente cantidad de notas y estructura. ¿De qué sirven que existan tantas escalas? ¿Qué beneficio tengo al usar diferentes? Pues cada escala tiende a dar una sensación distinta, puede ser más feliz, triste, nostálgica, exótica etc.
+Volviendo otra vez al ejemplo del atuendo, pongamos que mi reposo es el color rojo, existe ciertos colores (en nuestro caso notas) que combinan y da cierta sensación.
+Según el grado este recibe un nombre, en la siguiente tabla lo veremos.
+    </string>
+    <string name="L14T3">Triadas mayores y menores</string>
+    <string name="L14T4">
+Primero debemos saber las diferencias entre nota y acorde. Un acorde es el conjunto de 3 o más notas, existen una gran variedad de estos. No obstante ahora veremos los 2 más básico; las triadas mayores y menores.
+Una triada son acordes de 3 notas, existe 4 tipos de triadas, ahora veremos las 2 más básica y utilizadas, la triada mayor, estas son las que tienen un sonido más alegre, y las triadas menores son las que tienen un sonido tristes. Estas son el reposo de las escalas más utilizadas.
+    </string>
+    <string name="L15T1">Escala Mayor Natural</string>
+    <string name="L15T2">
+
+    </string>
+    <string name="L15T3">Escala de C</string>
+    <string name="L15T4">
+    La escala de Do mayor es la escala más conocido, es una escala diatónica natural  (Solo tiene notas naturales, ósea sin alteraciones) si la tocáramos en el piano solo tocaríamos las teclas blancas. La escala reposo en un acorde de Do mayor, estas son sus notas: Do, Re, Mi, Fa, Sol, La, Si. Ya habíamos dicho que era la más popular, y estas nos hacían cantar en la escuela.
+    </string>
+    <string name="L15T5">
+    En la siguiente imagen veremos los acordes de los grados (Más adelante profundizaremos) siendo PM=acorde mayor, Pm=acorde menor y 5°dism=acordes disminuido (Más adelante profundizaremos sobre ellos)
+    </string>
+    <string name="L16T1">Escala Menor Natural</string>
+    <string name="L16T2">
+        Al igual que la escala mayor, la escala menor tiene 7 notas. Sin embargo existen  variedades: menor natural, bachiana, menor armónica y menor melódica. La diferencia entre estos tres tipos de escala es la alteración de los grados VI y VII.
+Ahora profundizaremos la escala menor natural, está tiene un reposo en acorde menor, y tiene la siguiente estructura: T-ST-T-T-ST-T-T (Siendo T= Tono, ST=Semitono).
+    </string>
+    <string name="L16T3">Escala La menor</string>
+    <string name="L16T4">
+        La escala de La menor es de las más populares, también es una escala diatónica natural. Reposa en acorde de La menor. Sus notas son las siguientes: La, Si, Do, Re, Mi, Fa, Sol.
+    </string>
+    <string name="L17T1">Tonalidades </string>
+    <string name="L17T2">
+        La tonalidad musical es uno de los conceptos más importantes del lenguaje musical. La tonalidad hace alusión al tono de una obra. El tono es un conjunto de sonidos que se sostienen en una misma nota principal llamada tónica. La sucesión de esas notas componen las escalas.
+Si te diste cuenta la escala de La menor y Do mayor tenían las mismas notas, esto se llama escalas relativas, es cuando 2 escalas tienen las mismas notas. Estas escalas relativas tienen una tonalidad mayor y una tonalidad menor. Para saber cuál es su escala relativa nos apoyamos del círculo de quintas, una de las herramientas más interesante en la música.
+Como vimos antes en las alteraciones propias mencionas las armaduras, estas no indican en que tonalidad esta la pieza (puede ser en la tonalidad mayor o menor, necesitamos analizarla para determinar cuál es) diciéndonos cuales notas tienen alteración.
+    </string>
+    <string name="L17T3">
+        Esta es armadura  es de La mayor/Fa# menor. Nos dice que hay alteración sostenido en Sol, Do, Fa
+    </string>
+    <string name="L17T4">Círculo de quintas</string>
+    <string name="L17T5">
+        El círculo de quintas (también conocido como círculo de cuartas) representa las relaciones entre las doce notas, sus respectivas armaduras de clave y las tonalidades relativas mayores y menores. Concretamente, se trata de una representación geométrica de las relaciones entre los 12 tonos. También es una manera para demostrar porque hay 12 notas
+Este círculo lo armamos con quintas justas (un intervalo simple, son 7 notas), dicho de manera más sencilla, en un piano tocamos Do, y nos movemos 7 semitonos (7 teclas) y tendremos Sol, repetimos y tendremos Re y así continuamos hasta tener 12 tonos.
+    </string>
+    <string name="L17T6">
+        Circulo de quintas
+En la siguiente imagen veremos cómo se construye en el piano.
+    </string>
+    <string name="L17T7">Modulación </string>
+    <string name="L17T8">
+        La modulación en música tonal es el cambio de una tonalidad a otra durante el desarrollo de una obra, sin indicarlo con doble barra. Se requiere una cadencia que confirma unívocamente la transición hacia la nueva tonalidad, si no se trataría simplemente de una desviación pasajera.
+Existen cinco formas de modular:
+•	Por acorde pivote: se utiliza un acorde común entre la tonalidad de origen y la de destino.
+•	En dominante: de re mayor a sol mayor un acorde pivote puede ser re mayor o mi menor, ya que son acordes con la misma interválica y color en ambas tonalidades.
+•	Por instalaciones: se modula por un cambio brusco desde una tonalidad a la de origen.
+•	Por traspase: de sol mayor a la mayor la progresión puede ser sol mayor - do mayor - re mayor - mi mayor (acorde por instalación) - la mayor (nueva tónica)
+•	Por traspase pivote: de sol mayor a fa mayor, manteniéndose primero en do. Por ejemplo, sol mayor, mi menor, la menor, sol mayor o en séptima y do mayor; y de éste, do mayor, la menor, re menor, la menor, do en séptima, fa.
+    </string>
+    <string name="L18T1">Escala pentatónica </string>
+    <string name="L18T2">
+        La escala pentatónica es una de las más antiguas y extendidas, y se cree que su origen es japonés o mongol. Forma parte importante de toda la música oriental, africana y celta. Las dos escalas pentatónicas, mayor y menor, están
+relacionadas del mismo modo que las diatónicas mayor y menor: de la mayor a la menor hay tres semitonos hacia abajo, y de la menor a la mayor tres semitonos hacia arriba. Esta es una escala de 5 tonos, de ahí viene su nombre.
+    </string>
+    <string name="L18T3">Escala pentatónica  mayor </string>
+    <string name="L18T4">
+        Podemos crear una escala mayor pentatónica rescribiendo la escala mayor natural, eliminando los grados cuarto y séptimo. En otras palabras, tomar de la escala mayor los tonos I, II, II, V y VI. Por ejemplo, en la escala de do mayor (do-re-mi-fa-sol-la-si) se omiten el cuarto y séptimo grados (fa y si), dando como resultado do-re-mi-sol-la. C-D-E-G-A.
+    </string>
+    <string name="L18T5">Escala pentatónica mayor de do</string>
+    <string name="L18T6">Escala pentatónica  menor</string>
+    <string name="L18T7">
+        Podemos crear una escala menor pentatónica rescribiendo la escala menor natural, eliminar los grados segundo y sexto menor. En otras palabras, tomar de la escala menor natural los tonos I, III, IV, V y VII
+    </string>
+    <string name="L18T8">Escala menor armónica</string>
+    <string name="L18T9">
+        Como mencionamos antes la escala tiene variaciones, una de ellas es la menor armónica se caracteriza por tener un sonido Árabe y  una estructura con un salto de tono y medio entre dos de sus notas. La escala armónica la obtenemos cuando aumentamos un semitono al VII. Un ejemplo de esta escala es la canción Paint in Black de los Rolling Stones.
+    </string>
+    <string name="L19T1">Escala menor bachiana</string>
+    <string name="L19T2">
+        La escala menor bachiana o, simplemente escala bachiana es un tipo de escala menor la cual tiene ascendiendo sexto y séptimo grado tanto al ascender como al descender la escala, a diferencia de la escala menor melódica. De tal modo que el orden de tonos y semitonos de manera ascendente y descendente queda de la siguiente manera: T-ST-T-T-T-T-ST.
+    </string>
+    <string name="L19T3">Escala menor melódica </string>
+    <string name="L19T4">
+        La escala menor melódica tiene la particularidad de que cuando se interpreta con movimiento ascendente sus grados sexto y séptimo (haciendo la escala menor bachiana), ascienden un semitono respecto a la escala menor natural, pero cuando el movimiento es descendente se tocan sin alteraciones, es decir, en la escala menor natural. En otras palabras son 2 escalas en una. Esta escala tiene una gran dificultad en componer, está te dará un sonido exótico.
+    </string>
+    <string name="L19T5">Escala cromática </string>
+    <string name="L19T6">
+        La escala cromática, también llamada escala dodecáfona esta posee doce sonidos, alturas o notas diferentes dentro de una octava. Contiene los doce semitonos de la escala temperada occidental. Todas las otras escalas en la música occidental tradicional son subconjuntos de esta escala. Cada nota está separada de sus vecinas superior e inferior por el intervalo de medio tono.
+    </string>
+    <string name="L19T7">Acá tenemos los famosos cromatismos, consiste en movimientos cromáticos, pueden llegar tener una gran “tensión”</string>
+    <string name="L20T1">Introducción Intervalos </string>
+    <string name="L20T2">
+        Un intervalo se encarga de medir la distancia entre dos tonos musicales, es decir, distingue la altura entre dos notas, ya sean simultáneas o sucesivas. Los intervalos se miden con tonos y semitonos, lo que quiere decir que estos mismos son sus unidades de medida.
+Los intervalos pueden ser armónicos o melódicos. Es armónico cuando tocamos todas las notas juntas. Un intervalo melódico es cuando lo tocamos de manera sucesiva.
+    </string>
+    <string name="L20T3">
+        Existen intervalos simples y compuesto, ya veremos eso. Los intervalos simples y compuestos pueden ser mayores, menores, aumentados o disminuidos
+    </string>
+    <string name="L20T4">Intervalos simples </string>
+    <string name="L20T5">
+        Un intervalo simple es aquel que no sobrepasa la octava de diferencia: unísono, segunda, tercera, cuarta, quinta, sexta, séptima y octava. En esta tabla veremos todos los intervalos simples.
+    </string>
+    <string name="L20T6">El unísono</string>
+    <string name="L20T7">
+        El unísono es un intervalo musical de proporción 1:1 y ningún semitono ni tono. Se considera que dos tonos al unísono tienen la misma altura, pero son perceptibles como si vinieran de fuentes separadas.
+    </string>
+    <string name="L20T8">Segundas</string>
+    <string name="L20T9">
+        La segunda menor (1 semitono) y segunda mayor(1 tono) son las bases de muchas escalas. Como particular podemos usar la segunda menor para dar inestabilidad, ya que tocamos 2 que están se crea cierta disonancia. Ejemplos auditivos conocidos de segunda menor puede tema de tiburón, Happy birthday de segunda mayor.
+    </string>
+    <string name="L20T10">Terceras</string>
+    <string name="L20T11">
+        Es el intervalo del color, con este intervalos definimos si el acorde es mayor, menor, aumenta o disminuido. La 3ra menor (1 ½tonos) la 3ra mayor(2 tonos). Ejemplos auditivos conocidos de tercera menor puede ser Smoke on the wáter de Deep Purple (audio con piano), porque es un chico excelente de tercera mayor.
+    </string>
+    <string name="L20T12">Cuartas</string>
+    <string name="L20T13">
+        Las cuartas son un intervalo importante, con estos podemos crear los acordes Sus4, 5 semitonos esta conformada. Un ejemplo de 4 justa puede ser el sonido de una ambulancia.
+    </string>
+    <string name="L20T14">Quintas</string>
+    <string name="L20T15">
+        Es el intervalo que rara vez falta en un acorde, tiene importancia desde el punto armónico como melódico. La 5ta disminuida(3 tonos), y la justa(3 ½ tonos ), la quinta dismunida es el intervalo más inestable, que su inversión es ella misma, con esta formamos los triton, son acordes inestables. Un ejemplo de 5ta disminuida puede los Simpson, un ejemplo de 5 justa puede ser el de las voice note de Whatsapp.
+    </string>
+    <string name="L20T16">Sextas</string>
+    <string name="L20T17">
+        Es un intervalo que también brinda mucho color, con esta determinamos en las escalas menores si es natural (sexta menor) o melódica (sexta mayor). 6ta menor (4 tonos) y 6ta mayor(4 ½ tonos). Ejemplos de 6ta menor puede ser el tema de Anakin y Padmé (Star Wars), de 6ta mayor puede ser el tema la princesa Leyla (Star Wars).
+    </string>
+    <string name="L20T18">Séptimas</string>
+    <string name="L20T19">
+         Es un intervalo el cual podemos crear acorde de 7ma. 7ma menor(5 tonos) y 7ma mayor(5 ½ tonos). El intervalo de 7ma mayor es considerado imperfecto, ya que al tocarlo tiene una disonancia. Ejemplos de 7ta menor puede ser el tema de Interestelar, de 7ta mayor puede ser el tema de Super Man.
+    </string>
+    <string name="L20T20">Octavas</string>
+    <string name="L20T21">
+        Es el salto de una octava, es de 6 tonos. Ejemplo de octava justa puede over the rainbow.
+    </string>
+    <string name="L21T1">Inversión de intervalos simples</string>
+    <string name="L21T2">
+        Invertir un intervalo consiste en transformar la nota más grave en aguda, y viceversa. Al darle vuelta obtenemos una nueva distancia a la del intervalo original. En otras palabras en cambiar la perspectiva de AB a B. Lo podemos ver en esta fórmula matemática.
+Intervalo original + Intervalo invertido = 9
+Por la tanto podemos despejar
+Intervalo invertido = 9 – Intervalo original
+Su clasificación
+Su clasificación será inversa (mayor/menor, y aumentado/disminuido). Ejemplo si un intervalo era mayor, al invertir será menor y viceversa.
+    </string>
+    <string name="L21T3">Ahora invierte por tu cuenta 3ra mayor, 7ma mayor</string>
+    <string name="L21T4">Intervalos aumentados, disminuidos y justos</string>
+    <string name="L21T5">
+        Repasando los intervalos vimos que tienen diferentes clasificaciones, las cuales son: Mayor, menor, justo, aumentado, disminuido. Los intervalos mayores y menores solo pueden 2da, 3ra, 6ta, 7ma. Veremos sobre los otros 3.
+    </string>
+    <string name="L21T6">
+        Intervalos justos
+Un intervalo es perfecto o justo si cada una de las notas en el intervalo puede ser encontrada en la escala mayor de la otra nota. Por ejemplo, tomemos las notas Do y So. Los únicos intervalos que pueden ser justo son la unísono, 4ta, 5ta y 8va.
+    </string>
+    <string name="L21T7">
+        Intervalos aumentados
+Puede ser utilizado para cualquier intervalo, excepto el unísono. Contiene un semitono más que su análogo mayor o justo. ¿What? Así has de estar con esa explicación, pues con un ejemplo será más fácil. Tenemos una 6ta mayor, si esta le sumamos un semitono lo haremos aumentado (aunque en realidad tocamos una 7ma menor, pero se mantiene el nombre del intervalo para no perder la estructura)
+    </string>
+    <string name="L21T8">
+        Intervalos disminuidos
+Puede ser utilizado para cualquier intervalo, excepto el unísono. Contiene un semitono menos que su análogo menor o justo. ¿What? Así has de estar con esa explicación, pues con un ejemplo será más fácil. Tenemos una 7ta menor, si esta le restamos un semitono lo haremos disminuido (aunque en realidad tocamos una 6ta mayor, pero se mantiene el nombre del intervalo para no perder la estructura)
+    </string>
+    <string name="L21T9">Intervalos compuestos</string>
+    <string name="L21T10">
+        Intervalos compuestos son aquellos que sobrepasan la octava; la novena, décima, undécima y decimotercera son ejemplos de intervalos compuestos.
+Cada intervalo compuesto se puede asociar con un intervalo simple. Restando 7 del intervalo, obtenemos el intervalo simple relacionado. Por ejemplo en el caso de la novena, 9 - 7 = 2, por lo tanto la novena es similar a una 2da.
+
+    </string>
+    <string name="L21T11">A la izquierda una 9na (intervalo compuesto) y a la derecha 2da(intervalo simple)
+Ahora saca intervalos compuestos de 3ra, 4ta, 5ta, 6ta, 7ma y 8va.
+    </string>
+    <string name="L22T1">Cifrado</string>
+    <string name="L22T2">
+         Es uno sistema de notación y nomenclatura que utilizan signos de cifras (y por extensión de letras). Usaremos la notación anglosajona de ahora en adelante. Con este sistema daremos nombre a los acordes
+    </string>
+    <string name="L22T3">Tríadas</string>
+    <string name="L22T4">
+        Como vimos anteriormente, una triada es un acorde formado por 3 notas. Existe 4 tipos de triadas: Mayor, menor, aumentado, disminuido.
+    </string>
+    <string name="L22T5">
+        Triada mayor
+Estos tienen un sonido feliz. Su cifrado es la tónica (nota que da nombre al acorde)en nomenclatura anglosajona en mayúscula, ejemplo “A” (una triada de La mayor), una triada mayor tiene la siguiente fórmula:
+Tónica-3ra Mayor-5ta Justa
+    </string>
+    <string name="L22T6">
+        Triada menor
+Estos tienen un sonido triste, nostálgico. Su cifrado es la tónica en nomenclatura anglosajona en mayúscula acompañada con una “m”  minúscula, ejemplo “Am” (una triada de La menor), una triada menor tiene la siguiente fórmula:
+Tónica-3ra Menor-5ta Justa
+    </string>
+    <string name="L23T1">
+        Triada aumentada
+Estos tienen un sonido mágico y misterioso. Su cifrado es la tónica en nomenclatura anglosajona en mayúscula acompañada con “aug”, “aum”, “+”, “5#” o “5+” (una triada de La aumentada), una triada aumentada tiene la siguiente fórmula:
+Tónica-3ra Menor-5ta Aumentada (6ta menor)
+    </string>
+    <string name="L23T2">
+        Triada disminuida
+Estos tienen un sonido que genera mucha tensión, oscuro. Su cifrado es la tónica en nomenclatura anglosajona en mayúscula acompañada con “dis”, “dim” o “°”, ejemplo “A dim” (una triada de La disminuida), una triada disminuida tiene la siguiente fórmula:
+Tónica-3ra Menor-5ta Disminuida
+    </string>
+    <string name="L23T3">Inversión de acordes</string>
+    <string name="L23T4">
+        En armonía se dice que un acorde (es decir, un grupo de tres o más notas distintas) es una inversión de otro acorde en "posición fundamental" (o sea, que tiene el bajo en la nota fundamental del acorde), si las notas del acorde siguen siendo las mismas pero en otra posición, y la nota del bajo no es la nota fundamental del acorde.
+Por eso se habla de "primera inversión" (cuando el bajo se encuentra en el tercer grado), "segunda inversión" (con el bajo en la quinta) y —en el caso de los acordes con séptima— "tercera inversión" (con el bajo en la séptima).
+    </string>
+    <string name="L23T5">Acordes abiertos y cerrados </string>
+    <string name="L23T6">
+        La diferencia entre un acorde abierto y un acorde cerrado es que un acorde cerrado se encuentra dentro de la octava, mientras que los acordes abiertos la exceden.
+En cualquier posición en la que se encuentra una triada, se puede pasar la nota del medio una octava arriba. Si el acorde es de cuatro notas, tenemos dos posibilidades de abrirlo, porque entre la tónica y la séptima, se encuentran la tercera y la quinta.
+    </string>
+    <string name="L24T1">Acordes suspendidos</string>
+    <string name="L24T2">
+        Los acordes se forman a partir de su tónica, tercera y quinta. Los acordes suspendidos se montan sin la tercera esta se reemplaza por la segunda MAYOR o por la cuarta JUSTA. Quedando un acorde en el que queda indeterminado si es mayor o menor, de ahí que se llamen suspendidos. Estas triadas suspendidas son lo que se conocen cómo Triadas Artificiales
+Su cifrado es sus2 para los acordes suspendidos en 2da, y sus4 para los acordes suspendidos en 4ta. Ejemplo Csus2 (acorde  C suspendida 2da) Csus4 (acorde  C suspendida 4ta).
+    </string>
+    <string name="L24T3">Power chords</string>
+    <string name="L24T4">
+        El power chord también llamados "quintas vacías". Está formado por la fundamental o tónica, su quinta y en algunos casos se agrega la octava nota de la fundamental. Este tipo de armonización es recurrente y característica principalmente en estilos de música, como el rock, el punk y en el heavy metal. Su cifrado es tónica acompañada por un 5, ejemplo A5 (Power chord A).
+    </string>
+    <string name="L24T5">Acordes Add parte I</string>
+    <string name="L24T6">
+        Para hacer un acorde add partiendo de un acorde triada (1ª – 3ª – 5ª por dar un ejemplo) tenemos que añadirle una nota. Por tanto, aquí tenemos la primera pista para distinguir cuándo un acorde es add: añadimos notas (ponemos el intervalo en su análogo mayor, si queremos usar menor, disminuido o aumentado nos auxiliamos de las alteraciones). Su cifrado es nuestro acorde base + “add”+ el número de intervalo que le agregaremos. Tenemos que pulsar las que teníamos (1ª, 3ª y 5ª) y añadirle alguna.  Ejemplo Am add2 (acorde de La menor con 2da mayor agregada) C add6b (acorde de Do mayor con sexta menor agregada).
+    </string>
+    <string name="L25T1">Acordes con séptima</string>
+    <string name="L25T2">
+        Acorde de séptima, se forma mediante una tríada (puede ser mayor, menor, aumentada o disminuida) a la que se agrega una nota que forma un intervalo musical de una séptima con respecto a la raíz del acorde.  La teoría clásica de la música considera disonantes a todos los acordes de séptima, ya que el intervalo de séptima que contienen es considerado también un intervalo disonante. Existen varios acordes de 7ta, veremos los más comunes a continuación:
+    </string>
+    <string name="L25T3">
+        Mayores con séptima mayor
+Este es lo podemos crear con una triada mayor ( tónica -3ra mayor- 5ta justa) + 7ta mayor(5 ½ tonos). Su cifrado es el acorde base + Maj7 o M7. Ejemplo G Maj7 (Acorde sol mayor con séptima mayor).
+    </string>
+    <string name="L25T4">
+        Séptima dominante
+Este es lo podemos crear con una triada mayor (tónica -3ra mayor- 5ta justa) + 7ta menor (5 tonos). Su cifrado es el acorde base + 7. Ejemplo A 7 (Acorde la mayor con séptima menor). Tiene la característica de un sonido mágico debido a que entre la 3ra y 7ma hay una quinta disminuida.
+    </string>
+    <string name="L25T5">
+        Acorde menores con séptima mayor
+Este es lo podemos crear con una triada menor ( tónica -3ra menor- 5ta justa) + 7ta mayor(5 ½ tonos). Su cifrado es el acorde base + (Maj7) (paréntesis son para evitar confusiones). Ejemplo C# (Maj7) (Acorde Do# menor con séptima mayor).
+    </string>
+    <string name="L25T6">
+        Acorde menores con séptima menor
+Este es lo podemos crear con una triada menor ( tónica -3ra menor- 5ta justa) + 7ta menor(5 tonos). Su cifrado es el acorde base + 7. Ejemplo Fm # 7 (Acorde Fa# menor con séptima mayor).
+    </string>
+    <string name="L25T7">
+        Acorde aumentado con séptima mayor
+Este es lo podemos crear con una triada aumentada ( tónica -3ra mayor- 5ta aumentada) + 7ta mayor(5 1/2 tonos). Su cifrado es el acorde base + maj7 o M7. Ejemplo D aug maj7 (Acorde Re aumentado con séptima mayor).
+    </string>
+    <string name="L26T1">
+        Acorde aumentado séptima dominante
+Este es lo podemos crear con una triada aumentada ( tónica -3ra mayor- 5ta aumentada) + 7ta menor(5  tonos). Su cifrado es el acorde base + 7. Ejemplo B aug7 (Acorde Si aumentado con séptima menor).
+    </string>
+    <string name="L26T2">
+        Acorde semi-disminuido con séptima
+Este es lo podemos crear con una triada disminuida (tónica -3ra menor- 5ta disminuida) + 7ta menor(5  tonos). Su cifrado es el acorde base + maj7 o M7. Ejemplo D aug maj7 (Acorde Re aumentado con séptima mayor).
+    </string>
+    <string name="L26T3">Acordes Add II</string>
+    <string name="L26T4">
+        Pues recordemos los acordes Add, eran acordes con intervalos agregados. Pues ahora que hemos dominado los acordes de séptima ya no tenemos más limitaciones, si ponemos la séptima a nuestro acorde (7ta mayor) podemos agregar intervalos compuesto. Un ejemplo A add 9 (Acorde de La mayor con novena) tendría esta estructura en el ejemplo Tónica-3ra mayor-5ta Justa-7ma Mayor-9 Mayor (intervalo simple 2da).
+    </string>
+    <string name="L26T5">Cifrado en inversiones de acordes</string>
+    <string name="L26T6">
+        El cifrado en las inversiones de los acordes es bastante sencillo, ponemos nombre del acorde base/la nota más grave. Ejemplo D/F# (acorde de Re mayor en 1ra inversión o con bajo de Fa#).
+    </string>
+    <string name="L27T1">Escalas diatónicas y explicación de los modos</string>
+    <string name="L27T2">
+        Ya conocemos que es una escala diatónica, es una escala sin alteraciones, de 7 tonos, cómo puede ser la escala de Am o C. No obstante hay más, imaginemos que estoy tocando la escala de C, pero tengo mi reposo en Dm ¿Ahora en que escala esta tocando? ¿O mi reposo está en F? Ahí es donde aparecen los 7 modos griegos, para simplificar un poco la explicación nos enfocaremos en las diatónicas.
+Podemos construir la escala mayor siguiente este estructura: T-T-ST-T-T-T-ST, si deseamos cambiar el reposo al II grado desplazamos el primer grado al final así.
+    </string>
+    <string name="L27T3">
+        De esta manera hemos obtenido un nuevo modo (escala, pero por el momento nos referiremos así) hemos conseguido la estructura del modo Dórico. Podemos hacerlo con los 7 grados, y tendremos estructura diferente, modo diferente. Así como movemos el grado, se mueven también los acordes de los grados, ejemplo si antes teníamos I, ii, iii, IV, V, vi, vii. Dism (minúscula es menor, mayúscula mayor y dis disminuido) y cambiamos el reposo al 2do grado, movemos el primer grado y ahora tenemos esto i, ii, III, IV, v, vi Dis, VII
+Básicamente podemos afirmar que cada escala que nos aprendamos por 7 (el orden quizás no creas que influye, pero armónicamente y melódicamente importan) ¡Aprende a reconocer las otras 6 escalas relativas de escalas que ya te memorizaste!
+En esta tabla están todos los modos, sus estructuras y su nombre.
+    </string>
+    <string name="L28T">Modo Jónico </string>
+    <string name="L28T">
+        El modo jorico ya lo conocemos y hemos trabajado bajo otro nombre, el modo mayor natural. Recordemos que tiene un sonido generalmente feliz (no necesariamente un ejemplo es Somewhere over the Rainbow está en C mayor, pero tiene un sonido nostálgico). Reposa en un acorde mayor, posee la estructura T-T-ST-T-T-T-ST. Los acordes de su grados: I, ii, iii, IV, V, vi, vii, Dism (minúscula es menor, mayúscula mayor y dis disminuido). Es la escalas más populares en el pop.
+Su escala diatónica natural es C
+Ahora trata de escribir estas escalas mayores de: A, B, C, D#
+    </string>
+    <string name="L28T">Modo Lidio</string>
+    <string name="L28T">
+        El modo Lidio es un modo que posee un sonido mágico, como que hemos viajado por las tierras de las maravillas. Reposa en un acorde mayor, posee la estructura T-T-T-ST-T-T-ST. Los acordes de su grados: I, II, iii, iv dis, V, vi, vii  (minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular asociado a lo griego.
+Un ejemplo de canción ocupando lidio es el tema de los Simsons.
+Su escala diatónica natural es F
+Ahora trata de escribir estas escalas lidias de: F, G#, B, C#
+    </string>
+    <string name="L28T">Modo Mixolidio</string>
+    <string name="L28T">
+        El modo Mixolidio es un modo que posee un sonido que estamos en alguna aventura, vamos a explorar el espacio. Reposa en un acorde mayor, posee la estructura T-T-ST-T-T-ST-T . Los acordes de su grados: I, ii, iii dis, IV, v, vi, VII  (minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular en el blues.
+Un ejemplo de canción ocupando mixolidio es Scarborough Fair/Canticle de Simon and Garfunkel
+Su escala diatónica natural es G
+Ahora trata de escribir estas escalas mixolidias de: A#, E, D#, C
+    </string>
+    <string name="L29T1">Modo Eólico</string>
+    <string name="L29T2">
+        Este modo ya lo conocemos, y hemos trabajado bajo otro nombre, escala menor natural. Recordemos que está tiene un sonido generalmente triste (no necesariamente, el tema de los piratas del caribe esta en Re menor, y tiene un sonido de aventura épica). Reposa en un acorde menor, posee la estructura T-ST-T-T-ST-T-T. Los acordes de sus grados son: i, ii dis, III, iv,v, VI, VII. Es una de las escalas más populares en el metal, punk y rock.
+Su escala diatónica natural es A
+Ahora trata de escribir estas escalas menores de: B, G, F#, D#
+    </string>
+    <string name="L29T3">Modo dórico</string>
+    <string name="L29T4">
+        El modo dórico es un modo que posee un sonido que estamos en una épica aventura. Reposa en un acorde menor, posee la estructura T-ST-T-T-T-ST-T . Los acordes de su grados: i, ii, III, IV, v, vi dis, VII(minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular para el Jazz
+Una canción popular que ocupa este modo es Get Lucky por Daft Punk
+Su escala diatónica natural es D
+Ahora trata de escribir estas escalas menores de: E, G#, A, D
+    </string>
+    <string name="L29T5">Modo Frigio</string>
+    <string name="L29T6">
+        El modo frigio es un modo que posee un sonido exotico. Reposa en un acorde menor, posee la estructura ST-T-T-T-ST-T-T. Los acordes de su grados: i, II, III, iv, v dis, VI, vii (minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular asociado a lo medieval.
+Una canción que utiliza este modo puede ser Andalusia de Joe Satriani.
+Su escala diatónica es E
+Ahora trata de escribir estas escalas menores de: C, A#, B, F
+    </string>
+    <string name="L29T7">Modo Locrio</string>
+    <string name="L29T8">
+        El modo frigio probablemente es el modo menos ocupado de los 7, debido que posee un sonido oscuro e instestable. Reposa en un acorde disminuido( es el único que tiene este reposo), posee la estructura ST-T-T-ST-T-T-T. Los acordes de su grados: i dis, II, iii, iv, V, VI, vii (minúscula es menor, mayúscula mayor y dis disminuido). Está escala es ocupado en géneros muy pesados, y oscuro del metal.
+Como mencionamos antes, son pocas las canciones que ocupan este modo, de las más populares esta Army of me de Björk
+Su escala ditónica natural es B
+Ahora trata de escribir estas escalas menores de: E, C#, A, F#
+    </string>
+    <string name="L30T1">Otras escalas I</string>
+    <string name="L30T2">En está tabla veremos un resumen de los modos, para que sea más fácil de dominarlos</string>
+    <string name="L30T3">Variaciones de los modos</string>
+    <string name="L30T4">
+        Ya hemos aprendido sobre los 7 modos, toda la información de ellos. No obstante los modos no son las únicas escalas existentes, existen decenas de escalas. No obstante no veremos todas las escalas, porque muy probable es que solo unas cuantas te interesaran. Ahora veremos algunas de las variaciones de los modos. Hemos de recalcar que existen más escalas no solo los modos y sus variaciones.
+    </string>
+    <string name="L30T5">Frigio Mayor</string>
+    <string name="L30T6">
+        También conocido como frigio dominante, frigio español. Es la variación del frigio, su variante es el III, en la escala frigia natural tenemos 3ra menor, y en esta una 3ra mayor. Su reposo puede ser un acorde de séptima dominante o acorde mayor. Posee la siguiente estructura: ST- 3ST-ST-T-ST-T-T. Posee un sonido muy arábico, también es muy popular para el Flamenco.
+Ahora trata de escribir estas escalas de: E, A#
+    </string>
+    <string name="L30T7">Lidio Dominante</string>
+    <string name="L30T8">
+        Es una variación del Lidio, su variante es que posee una 7ma menor, a comparación del lidio con una 7ma mayor. Su nombre viene por su nuevo reposo, un acorde de 7ma dominante. Su estructura es: T-T-T-ST-T-ST-T. Es una escala ocupada en el jazz.
+Ahora trata de escribir estas escalas de: F, G#
+    </string>
+    <string name="L30T9">Ultra Locria</string>
+    <string name="L30T10">
+        Es una variante del locrio, si el locrio ya de por si es oscuro e inestable, este lo es más. Su reposo es un acorde de 7ma disminuido. Su variante es que posee una 4ta disminuida, a comparación de locrio que tiene una 4ta justa. Si estructura es: ST-T-ST-T-T-T-T. Esta escala es para géneros pesados
+Ahora trata de escribir estas escalas de: B, F#
+    </string>
+    <string name="L31T1">Jónica aumentada</string>
+    <string name="L31T2">
+        Es una variación del modo jónico, este tiene un sonido misterioso. El nombre de la variante es por su reposo, una triada aumentada. Esta variación tiene una 5ta aumentada, a comparación de la 5ta justa del modo jónico. Su estructura es T-T-ST-3ST-ST-T-ST. Un buen recurso para los amantes del blues o el jazz.
+    </string>
+    <string name="L31T3">Modo Blues mayor y menor</string>
+    <string name="L31T4">Considerada para muchos como "la" escala de blues, algunos autores prefieren denominarla como pentatónica menor de blues y otros escala hexátonica (escala de 6 tonos, los modos son modales por ser de 7)  de blues.  Es seguramente la más empleada en este estilo y, más allá del nombre, esta escala tiene su origen en los cantos afroamericanos y en las melodías vocales que entonaban, sobre una acompañamiento sencillo de acordes mayores.</string>
+    <string name="L31T5">
+        De ahí la característica de "blue notes" (notas de blues). La diferencia es que agregamos una 5ta disminuida a la escala pentatónica (solo agregamos, no quitamos nada). Nos queda la siguente estructura para el modo menor: 3ST-T-ST-ST-T-T, y el modo mayor: T-ST-ST-3ST-T-3ST
+    </string>
+    <string name="L32T1">Rango vocales</string>
+    <string name="L32T2">
+        No todos tenemos el mismo rango vocal, existen categorías de estimados.
+
+Para voces femeninas quedan de esta forma:
+Soprano: es la voz femenina más alta. C4-C6
+Mezzosoprano: la voz de la mezzosoprano tiene un alcance medio y se sitúa entre la soprano y contralto. Va de A3-A5
+Contralto: la voz contralto es la voz femenina más rara y baja al mismo tiempo. Va de F3-F5
+
+En cuanto a las voces masculinas la clasificación de las voces quedaría de la siguiente forma:
+Tenor: es la voz masculina más alta en cuanto a registro. Va de C3-C5
+Barítono: es el tipo de voz masculina  más común y se encuentra entre el bajo y el tenor. Va de A2-A4
+Bajo: es la voz masculina más baja. Va de E2-E4
+    </string>
+    <string name="L33T1">Improvisación</string>
+    <string name="L33T2">
+        Es hora de la verdad. Vamos aplicar lo que hemos aprendido de armonía, antes explicaremos de qué va improvisar. La improvisación musical es el arte de crear y ejecutar música que previamente no ha sido escrita y que surge de manera espontánea a través de una serie de material. Nos apoyaremos en las escalas y acordes aprendidos.
+Como explicamos antes toda canción tiene tempo, pulso, melodía y armonía. Tendremos una pista debemos imitar el tempo y pulso que, luego identificar su melodía y armonía. La armonía es el modo en que va. Primero identifiquemos el reposo, luego tratemos asociar a un modo, recuerda que cada modo tiene un sonido general ¡Compara! Después de depurar toda la información, toca los modos y usa tu creativa.
+    </string>
+    <string name="L34T1">Progresiones de acordes</string>
+    <string name="L34T2">
+        Las progresiones de acordes son series de dos o más acordes usados en una composición. Los acordes de una progresión están representados por los grado de la escala. Las progresiones de acordes determinan como se despliega una pieza musical con el tiempo.
+También tienen un rol muy importante en el aspecto narrativo de tus canciones. Un acorde determinado en un momento determinado de la progresión puede cambiar de forma drástica el hilo narrativo de tu canción, de feliz a triste, de claro a oscuro.
+Acá te dejamos algunas progresiones, pruebalas
+Progresión 1:  I-V-vi-IV
+Progresión 2: i-VI-III-VII
+Progresión 3: I-vi-IV-V
+Progresión 4: i-VII-IV-IV
+Progresión 5: I- v-v-ii
+    </string>
+    <string name="L35T1">Re-armonización</string>
+    <string name="L35T2">
+        Rearmonizar significa hacer cambios en la base armónica de un tema, y lo podemos hacer agregando, sustituyendo o sacando acordes de la armonía original.
+Esta es una técnica muy usada como recurso de arreglo, pero tengamos en cuenta que, de aplicarla, estaríamos modificando el tema original. La rearmonización apunta exclusivamente a la base armónica, y se puede emplear para obtener diferentes resultados, que dependerán del sistema que se use para rearmonizar. El arreglador es el que decide cómo hacer la rearmonización, y el que elige una técnica o la combinación de varias.
+    </string>
+    <string name="L36T1">Como componer</string>
+    <string name="L36T2">
+        Acá te dejaremos consejos e ideas básicas para que puedas componer. Como hemos aprendido a lo largo de este curso, sabemos que la música siempre tendrá: Armonía, Melodía y ritmo.
+Comencemos definiendo una armonía, no es necesario crear una obra complicada para que sea buena. Lo más importante es que a ti te guste. Para crear una armonía podemos improvisar y usar nuestra escala de preferencia, tratar de mezclar acordes, o podemos ocupar alguna progresión popular. Ya cuando tengamos definido nuestra armonía debemos crear una estructura. Puede Intro-Verso-Coro-Verso-Coro-Solo-Coro, puedes ocupar otra estructura, o no usar ninguna.
+Posteriormente de tener las bases de nuestra armonía debemos definir nuestro ritmo (tempo y pulso), ya cuando lo definamos apóyate de un metrónomo.
+El último punto y no menos importante es crear una melodía, puede ser una voz o un instrumento.
+Reto
+Trata de componer una canción ocupando la escala menor natural (cualquiera). Usa algunas de estas 2 progresiones(puedes ocupar ambas si deseas):
+ i-VI-III-VII
+i-VII-IV-IV
+El ritmo tú lo definís. Debe tener la estructura Verso-Coro-Verso-Coro-Lo que tú quieras –Outro
+Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letra usa un generador de letras como referencia y apoyo (busca en internet).
     </string>
 
 </resources>

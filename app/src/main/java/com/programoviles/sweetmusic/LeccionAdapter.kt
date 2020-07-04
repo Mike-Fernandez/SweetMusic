@@ -43,13 +43,13 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
         return when(viewType){
             TYPE_TEXTVIEW -> {
                 val view = LayoutInflater.from(parent.context).inflate(R.layout.textview, parent, false)
-                adapterDataList.add(view)
+//                adapterDataList.add(view)
                 Log.d("Adapter adapterDataSet", adapterDataList.toString())
                 TextViewHolder(view)
             }
             TYPE_IMAGEVIEW -> {
                 val view = LayoutInflater.from(parent.context).inflate(R.layout.imageview, parent, false)
-                adapterDataList.add(view)
+//                adapterDataList.add(view)
                 Log.d("Adapter adapterDataSet", adapterDataList.toString())
                 ImageViewHolder(view)
             }
@@ -70,6 +70,7 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
     override fun getItemCount() = myDataSet.size
 
     override fun onBindViewHolder(holder: MyViewHolder<*>, position: Int) {
+        adapterDataList.add(holder.itemView)
         val element = adapterDataList[position]
         when(holder){
             is TextViewHolder -> {

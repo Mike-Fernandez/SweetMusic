@@ -1,7 +1,7 @@
 package com.programoviles.sweetmusic
 
-import android.annotation.SuppressLint
 import android.graphics.Color
+import android.graphics.Typeface
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -9,12 +9,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_afinador.view.*
 
 class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapter<LeccionAdapter.MyViewHolder<*>>(){
     private var adapterDataList = mutableListOf<Any>()
 
     companion object {
+        private const val PrimaryColor = "#6200EE"
         private const val TYPE_TEXTVIEW = 0
         private const val TYPE_IMAGEVIEW = 1
         private const val TYPE_AUDIO = 2
@@ -25,6 +25,8 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
             item.text = myDataSet[adapterPosition] as String
             if(item.text.contains("Lección:")){
                 item.textSize = 24F
+                item.setTextColor(Color.parseColor(PrimaryColor))
+                item.setTypeface(null, Typeface.BOLD)
                 Log.d("Adapter TitleTextView", item.text as String)
             } else {
                 Log.d("Adapter adapterDataSet", adapterDataList.toString())
@@ -34,17 +36,11 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
         }
     }
 
-    inner class TitleTextViewHolder(itemView: View): MyViewHolder<TextView>(itemView){
-        override fun bind(item: TextView) {
-            item.textSize = 24F
-            item.text = myDataSet[adapterPosition] as String
-        }
-
-    }
-
     inner class ImageViewHolder(itemView: View): MyViewHolder<ImageView>(itemView){
         override fun bind(item: ImageView) {
             item.setImageResource(myDataSet[adapterPosition] as Int)
+            item.minimumHeight = 400
+            item.minimumWidth = 400
             Log.d("Adapter ImageViewHolder", "Added Imageview")
             Log.d("Adapter adapterposition", adapterPosition.toString())
 

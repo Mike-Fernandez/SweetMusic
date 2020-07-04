@@ -40,8 +40,6 @@ class BloqueLeccion : Fragment() {
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {
                 dataSet = arrayListOf<Any>("Lección 1: El sonido", resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
-//                dataSet = Leccion("Lección 1: El sonido", arrayOf(0) , arrayOf("Hola"), arrayOf(0,1),
-//                    null, 0)
             }
             "Lección: 2 Propiedades del sonido"-> {
                 dataSet = arrayListOf<Any>("Lección: 2 Propiedades del sonido", resources.getString(R.string.L2T1), resources.getString(R.string.L2T2), R.drawable.imagen2, resources.getString(R.string.L2T3), R.drawable.imagen3, "imagen de ecualizador gráfico")
@@ -58,7 +56,7 @@ class BloqueLeccion : Fragment() {
                 dataSet = arrayListOf<Any>("Lección: 5 Alteraciones y Diatonismo vs cromatismo", resources.getString(R.string.L5T1), resources.getString(R.string.L5T2), R.drawable.imagen11, resources.getString(R.string.L5T3), R.drawable.imagen12, resources.getString(R.string.L5T4), R.drawable.imagen13, resources.getString(R.string.L5T5), resources.getString(R.string.L5T6))
             }
             "Lección: 6 Introducción a la lectura musical (Claves y notas)" -> {
-                dataSet = arrayListOf<Any>("Lección 1: El sonido", resources.getString(R.string.L6T1), resources.getString(R.string.L6T2), R.drawable.imagen14, resources.getString(R.string.L6T3), resources.getString(R.string.L6T4), R.drawable.imagen15, resources.getString(R.string.L6T5), R.drawable.imagen16 resources.getString(R.string.L6T6), resources.getString(R.string.L6T7), R.drawable.imagen17, resources.getString(R.string.L6T8), R.drawable.imagen18)
+                dataSet = arrayListOf<Any>("Lección 1: El sonido", resources.getString(R.string.L6T1), resources.getString(R.string.L6T2), R.drawable.imagen14, resources.getString(R.string.L6T3), resources.getString(R.string.L6T4), R.drawable.imagen15, resources.getString(R.string.L6T5), R.drawable.imagen16, resources.getString(R.string.L6T6), resources.getString(R.string.L6T7), R.drawable.imagen17, resources.getString(R.string.L6T8), R.drawable.imagen18)
 
             }
             "Lección: 7 Lectura musical I" -> {
@@ -126,7 +124,7 @@ class BloqueLeccion : Fragment() {
                 dataSet = arrayListOf<Any>("Lección: 27 Introducción a las escalas modales", resources.getString(R.string.L27T1), resources.getString(R.string.L27T2), R.drawable.imagen70, resources.getString(R.string.L27T3), R.drawable.imagen71)
             }
             "Lección: 28 Modos mayores" -> {
-                dataSet = arrayListOf<Any>("Lección: 28 Modos mayores", resources.getString(R.string.L28T1), resources.getString(R.string.L29T2),resources.getString(R.string.L28T3), resources.getString(R.string.L28T4), resources.getString(R.string.L28T5), resources.getString(R.string.L28T6) )
+                dataSet = arrayListOf<Any>("Lección: 28 Modos mayores", resources.getString(R.string.L28T1), resources.getString(R.string.L28T2),resources.getString(R.string.L28T3), resources.getString(R.string.L28T4), resources.getString(R.string.L28T5), resources.getString(R.string.L28T6) )
             }
             "Lección: 29 Modos menores" -> {
                 dataSet = arrayListOf<Any>("Lección: 29 Modos menores", resources.getString(R.string.L29T1), resources.getString(R.string.L29T2),resources.getString(R.string.L29T3), resources.getString(R.string.L29T4), resources.getString(R.string.L29T5), resources.getString(R.string.L29T6), resources.getString(R.string.L29T7), resources.getString(R.string.L29T8))

@@ -653,21 +653,21 @@ Podemos construir la escala mayor siguiente este estructura: T-T-ST-T-T-T-ST, si
 Básicamente podemos afirmar que cada escala que nos aprendamos por 7 (el orden quizás no creas que influye, pero armónicamente y melódicamente importan) ¡Aprende a reconocer las otras 6 escalas relativas de escalas que ya te memorizaste!
 En esta tabla están todos los modos, sus estructuras y su nombre.
     </string>
-    <string name="L28T">Modo Jónico </string>
-    <string name="L28T">
+    <string name="L28T1">Modo Jónico </string>
+    <string name="L28T2">
         El modo jorico ya lo conocemos y hemos trabajado bajo otro nombre, el modo mayor natural. Recordemos que tiene un sonido generalmente feliz (no necesariamente un ejemplo es Somewhere over the Rainbow está en C mayor, pero tiene un sonido nostálgico). Reposa en un acorde mayor, posee la estructura T-T-ST-T-T-T-ST. Los acordes de su grados: I, ii, iii, IV, V, vi, vii, Dism (minúscula es menor, mayúscula mayor y dis disminuido). Es la escalas más populares en el pop.
 Su escala diatónica natural es C
 Ahora trata de escribir estas escalas mayores de: A, B, C, D#
     </string>
-    <string name="L28T">Modo Lidio</string>
-    <string name="L28T">
+    <string name="L28T3">Modo Lidio</string>
+    <string name="L28T4">
         El modo Lidio es un modo que posee un sonido mágico, como que hemos viajado por las tierras de las maravillas. Reposa en un acorde mayor, posee la estructura T-T-T-ST-T-T-ST. Los acordes de su grados: I, II, iii, iv dis, V, vi, vii  (minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular asociado a lo griego.
 Un ejemplo de canción ocupando lidio es el tema de los Simsons.
 Su escala diatónica natural es F
 Ahora trata de escribir estas escalas lidias de: F, G#, B, C#
     </string>
-    <string name="L28T">Modo Mixolidio</string>
-    <string name="L28T">
+    <string name="L28T5">Modo Mixolidio</string>
+    <string name="L28T6">
         El modo Mixolidio es un modo que posee un sonido que estamos en alguna aventura, vamos a explorar el espacio. Reposa en un acorde mayor, posee la estructura T-T-ST-T-T-ST-T . Los acordes de su grados: I, ii, iii dis, IV, v, vi, VII  (minúscula es menor, mayúscula mayor y dis disminuido). Es una escala popular en el blues.
 Un ejemplo de canción ocupando mixolidio es Scarborough Fair/Canticle de Simon and Garfunkel
 Su escala diatónica natural es G

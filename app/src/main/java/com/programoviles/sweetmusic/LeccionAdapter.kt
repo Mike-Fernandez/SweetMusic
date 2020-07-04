@@ -16,7 +16,7 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
     private var audioNumber: Int = 0
     private var lessonElementNumber: Int = 0
 //    private var adapterDataList = mutableListOf<Any>(lessonTitle)
-    private var adapterDataList = arrayListOf<Any>()
+    private var adapterDataList = mutableListOf<Any>()
 
     init {
     }
@@ -52,6 +52,8 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
             TYPE_TEXTVIEW -> {
                 val view = LayoutInflater.from(parent.context).inflate(R.layout.textview, parent, false)
                 adapterDataList.add(view)
+                Log.d("Adapter myDataSet", myDataSet.toString())
+                Log.d("Adapter adapterDataSet", adapterDataList.toString())
                 TextViewHolder(view)
             }
             TYPE_IMAGEVIEW -> {

@@ -100,15 +100,15 @@
     <string name="Unisono_glosario"><b>Unísono: </b>Es un intervalo musical de proporción 1:1 y ningún semitono ni cent. Se considera que dos tonos al unísono tienen la misma altura.</string>
 
     <string-array name="unidad1">
-        <item>Lección: 1 El sonido</item>
-        <item>Lección: 2 Propiedades del sonido</item>
-        <item>Lección: 3 Introducción a la música</item>
-        <item>Lección: 4 Introducción a la música(Continuación)</item>
-        <item>Lección: 5 Alteraciones y Diatonismo vs cromatismo</item>
-        <item>Lección: 6 Introducción a la lectura musical (Claves y notas)</item>
-        <item>Lección: 7 Lectura musical I</item>
-        <item>Lección: 8 Lectura musical II</item>
-        <item>Lección: 9 Lectura musical III</item>
+        <item>*Lección: 1 El sonido</item>
+        <item>*Lección: 2 Propiedades del sonido</item>
+        <item>*Lección: 3 Introducción a la música</item>
+        <item>*Lección: 4 Introducción a la música(Continuación)</item>
+        <item>*Lección: 5 Alteraciones y Diatonismo vs cromatismo</item>
+        <item>*Lección: 6 Introducción a la lectura musical (Claves y notas)</item>
+        <item>*Lección: 7 Lectura musical I</item>
+        <item>*Lección: 8 Lectura musical II</item>
+        <item>*Lección: 9 Lectura musical III</item>
     </string-array>
 
     <string-array name="unidad2">
@@ -153,7 +153,7 @@
         <item>Lección: 36 Composión: ideas generales y básicas</item>
     </string-array>
 
-    <string name="L1T1">Sonido vs ruido</string>
+    <string name="L1T1">`Sonido vs ruido</string>
 
     <string name="L1T2">
         Sonido es todo lo que nos llega al oído, y se produce mediante algo que vibre (puede ser un
@@ -165,7 +165,7 @@
         A base de esto concluimos que el ruido es cualquier sonido que nos molesta, un ejemplo el motor de
         algún vehículo. Y el sonido musical es el que emiten los instrumentos musicales.
     </string>
-    <string name="L2T1">Propiedades del sonido </string>
+    <string name="L2T1">`Propiedades del sonido </string>
     <string name="L2T2">
         Ya hemos aprendido diferenciar el sonido y ruido, ahora aprenderemos las propiedades del sonido aplicada a los instrumentos musicales, las cuales son:
  Altura: Es la afinación del sonido, nos dice que tan agudo, grave o medio.
@@ -176,7 +176,7 @@ Timbre: Nos indica el color del sonido, así podemos diferenciar que instrumento
     <string name="L2T3">
         Otra manera de interpretar el sonido es con la física, el sonido lo podemos interpretar como frecuencias, y las frecuencias podemos interpretarlas como vibraciones; de las cuales podemos descomponer en 2 tipos: Frecuencia fundamental y armónicos. La frecuencia fundamental es la más baja de todas, nos indica que nota tocamos. Los armónicos son el resto de frecuencias con las cuales definimos el timbre.
     </string>
-    <string name="L3T1">¿Qué es música?</string>
+    <string name="L3T1">`¿Qué es música?</string>
     <string name="L3T2">
         La definición de la RAE de música es: “Sonido grato al oído”. La música el conjunto de sonidos y silencios  ordenados los cuales son agradables al oído humano.
 Ya conocemos que es música, y siempre tendrá los siguientes elementos:
@@ -184,7 +184,7 @@ La melodía es un conjunto de sonidos —concebidos dentro de un ámbito sonoro 
 La armonía es el enlace entre los sonidos que suena sucesivamente.
 El ritmo, es el resultado final de los elementos anteriores que son el tiempo y el pulso.
     </string>
-    <string name="L3T3">Las notas musicales</string>
+    <string name="L3T3">`Las notas musicales</string>
     <string name="L3T4">
 
 En la música occidental se utilizan 12 sonidos. Hay 7 sonidos naturales, y 5 alterados (en la siguiente lección veremos más sobre ellas). Estas son las notas, están siguen un patrón el cual cuando llegamos a los 12 sonidos, volvemos a repetirlos en el mismo orden. Cada repetición de los 12 sonidos lo llamamos octava.
@@ -197,24 +197,21 @@ Nomenclatura anglosajona
 La nomenclatura anglosajona consiste dar nombre a las notas utilizando las primeras 7 notas del abecedario, siendo esta así
 LA/A-SI/B-DO/C-RE/D-MI/E-FA/F-SOL/G
     </string>
-    <string name="L3T5">Origen del nombre de las notas</string>
+    <string name="L3T5">`Origen del nombre de las notas</string>
     <string name="L3T6">
         Ilustración de Guido D’Arezzo
-El nombre de las notas musicales se debe a Guido D’Arezzo (995-1050), monje benedictino considerado el padre de la música, le dio el nombre a las notas por las silabas iniciales de unos versos dedicados a San Juan Bautista, «Ut queant laxis», atribuidos a Pablo el Diácono.
+        El nombre de las notas musicales se debe a Guido D’Arezzo (995-1050), monje benedictino considerado el padre de la música, le dio el nombre a las notas por las silabas iniciales de unos versos dedicados a San Juan Bautista, «Ut queant laxis», atribuidos a Pablo el Diácono.
+        Notas en el piano. En el piano tiene este patrón el cual se repite
     </string>
-    <string name="L3T7">
-        Notas en el piano 
-En el piano tiene este patrón el cual se repite
-    </string>
-    <string name="L4T1"> El pentagrama </string>
+    <string name="L4T1">`El pentagrama </string>
     <string name="L4T2">
 Pentagrama o pauta musical es el lugar donde se escriben las notas y todos los demás signos musicales en el sistema de notación musical occidental. Está formado por cinco líneas horizontales y cuatro espacios o interlíneas equidistantes que se enumeran de abajo hacia arriba. Existen también las líneas y espacios adicionales, los cuales sirven para escribir sobre o debajo del pentagrama
     </string>
     <string name="L4T3">
         Tono y semitono
-Son las distancias básicas entre 2 notas seguidas. El sLección: 3 Introducción a la músicaemitono equivale a un medio todo, en el piano se puede interpretar como una tecla de distancia. El tono equivale a 2 semitonos, en el piano se puede interpretar como 2 teclas.
+        Son las distancias básicas entre 2 notas seguidas. El semitono equivale a un medio todo, en el piano se puede interpretar como una tecla de distancia. El tono equivale a 2 semitonos, en el piano se puede interpretar como 2 teclas.
     </string>
-    <string name="L5T1">Las alteraciones</string>
+    <string name="L5T1">`Las alteraciones</string>
     <string name="L5T2">
         Son unos signos que se colocan a la izquierda de las notas y modifican la altura. Las alteraciones son las siguientes:
     </string>
@@ -230,7 +227,7 @@ Alteraciones propias: Son  aquellas que se colocan en la armadura de clave (Más
         Alteración accidental: Es aquella que se coloca en cualquier punto de la partitura a la izquierda de la cabeza de la nota a la que afecta.
 Las alteraciones de cortesía: O precaución son aquellas que, si bien son innecesarias, se colocan para evitar errores de lectura.
     </string>
-    <string name="L5T5">Diatonismo y cromatismo</string>
+    <string name="L5T5">`Diatonismo y cromatismo</string>
     <string name="L5T6">
 La música la podemos ver de 2 maneras:
 Diatónica: La música diatónica es aquella donde superponemos las notas naturales, en otras palabras las notas sin alteraciones, priorizamos las notas naturales, usando un piano como ejemplo la música diatónica es aquella que prioriza las teclas blancas (ya que estas son las notas naturales)

@@ -21,6 +21,7 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
 
         //Funcion a ejecutar en el ViewHolderBind
         fun initialize(lesson: String, action: OnLessonClickListener){
+            textView.text = (textView.text as String).replace("*", "")
             textView.setOnClickListener {
                 action.onItemClick(textView.text.toString(), adapterPosition)
             }

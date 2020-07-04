@@ -15,6 +15,7 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
 
     companion object {
         private const val PrimaryColor = "#6200EE"
+        private const val DarkPrimaryColor = "#3700B3"
         private const val TYPE_TEXTVIEW = 0
         private const val TYPE_IMAGEVIEW = 1
         private const val TYPE_AUDIO = 2
@@ -23,12 +24,19 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
     inner class TextViewHolder(itemView: View): MyViewHolder<TextView>(itemView){
         override fun bind(item: TextView) {
             item.text = myDataSet[adapterPosition] as String
-            if(item.text.contains("Lección:")){
+            if(item.text.contains("*")){
+                item.text = (item.text as String).replace("*", "")
                 item.textSize = 24F
                 item.setTextColor(Color.parseColor(PrimaryColor))
                 item.setTypeface(null, Typeface.BOLD)
                 Log.d("Adapter TitleTextView", item.text as String)
+            } else if(item.text.contains('`')){
+                item.text = (item.text as String).replace("`", "")
+                item.textSize = 20F
+                item.setTextColor(Color.parseColor("#f71d38"))
+                item.setTypeface(null, Typeface.BOLD)
             } else {
+                item.textSize = 15F
                 Log.d("Adapter adapterDataSet", adapterDataList.toString())
             }
             Log.d("Adapter TextViewHolder", "Added TextView")
@@ -73,7 +81,9 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
     override fun getItemViewType(position: Int): Int {
         val comparable = myDataSet[position]
         return when(comparable){
-            is String -> TYPE_TEXTVIEW
+            is String -> {
+                TYPE_TEXTVIEW
+            }
             is Int -> TYPE_IMAGEVIEW
             is Boolean -> TYPE_AUDIO
             else -> throw java.lang.IllegalArgumentException("Invalid type of data " + position)

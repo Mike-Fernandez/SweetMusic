@@ -3,6 +3,7 @@ package com.programoviles.sweetmusic
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -10,6 +11,7 @@ import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.fragment_afinador.view.*
+import org.w3c.dom.Text
 
 //Adapter recibe objeto de interfaz
 class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnLessonClickListener) : RecyclerView.Adapter<UnidadAdapter.MyViewHolder>(){
@@ -25,6 +27,16 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
         }
     }
 
+    /*inner class titleViewHolder(itemView: TextView): MyViewHolder<TextView>(itemView){
+        override fun bind(item: TextView) {
+            item.text
+        }
+    }
+
+    abstract class MyViewHolder<T>(val textView: TextView) : RecyclerView.ViewHolder(textView) {
+        abstract fun bind(item: T)
+    }*/
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val textView = LayoutInflater.from(parent.context)
             .inflate(R.layout.textview, parent, false) as TextView
@@ -37,17 +49,6 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
         holder.textView.text = myDataSet[position]
         holder.initialize(myDataSet[position], clickListener)
     }
-
-/*    class MyViewHolder(val linearLayout: LinearLayout) : RecyclerView.ViewHolder(linearLayout)
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val textView = LayoutInflater.from(parent.context)
-            .inflate(R.layout.textview, parent, false) as TextView
-        val imageView = LayoutInflater.from(parent.context)
-            .inflate(R.layout.imageview, parent, false) as ImageView
-
-
-    }*/
 
     override fun getItemCount() = myDataSet.size
 }

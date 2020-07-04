@@ -39,7 +39,7 @@ class BloqueLeccion : Fragment() {
 
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {
-                dataSet = arrayListOf<Any>("Lección 1: El sonido", resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
+                dataSet = arrayListOf<Any>("Lección: 1 El sonido", resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
             }
             "Lección: 2 Propiedades del sonido"-> {
                 dataSet = arrayListOf<Any>("Lección: 2 Propiedades del sonido", resources.getString(R.string.L2T1), resources.getString(R.string.L2T2), R.drawable.imagen2, resources.getString(R.string.L2T3), R.drawable.imagen3, "imagen de ecualizador gráfico")

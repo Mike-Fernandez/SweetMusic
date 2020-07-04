@@ -46,7 +46,6 @@ class BloqueLeccion : Fragment() {
             }
             "Lección: 3 Introducción a la música" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L3T1), resources.getString(R.string.L3T2), R.drawable.imagen4, resources.getString(R.string.L3T3), resources.getString(R.string.L3T4), resources.getString(R.string.L3T5), R.drawable.imagen6, resources.getString(R.string.L3T6), R.drawable.imagen8 )
-
             }
             "Lección: 4 Introducción a la música(Continuación)" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L4T1), resources.getString(R.string.L4T2), R.drawable.imagen9, resources.getString(R.string.L4T3), R.drawable.imagen10)
@@ -89,7 +88,7 @@ class BloqueLeccion : Fragment() {
             "Lección: 16 Escala Menor Natural" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L16T1), resources.getString(R.string.L16T2), resources.getString(R.string.L16T3), resources.getString(R.string.L16T4), R.drawable.imagen34)
             }
-            "Lección: 17 Tonalidades<" -> {
+            "Lección: 17 Tonalidades" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L17T1), resources.getString(R.string.L17T2), R.drawable.imagen35, resources.getString(R.string.L17T3), resources.getString(R.string.L17T4), resources.getString(R.string.L17T5), R.drawable.imagen36, resources.getString(R.string.L17T6), R.drawable.imagen37, resources.getString(R.string.L17T7), resources.getString(R.string.L17T8))
             }
             "Lección: 18 Escala Pentatónica y armónica" -> {
@@ -151,8 +150,6 @@ class BloqueLeccion : Fragment() {
             "Lección: 36 Composión: ideas generales y básicas" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L36T1), resources.getString(R.string.L36T2))
             }
-
-
 
             else -> {
                 throw Exception("Leccion no encontrada")

@@ -36,7 +36,7 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
                 item.setTextColor(Color.parseColor("#f71d38"))
                 item.setTypeface(null, Typeface.BOLD)
             } else {
-                item.textSize = 15F
+                item.textSize = 20F
                 Log.d("Adapter adapterDataSet", adapterDataList.toString())
             }
             Log.d("Adapter TextViewHolder", "Added TextView")
@@ -78,12 +78,14 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
         }
     }
 
+    override fun getItemId(position: Int): Long {
+        return position.toLong()
+    }
+
     override fun getItemViewType(position: Int): Int {
         val comparable = myDataSet[position]
         return when(comparable){
-            is String -> {
-                TYPE_TEXTVIEW
-            }
+            is String -> TYPE_TEXTVIEW
             is Int -> TYPE_IMAGEVIEW
             is Boolean -> TYPE_AUDIO
             else -> throw java.lang.IllegalArgumentException("Invalid type of data " + position)
@@ -99,7 +101,9 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
             is TextViewHolder -> {
                 holder.bind(element as TextView)
             }
-            is ImageViewHolder -> holder.bind(element as ImageView)
+            is ImageViewHolder -> {
+                holder.bind(element as ImageView)
+            }
             else -> throw java.lang.IllegalArgumentException()
         }
     }

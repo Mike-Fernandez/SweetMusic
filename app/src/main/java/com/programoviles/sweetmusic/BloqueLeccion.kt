@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.programoviles.sweetmusic.databinding.FragmentBloqueLeccionBinding
@@ -165,6 +166,15 @@ class BloqueLeccion : Fragment() {
             layoutManager = viewManager
             adapter = viewAdapter
         }!!
+
+        binding.toolbarLesson.setOnNavigationItemReselectedListener{
+            when(it.itemId){
+                R.id.glosario_access -> this.findNavController().navigate(R.id.action_bloqueLeccion_to_glosarioFragment)
+                R.id.metronomo_access -> this.findNavController().navigate(R.id.action_bloqueLeccion_to_metronomo)
+                R.id.chord_access -> this.findNavController().navigate(R.id.action_bloqueLeccion_to_acordesFragment)
+                R.id.afinador_access -> this.findNavController().navigate(R.id.action_bloqueLeccion_to_afinador)
+            }
+        }
 
         return binding.root
     }

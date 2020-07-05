@@ -128,7 +128,20 @@
         android:id="@+id/bloqueLeccion"
         android:name="com.programoviles.sweetmusic.BloqueLeccion"
         android:label="fragment_bloque_leccion"
-        tools:layout="@layout/fragment_bloque_leccion" />
+        tools:layout="@layout/fragment_bloque_leccion" >
+        <action
+            android:id="@+id/action_bloqueLeccion_to_glosarioFragment"
+            app:destination="@id/glosarioFragment" />
+        <action
+            android:id="@+id/action_bloqueLeccion_to_afinador"
+            app:destination="@id/afinador" />
+        <action
+            android:id="@+id/action_bloqueLeccion_to_metronomo"
+            app:destination="@id/metronomo" />
+        <action
+            android:id="@+id/action_bloqueLeccion_to_acordesFragment"
+            app:destination="@id/acordesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/examenFragment"
         android:name="com.programoviles.sweetmusic.ExamenFragment"

@@ -120,10 +120,18 @@
         <action
             android:id="@+id/action_bloqueUnidad_to_metronomo"
             app:destination="@id/metronomo" />
+        <action
+            android:id="@+id/action_bloqueUnidad_to_examenFragment"
+            app:destination="@id/examenFragment" />
     </fragment>
     <fragment
         android:id="@+id/bloqueLeccion"
         android:name="com.programoviles.sweetmusic.BloqueLeccion"
         android:label="fragment_bloque_leccion"
         tools:layout="@layout/fragment_bloque_leccion" />
+    <fragment
+        android:id="@+id/examenFragment"
+        android:name="com.programoviles.sweetmusic.ExamenFragment"
+        android:label="fragment_examen"
+        tools:layout="@layout/fragment_examen" />
 </navigation>

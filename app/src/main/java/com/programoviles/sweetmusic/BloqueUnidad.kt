@@ -78,6 +78,10 @@ class BloqueUnidad : Fragment(), OnLessonClickListener {
     override fun onItemClick(lesson: String, position: Int) {
         val args = Bundle()
         args.putString("lesson", lesson)
-        this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion, args)
+        if(lesson.contains("Exámen")){
+            this.findNavController().navigate(R.id.action_bloqueUnidad_to_examenFragment)
+        } else {
+            this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion, args)
+        }
     }
 }

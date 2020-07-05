@@ -20,7 +20,7 @@ class ExamenFragment : Fragment() {
         val answers: List<String>
     )
 
-    private lateinit var questions: MutableList<Question>
+    private var questions = mutableListOf<Question>()
 
     lateinit var currentQuestion: Question
     lateinit var answers: MutableList<String>

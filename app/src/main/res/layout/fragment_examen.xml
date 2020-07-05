@@ -45,28 +45,24 @@
                     android:id="@+id/option1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"
                     android:text="@{game.answers[0]}"
                     />
                 <RadioButton
                     android:id="@+id/option2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"
                     android:text="@{game.answers[1]}"
                     />
                 <RadioButton
                     android:id="@+id/option3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"
                     android:text="@{game.answers[2]}"
                     />
                 <RadioButton
                     android:id="@+id/option4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/Widget.MaterialComponents.CompoundButton.RadioButton"
                     android:text="@{game.answers[3]}"
                     />
             </RadioGroup>

@@ -136,19 +136,31 @@
         tools:layout="@layout/fragment_examen" >
         <action
             android:id="@+id/action_examenFragment_to_passedExamFragment"
-            app:destination="@id/passedExamFragment" />
+            app:destination="@id/passedExamFragment"
+            app:popUpTo="@id/bloqueUnidad"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_examenFragment_to_intentoFallidoFragment"
-            app:destination="@id/intentoFallidoFragment" />
+            app:destination="@id/intentoFallidoFragment"
+            app:popUpTo="@id/bloqueUnidad"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/passedExamFragment"
         android:name="com.programoviles.sweetmusic.PassedExamFragment"
         android:label="fragment_passed_exam"
-        tools:layout="@layout/fragment_passed_exam" />
+        tools:layout="@layout/fragment_passed_exam" >
+        <action
+            android:id="@+id/action_passedExamFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
     <fragment
         android:id="@+id/intentoFallidoFragment"
         android:name="com.programoviles.sweetmusic.IntentoFallidoFragment"
         android:label="fragment_intento_fallido"
-        tools:layout="@layout/fragment_intento_fallido" />
+        tools:layout="@layout/fragment_intento_fallido" >
+        <action
+            android:id="@+id/action_intentoFallidoFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
 </navigation>

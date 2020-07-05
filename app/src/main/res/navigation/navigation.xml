@@ -133,5 +133,22 @@
         android:id="@+id/examenFragment"
         android:name="com.programoviles.sweetmusic.ExamenFragment"
         android:label="fragment_examen"
-        tools:layout="@layout/fragment_examen" />
+        tools:layout="@layout/fragment_examen" >
+        <action
+            android:id="@+id/action_examenFragment_to_passedExamFragment"
+            app:destination="@id/passedExamFragment" />
+        <action
+            android:id="@+id/action_examenFragment_to_intentoFallidoFragment"
+            app:destination="@id/intentoFallidoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passedExamFragment"
+        android:name="com.programoviles.sweetmusic.PassedExamFragment"
+        android:label="fragment_passed_exam"
+        tools:layout="@layout/fragment_passed_exam" />
+    <fragment
+        android:id="@+id/intentoFallidoFragment"
+        android:name="com.programoviles.sweetmusic.IntentoFallidoFragment"
+        android:label="fragment_intento_fallido"
+        tools:layout="@layout/fragment_intento_fallido" />
 </navigation>

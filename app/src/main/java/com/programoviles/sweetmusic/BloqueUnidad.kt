@@ -76,11 +76,13 @@ class BloqueUnidad : Fragment(), OnLessonClickListener {
 
     //Funcion que define accion de cuando se presiona un titulo de leccion
     override fun onItemClick(lesson: String, position: Int) {
-        val args = Bundle()
-        args.putString("lesson", lesson)
         if(lesson.contains("Exámen")){
-            this.findNavController().navigate(R.id.action_bloqueUnidad_to_examenFragment)
+            val args = Bundle()
+            args.putString("unidad", lesson)
+            this.findNavController().navigate(R.id.action_bloqueUnidad_to_examenFragment, args)
         } else {
+            val args = Bundle()
+            args.putString("lesson", lesson)
             this.findNavController().navigate(R.id.action_bloqueUnidad_to_bloqueLeccion, args)
         }
     }

@@ -8,8 +8,70 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
+class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<LeccionAdapter.MyViewHolder>(){
+    var imageCounter: Int = 0
+    var textBlockCounter: Int = 0
+    var titleShown: Boolean = false
+
+    companion object {
+        private const val PrimaryColor = "#6200EE"
+        private const val DarkPrimaryColor = "#3700B3"
+        private const val TYPE_TEXTVIEW = 0
+        private const val TYPE_IMAGEVIEW = 1
+        private const val TYPE_AUDIO = 2
+    }
+
+    class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
+        var imageView: ImageView
+        var title: TextView
+        var textBlock: TextView
+        var subsection: TextView
+
+        init {
+            imageView = itemView.findViewById(R.id.lessonImage)
+            title = itemView.findViewById(R.id.title)
+            textBlock = itemView.findViewById(R.id.texto)
+            subsection = itemView.findViewById(R.id.header2)
+        }
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LeccionAdapter.MyViewHolder {
+        val cardView = LayoutInflater.from(parent.context)
+            .inflate(R.layout.lessoncardview, parent, false) as CardView
+
+        return MyViewHolder(cardView)
+    }
+
+    override fun getItemCount(): Int = myDataSet.estructura.size
+
+    override fun getItemViewType(position: Int): Int {
+        return when(myDataSet.estructura[position]){
+            0 -> TYPE_TEXTVIEW
+            1 -> TYPE_IMAGEVIEW
+            else -> throw java.lang.IllegalArgumentException("Invalid type of data " + position)
+        }
+    }
+
+    override fun onBindViewHolder(holder: LeccionAdapter.MyViewHolder, position: Int) {
+        if(!titleShown){
+            holder.title.text = myDataSet.title
+            titleShown = true
+        }
+        if(getItemViewType(position) == 0){
+            holder.textBlock.text = myDataSet.textBlock[textBlockCounter]
+            textBlockCounter++
+        } else if(getItemViewType(position) == 1){
+            holder.imageView.setImageResource(myDataSet.images[imageCounter])
+            imageCounter++
+        }
+    }
+
+}
+
+/*
 class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapter<LeccionAdapter.MyViewHolder<*>>(){
     private var adapterDataList = mutableListOf<Any>()
 
@@ -108,4 +170,4 @@ class LeccionAdapter(private val myDataSet: ArrayList<Any>): RecyclerView.Adapte
         }
     }
 
-}
+}*/

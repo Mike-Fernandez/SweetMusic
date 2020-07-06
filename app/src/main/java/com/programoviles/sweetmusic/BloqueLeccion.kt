@@ -23,6 +23,7 @@ class BloqueLeccion : Fragment() {
     private lateinit var viewAdapter: RecyclerView.Adapter<*>
     private lateinit var viewManager: RecyclerView.LayoutManager
     private lateinit var dataSet: ArrayList<Any>
+    private lateinit var dataSet1: Leccion
 //    private lateinit var dataSet: Array<Map<String, String>>
 
     override fun onCreateView(
@@ -38,7 +39,8 @@ class BloqueLeccion : Fragment() {
 
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {
-                dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
+                dataSet1 = Leccion(arguments?.getString("lesson")!! , arrayOf(0,0,1), arrayOf(resources.getString(R.string.L1T1), resources.getString(R.string.L1T2)), arrayOf(R.drawable.imagen1), null, 0)
+//                dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
             }
             "Lección: 2 Propiedades del sonido"-> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L2T1), resources.getString(R.string.L2T2), R.drawable.imagen2, resources.getString(R.string.L2T3), R.drawable.imagen3, "imagen de ecualizador gráfico")
@@ -158,7 +160,7 @@ class BloqueLeccion : Fragment() {
 
         viewManager = LinearLayoutManager(this.context)
         //Adapter recibe el metodo parte de la interfaz especificado por el fragmento
-        viewAdapter = LeccionAdapter(dataSet)
+        viewAdapter = LeccionAdapter(dataSet1)
 
         recyclerView = binding.recyclerViewLeccion?.apply {
             layoutManager = viewManager

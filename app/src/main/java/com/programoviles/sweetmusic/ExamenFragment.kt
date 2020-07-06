@@ -141,14 +141,14 @@ class ExamenFragment : Fragment() {
 
             }
             "Exámen de unidad 3" ->{
-                var preguntas: MutableList<Question> = mutableListOf(
+                var preguntas= mutableListOf<Question>(
                     Question(text = resources.getString(R.string.E3P1), answers = listOf("Conjunto de sonidos que se tocan de manera ascendente o descendente", "Conjunto de acordes", "Tipo de acorde", "Tipo de triada    "), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P2), answers = listOf("Dominante", "Tónica", "Pivote", "Subdominante"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P3), answers = listOf("Re-mi-fa#-sol-la-si-do#", "Re-mi-fa-sol-la-si", "Re-mi-fa-sol-la-sib", "Re-mi-fa#-sol-la-si-do"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P4), answers = listOf("III", " I", "VII", "V"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P5), answers = listOf("Do mayor", "Si mayor", "Do menor", "Si menor"), image = R.drawable.emagen26),
                     Question(text = resources.getString(R.string.E3P6), answers = listOf("T-T-ST-T-T-T-ST", "T-T-T-ST-T-ST-T", "T-ST-T-T-T-ST-T", "T-T-ST-T-T-ST-T"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E3P7), answers = listOf("Disminuido", "Mayor", "Menor", "Aumentado), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E3P7), answers = listOf("Disminuido", "Mayor", "Menor", "Aumentado), image = R.drawable.sweet_music_icon"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P8), answers = listOf("Si", "La", "Sol", "Fa"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P9), answers = listOf("Mayor", "Menor", "Disminuido", "Aumentado"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P10), answers = listOf("VII", "III", "II", "IV"), image = R.drawable.sweet_music_icon),
@@ -198,7 +198,7 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E4P11), answers = listOf("Em", "E", "E aug", "E dim"), image = R.drawable.emagen31),
                     Question(text = resources.getString(R.string.E4P12), answers = listOf("G aug", "G", "Gm", "G dim"), image = R.drawable.emagen32),
                     Question(text = resources.getString(R.string.E4P13), answers = listOf("A dim", "A", "Am", "A aug"), image = R.drawable.emagen33),
-                    Question(text = resources.getString(R.string.E4P14), answers = listOf("1ra inversión", "Fundamental", "2da inversión", ""3ra inversión), image = R.drawable.emagen34),
+                    Question(text = resources.getString(R.string.E4P14), answers = listOf("1ra inversión", "Fundamental", "2da inversión", "3ra inversión"), image = R.drawable.emagen34),
                     Question(text = resources.getString(R.string.E4P15), answers = listOf("2da inversión", "Fundamental", "1ra inversión", "3ra inversión"), image = R.drawable.emagen35),
                     Question(text = resources.getString(R.string.E4P16), answers = listOf("G7", "Gmaj7", "Gm maj7", "Gm7"), image = R.drawable.emagen37),
                     Question(text = resources.getString(R.string.E4P17), answers = listOf("Fmaj7", "F7", "Fm maj7", "Fm7"), image = R.drawable.sweet_music_icon),
@@ -243,8 +243,7 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E5P16), answers = listOf("IV", "V", "VI", "VII"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E5P17), answers = listOf("VII", "V", "VI", "IV"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E5P18), answers = listOf("V", "IV", "VI", "III"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E5P19), answers = listOf("C-D-D#-E-G-A", "A-C-D-D#-E-G", "B-D-E-F-F#-A", "F-G#-A#-B-C-E"), image = R.drawable.sweet_music_icon),
-
+                    Question(text = resources.getString(R.string.E5P19), answers = listOf("C-D-D#-E-G-A", "A-C-D-D#-E-G", "B-D-E-F-F#-A", "F-G#-A#-B-C-E"), image = R.drawable.sweet_music_icon)
                 )
                 questions.addAll(preguntas)
                 Log.d("Examen imageView", binding.questionImage.toString())

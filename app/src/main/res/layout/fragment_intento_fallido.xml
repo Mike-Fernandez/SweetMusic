@@ -36,9 +36,10 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="141dp"
-        android:layout_height="56dp"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
         android:layout_marginTop="44dp"
+        android:background="@color/colorPrimary"
         android:text="Intenta de nuevo"
         android:textColor="#EFE5E5"
         app:layout_constraintBottom_toBottomOf="parent"

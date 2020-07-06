@@ -49,14 +49,112 @@ class ExamenFragment : Fragment() {
         when(args){
             "Exámen de unidad 1" ->{
                 var preguntas: MutableList<Question> = mutableListOf(
-                    Question(text = "Pregunta 1", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen15),
-                    Question(text = "Pregunta 2", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.dism),
-                    Question(text = "Pregunta 3", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.arti),
-                    Question(text = "Pregunta 4", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen1),
-                    Question(text = "Pregunta 5", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.sincopa),
-                    Question(text = "Pregunta 6", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.aumentada7),
-                    Question(text = "Pregunta 7", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen15),
-                    Question(text = "Pregunta 8", answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen10)
+                    Question(text = resources.getString(R.string.E1P1), answers = listOf("Alguien tocando guitarra", "Alarma de vehículo", "Claxon de una moto", "Perros ladrando "), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P2), answers = listOf("Sonoridad", "Duración", "Timbre", "Intenisidad"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P3), answers = listOf("Frecuencia fundamental", "Frecuencia baja", "Frecuencia armónica", "Frecuencia principal"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P4), answers = listOf("12", "7", "5", "10"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P5), answers = listOf("Guido D’Arezzo", "Aristóteles ", "Platón", "Papa Silvestre"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P6), answers = listOf("Pulso y tempo", "Tempo y velocidad", "Pulso y métrica", "Métrica y velocidad"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P7), answers = listOf("Es el enlace entre los sonidos que suena sucesivamente", "Conjunto de sonidos y silencios  ordenados los cuales son agradables al oído humano.", "Conjunto de sonidos y silencios  ordenados los cuales son agradables al oído humano.", "Indicador del color del sonido, así podemos diferenciar que instrumento suena"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P8), answers = listOf("E", "F", "G", "H"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P9), answers = listOf("Si", "Do", "Sol", "Re"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P10), answers = listOf("Ut queant laxis", "Gigliola", "Jigolo Har Megiddo", "Ave María"), image = R.drawable.emagen1),
+                    Question(text = resources.getString(R.string.E1P11), answers = listOf("Fa", "La", "Mi", "Si"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P12), answers = listOf("Sib", "Sol", "La", "Re"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P13), answers = listOf("7 semitonos", "6 semitonos", "8 semitonos", "9 semitonos"), image = R.drawable.emagen2),
+                    Question(text = resources.getString(R.string.E1P14), answers = listOf("Impropia", "Propia", "Accidente", "Precaución"), image = R.drawable.emagen3),
+                    Question(text = resources.getString(R.string.E1P15), answers = listOf("Sol", "Fa en 3ra línea", "Do en 2d línea ", "Do en 5ta línea "), image = R.drawable.emagen4),
+                    Question(text = resources.getString(R.string.E1P16), answers = listOf("La", "Fa", "Si", "Do"), image = R.drawable.emagen5),
+                    Question(text = resources.getString(R.string.E1P17), answers = listOf("Diatonismo", "Pentatónico", "Cromatismo", "Dodecafónica"), image = R.drawable.emagen6),
+                    Question(text = resources.getString(R.string.E1P18), answers = listOf("Sube un tono", "Sube un semitono", "Baja un semitono", "Baja un tono"), image = R.drawable.emagen7),
+                    Question(text = resources.getString(R.string.E1P19), answers = listOf("Re#", "Sol#", "La#", "Fa#"), image = R.drawable.emagen8),
+                    Question(text = resources.getString(R.string.E1P20), answers = listOf("Fa", "La", "Si", "Sol"), image = R.drawable.emagen9),
+                    Question(text = resources.getString(R.string.E1P21), answers = listOf("Cromatismo", "Diatonismo", "Pentatónico", "Poli ritma "), image = R.drawable.emagen10),
+                    Question(text = resources.getString(R.string.E1P22), answers = listOf("Sube un semitono", "Baja un semitono", "Sube un tono", "Baja un tono"), image = R.drawable.emagen11),
+                    Question(text = resources.getString(R.string.E1P23), answers = listOf("Propia", "Impropia", "Accidente", "Precaución"), image = R.drawable.emagen12),
+                    Question(text = resources.getString(R.string.E1P24), answers = listOf("Sol", "La", "Fa", "Si"), image = R.drawable.emagen13),
+                    Question(text = resources.getString(R.string.E1P25), answers = listOf("Amalgama", "Simple binario", "Compuesto ternario", "Zorcico"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P26), answers = listOf("3 corcheas", "2 corcheas", "4 corcheas", "5 corcheas"), image = R.drawable.emagen14),
+                    Question(text = resources.getString(R.string.E1P27), answers = listOf("Tiene 5 tiempos y contamos a corcheas", "Tiene 8 tiempos y contamos a corcheas", "Tiene 5 tiempos y contamos a negras", "Tiene 8 tiempos y contamos a negras"), image = R.drawable.emagen14),
+                    Question(text = resources.getString(R.string.E1P28), answers = listOf("Negra", "Blanca", "Redonda", "Fusa"), image = R.drawable.emagen19),
+                    Question(text = resources.getString(R.string.E1P29), answers = listOf("1-8", "1-16", "1-32", "1-4"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P30), answers = listOf("Semicorchea", "Semifusa", "Corchea", "Blanca"), image = R.drawable.emagen15)
+
+                )
+                questions.addAll(preguntas)
+                Log.d("Examen imageView", binding.questionImage.toString())
+                questions = randomizeQuestions(
+                    questions,
+                    binding.questionTV,
+                    binding.option1,
+                    binding.option2,
+                    binding.option3,
+                    binding.option4,
+                    binding.questionImage
+                )
+                numQuestions = 30
+
+            }
+            "Exámen de unidad 2" ->{
+                var preguntas: MutableList<Question> = mutableListOf(
+                    Question(text = resources.getString(R.string.E1P2), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P27), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P28), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P29), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.sweet_music_icon),
+                )
+                questions.addAll(preguntas)
+                Log.d("Examen imageView", binding.questionImage.toString())
+                questions = randomizeQuestions(
+                    questions,
+                    binding.questionTV,
+                    binding.option1,
+                    binding.option2,
+                    binding.option3,
+                    binding.option4,
+                    binding.questionImage
+                )
+                numQuestions = 5
+
+            }
+            "Exámen de unidad 3" ->{
+                var preguntas: MutableList<Question> = mutableListOf(
+                    Question(text = resources.getString(R.string.E1P2), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen15),
+                )
+                questions.addAll(preguntas)
+                Log.d("Examen imageView", binding.questionImage.toString())
+                questions = randomizeQuestions(
+                    questions,
+                    binding.questionTV,
+                    binding.option1,
+                    binding.option2,
+                    binding.option3,
+                    binding.option4,
+                    binding.questionImage
+                )
+                numQuestions = 5
+
+            }
+            "Exámen de unidad 4" ->{
+                var preguntas: MutableList<Question> = mutableListOf(
+                    Question(text = resources.getString(R.string.E1P2), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen15),
+                )
+                questions.addAll(preguntas)
+                Log.d("Examen imageView", binding.questionImage.toString())
+                questions = randomizeQuestions(
+                    questions,
+                    binding.questionTV,
+                    binding.option1,
+                    binding.option2,
+                    binding.option3,
+                    binding.option4,
+                    binding.questionImage
+                )
+                numQuestions = 5
+
+            }
+            "Exámen de unidad 5" ->{
+                var preguntas: MutableList<Question> = mutableListOf(
+                    Question(text = resources.getString(R.string.E1P2), answers = listOf("Buena", "Mal 1", "Mal 2", "Mal 3"), image = R.drawable.imagen15),
                 )
                 questions.addAll(preguntas)
                 Log.d("Examen imageView", binding.questionImage.toString())

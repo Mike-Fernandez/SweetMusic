@@ -776,5 +776,36 @@ i-VII-IV-IV
 El ritmo tú lo definís. Debe tener la estructura Verso-Coro-Verso-Coro-Lo que tú quieras –Outro
 Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letra usa un generador de letras como referencia y apoyo (busca en internet).
     </string>
+    <string name="E1P1">¿Qué no es ruido?</string>
+    <string name="E1P2">¿Cuál no es una propiedad del sonido?</string>
+    <string name="E1P3">¿En física cual es el nombre de la frecuencia más grave, cuando tocamos una cuerda, y la cual atribuimos su altura?</string>
+    <string name="E1P4">¿Cuántas notas existen en el sistema occidental?</string>
+    <string name="E1P5">¿ A quién se atribuye el nombre de las notas?</string>
+    <string name="E1P6">¿Cuáles son elementos del ritmo?</string>
+    <string name="E1P7">¿Cuál puede ser la definición de armonía?</string>
+    <string name="E1P8">¿En la nomenclatura anglosajona un Mi equivale se llama?</string>
+    <string name="E1P9">¿Cuál es el nombre de la nota B?</string>
+    <string name="E1P10">¿El nombre de las notas se atribuye a las silabas iniciales de los verso de?</string>
+    <string name="E1P11">¿Cúal nota es? </string>
+    <string name="E1P12">¿Cúal no es una nota natural?</string>
+    <string name="E1P13">¿Cuánto semitonos hay entre estas notas? </string>
+    <string name="E1P14">¿ Qué clase de alteración es esta? </string>
+    <string name="E1P15">¿Qué clave es? </string>
+    <string name="E1P16">¿Qué nota es? </string>
+    <string name="E1P17">¿Qué sistema es? </string>
+    <string name="E1P18">La siguiente alteración, ¿Cómo afecta la altura de la nota? </string>
+    <string name="E1P19">¿ Que nota es? </string>
+    <string name="E1P20">¿ Que nota es? </string>
+    <string name="E1P21">¿Qué sistema es? </string>
+    <string name="E1P22">La siguiente alteración, ¿Cómo afecta la altura de la nota? </string>
+    <string name="E1P23">¿ Qué clase de alteración es esta? </string>
+    <string name="E1P24">¿ Que nota es? </string>
+    <string name="E1P25">¿Qué tipo de compas es 5/8 ?</string>
+    <string name="E1P26">¿Qué podemos afirmar del siguiente compas?</string>
+    <string name="E1P27">¿Qué silencio es? </string>
+    <string name="E1P28">¿Qué silencio es? </string>
+    <string name="E1P29">¿La relación entre blanca y corchea?</string>
+    <string name="E1P30">¿Qué silencio es?</string>
+
 
 </resources>

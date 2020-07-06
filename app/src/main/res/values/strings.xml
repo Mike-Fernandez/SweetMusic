@@ -117,6 +117,7 @@
         <item>Lección: 11 Teoría rítmica II</item>
         <item>Lección: 12 Sincopa vs contratiempo</item>
         <item>Lección: 13 Signos de repetición, dinámicas y artículaciones</item>
+        <item>Exámen de unidad 2</item>
     </string-array>
 
     <string-array name="unidad3">
@@ -126,6 +127,7 @@
         <item>Lección: 17 Tonalidades</item>
         <item>Lección: 18 Escala Pentatónica y armónica</item>
         <item>Lección: 19 Escala menor bachiana, menor melódica y cromática</item>
+        <item>Exámen de unidad 3</item>
     </string-array>
 
     <string-array name="unidad4">
@@ -136,6 +138,7 @@
         <item>Lección: 24 Acordes III</item>
         <item>Lección: 25 Acordes IV</item>
         <item>Lección: 26 Acordes V</item>
+        <item>Exámen de unidad 4</item>
     </string-array>
 
     <string-array name="unidad5">
@@ -144,6 +147,7 @@
         <item>Lección: 29 Modos menores </item>
         <item>Lección: 30 Otras escalas I</item>
         <item>Lección: 31 Otras escalas II</item>
+        <item>Exámen de unidad 5</item>
     </string-array>
 
     <string-array name="unidad6">
@@ -806,6 +810,109 @@ Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letr
     <string name="E1P28">¿Qué silencio es? </string>
     <string name="E1P29">¿La relación entre blanca y corchea?</string>
     <string name="E1P30">¿Qué silencio es?</string>
+
+    <string name="E2P1">¿Cuáles son los compases simples?</string>
+    <string name="E2P2">¿Qué clase de compas es 3/ 4 ?</string>
+    <string name="E2P3">¿Qué clase de compas es 4/4?</string>
+    <string name="E2P4">¿Qué clase de compas es 4/4?</string>
+    <string name="E2P5">¿Qué clase de compas es 6/8?</string>
+    <string name="E2P6">¿Cuál es el compás compuesto de 3/ 4?</string>
+    <string name="E2P7">¿Qué clase de compas es 12/8?</string>
+    <string name="E2P8">¿Cuál es el compas simple de 6/8?</string>
+    <string name="E2P9">¿Cuál no es un compas compuesto?</string>
+    <string name="E2P10">¿Cómo podemos organizar los acentos de un compas de 5/8</string>
+    <string name="E2P11">¿Cómo no podemos formar un compás de 7/8?</string>
+    <string name="E2P12">¿Cuál de los siguientes compases no es de amalgama?</string>
+    <string name="E2P13">¿Cómo podemos ordenar los acentos acá? </string>
+    <string name="E2P14">¿Qué compás es este?</string>
+    <string name="E2P15">¿Cómo podemos organizar los acentos en un compas de 9/8?</string>
+    <string name="E2P16">¿Cómo podemos organizar los acentos en un compas de 10/8?</string>
+    <string name="E2P17">¿Qué compas es este? </string>
+    <string name="E2P18">¿Qué signo de repetición es? </string>
+    <string name="E2P19">¿Qué tenemos si hay  silencios en los tiempos fuertes?</string>
+    <string name="E2P20">Según la imagen, ¿Cuándo tocaremos la 1er casilla? </string>
+    <string name="E2P21">¿Qué significa mezzo piano?</string>
+    <string name="E2P22">¿Qué articulación tiene la 3ra nota? </string>
+    <string name="E2P23">¿Cuál no es una dinámica?</string>
+    <string name="E2P24">¿Cuál no es una articulación?</string>
+    <string name="E2P25">¿Qué articulación es esta?</string>
+    <string name="E2P26">¿Cúal dinámica se usa para indicar suave y después fuerte?</string>
+    <string name="E3P1">¿Qué es una escala?</string>
+    <string name="E3P2">¿El quinto grado de la escala tiene el nombre de?</string>
+    <string name="E3P3">¿Cuál de es la escala de re mayor?</string>
+    <string name="E3P4">¿Cuál grado es la mediante?</string>
+    <string name="E3P5">¿Qué escala es esta?</string>
+    <string name="E3P6">¿Cuál es la estructura de la escala mayor natural?</string>
+    <string name="E3P7">¿ El 7mo grado de la escala mayor es?</string>
+    <string name="E3P8">¿Qué nota es la sensible de la escala de do mayor?</string>
+    <string name="E3P9">¿ El acorde para el 4to grado de la escala mayor es?</string>
+    <string name="E3P10">¿Cuál grado es la subtónica?</string>
+    <string name="E3P11">¿Cuál es la estructura de la escala menor natural?</string>
+    <string name="E3P12">¿El 3er grado de la escala menor es?</string>
+    <string name="E3P13">¿Cuál es la de sol menor?</string>
+    <string name="E3P14">Apoyándonos del círculos de quintas, ¿Cuál es la escala relativa menor de Sol mayor)</string>
+    <string name="E3P15">Según esta armadura, ¿ Qué tonalidad es?</string>
+    <string name="E3P16">¿Cuál es la escala de Do menor?</string>
+    <string name="E3P17">¿Qué nombre tiene el 7mo grado en la escala menor armónica?</string>
+    <string name="E3P18">¿Cuál es la escala de Si menor armonico?</string>
+    <string name="E3P19">¿Cuál es la escala de La menor bachiana?</string>
+    <string name="E3P20">¿Qué grados no se tocan en la escala Mayor pentatónica?</string>
+    <string name="E3P21">¿Qué grados no se tocan en la escala Menor pentatónica?</string>
+    <string name="E3P22">¿Cuál es la escala pentatónica menor de Do menor?</string>
+    <string name="E3P23">¿Cuál no es una escala menor armónica?</string>
+    <string name="E3P24">¿Cuál no es una escala menor bachiana?</string>
+    <string name="E3P25">¿Cuál es la escala mayor pentatónica de Sol?</string>
+
+
+
+    <string name="E4P1">¿Qué intervalo es?</string>
+    <string name="E4P2">Al invertir un intervalos de 6ta mayor obtenemos</string>
+    <string name="E4P3">¿Qué intervalo es?</string>
+    <string name="E4P4">Al invertir un intervalo de 2da mayor obtenemos?</string>
+    <string name="E4P5">¿Un intervalo de 6 aumentada es equivalente a?</string>
+    <string name="E4P6">Un intervalo de 6ta mayor cuánto equivale </string>
+    <string name="E4P7">Un intervalo de 5 aumenta cuánto equivale</string>
+    <string name="E4P8">¿Qué intervalo es?</string>
+    <string name="E4P9">¿Cuál no es una tríada?</string>
+    <string name="E4P10">¿Cuál es una tríada mayor?</string>
+    <string name="E4P11">¿Qué acorde es?</string>
+    <string name="E4P12">¿Qué acorde es?</string>
+    <string name="E4P13">¿Qué acorde es?</string>
+    <string name="E4P14">¿Qué posición está el acorde de Re?</string>
+    <string name="E4P15">¿Qué posición está el acorde de Do?</string>
+    <string name="E4P16">¿Qué acorde de séptima es?</string>
+    <string name="E4P17">¿Qué acorde de séptima es?</string>
+    <string name="E4P18">¿Cuál no es un acorde Sus4?</string>
+    <string name="E4P19">¿Cuál no es un acorde Sus2?</string>
+    <string name="E4P20">¿Qué acorde es?</string>
+    <string name="E4P21">Según el cifrado, ¿Qué posición es el acorde C/G?</string>
+    <string name="E4P22">¿Cuál acorde es un power chord?</string>
+
+
+    <string name="E5P1">¿Cuál no es un modo mayor?</string>
+    <string name="E5P2">¿Cuáles son los grados(acordes) del modo lidio?(Siendo M=mayor, m=menor, d=disminuido)</string>
+    <string name="E5P3">¿Cuál es Re mixolidio?</string>
+    <string name="E5P4">¿Cuál es el grado diferente entre el modo Lidio y Jónico?</string>
+    <string name="E5P5">¿Cuál es La lidio?</string>
+    <string name="E5P6">¿Cuáles son los grados(acordes) del modo Mixolidio?(Siendo M=mayor, m=menor, d=disminuido)</string>
+    <string name="E5P7">¿Cuál es el grado diferente entre el modo mixolidio y Jónico?</string>
+    <string name="E5P8">¿Cuál es F jónico?</string>
+    <string name="E5P9">¿Cuál modo reposa en un acorde disminuido?</string>
+    <string name="E5P10">¿Cuál es La locrio?</string>
+    <string name="E5P11">¿Cuál es el grado diferente entre el modo dórico y  eólico?</string>
+    <string name="E5P12">¿Cuáles son los grados(acordes) del modo Frigio ?(Siendo M=mayor, m=menor, d=disminuido)</string>
+    <string name="E5P13">¿Cuál es el grado diferente entre el modo locrio y  frigio?</string>
+    <string name="E5P14">¿Cuál es Fa# locrio?</string>
+    <string name="E5P15">Cuáles son los grados(acordes) del modo dórico ?(Siendo M=mayor, m=menor, d=disminuido)</string>
+    <string name="E5P16">¿Cuál  grado es diferente entre Locrio y ultra locrio?</string>
+    <string name="E5P17">¿Cuál grado es diferente entre lidio y lidio aumentado?</string>
+    <string name="E5P18">¿Cuál grado es  diferente entre jónico y jónico aumentado?</string>
+    <string name="E5P19">¿Cuál no es un modo menor blues?</string>
+
+
+
+
+
 
 
 </resources>

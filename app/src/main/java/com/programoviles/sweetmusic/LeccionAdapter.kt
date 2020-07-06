@@ -10,10 +10,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.fragment_afinador.view.*
 
 class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<LeccionAdapter.MyViewHolder>(){
     var imageCounter: Int = 0
     var textBlockCounter: Int = 0
+    var subSectionCounter: Int = 0
     var titleShown: Boolean = false
 
     companion object {
@@ -21,7 +23,7 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
         private const val DarkPrimaryColor = "#3700B3"
         private const val TYPE_TEXTVIEW = 0
         private const val TYPE_IMAGEVIEW = 1
-        private const val TYPE_AUDIO = 2
+        private const val TYPE_SUBSECTION = 2
     }
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
@@ -51,12 +53,13 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
         return when(myDataSet.estructura[position]){
             0 -> TYPE_TEXTVIEW
             1 -> TYPE_IMAGEVIEW
+            2 -> TYPE_SUBSECTION
             else -> throw java.lang.IllegalArgumentException("Invalid type of data " + position)
         }
     }
 
     override fun onBindViewHolder(holder: LeccionAdapter.MyViewHolder, position: Int) {
-        if(!titleShown){
+/*        if(!titleShown){
             holder.title.text = myDataSet.title
             titleShown = true
         }
@@ -65,7 +68,47 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
             textBlockCounter++
         } else if(getItemViewType(position) == 1){
             holder.imageView.setImageResource(myDataSet.images[imageCounter])
+            holder.imageView.setTag(myDataSet.images[imageCounter])
             imageCounter++
+        } else if(getItemViewType(position) == 2){
+            holder.subsection.text = myDataSet.subseccion[subSectionCounter]
+        }
+
+        if(holder.imageView.getTag() ==  null){
+            holder.imageView.visibility = View.GONE
+        }
+        if(myDataSet.estructura[position] != ){
+            Log.d("CardView title", holder.title.text as String)
+            holder.title.visibility = View.GONE
+        }
+        Log.d("CardView title", holder.title.text as String)
+        Log.d("CardView subsection", holder.subsection.text as String)
+        if(holder.subsection == null){
+            Log.d("CardView subsection", holder.subsection.text as String)
+            holder.subsection.visibility = View.GONE
+        }*/
+        when(getItemViewType(position)){
+            TYPE_TEXTVIEW -> {
+                holder.textBlock.text = myDataSet.textBlock[textBlockCounter]
+                textBlockCounter++
+                holder.subsection.visibility = View.GONE
+                holder.imageView.visibility = View.GONE
+            }
+            TYPE_SUBSECTION -> {
+                holder.subsection.text = myDataSet.subseccion[subSectionCounter]
+                subSectionCounter++
+                if(!titleShown){
+                    holder.title.text = myDataSet.title
+                    holder.title.visibility = View.VISIBLE
+                    titleShown = true
+                }
+                holder.imageView.visibility = View.GONE
+            }
+            TYPE_IMAGEVIEW -> {
+                holder.imageView.setImageResource(myDataSet.images[imageCounter])
+                holder.title.visibility = View.GONE
+                holder.subsection.visibility = View.GONE
+            }
         }
     }
 

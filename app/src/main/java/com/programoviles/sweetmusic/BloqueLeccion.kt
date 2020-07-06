@@ -35,8 +35,6 @@ class BloqueLeccion : Fragment() {
             container, false)
 
         Log.d("Arguments for Lesson", arguments?.getString("lesson"))
-        var titleTextView = binding.tvLessonTitle
-        titleTextView.text = arguments?.getString("lesson")
 
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {

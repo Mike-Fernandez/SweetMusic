@@ -17,6 +17,7 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
     var textBlockCounter: Int = 0
     var subSectionCounter: Int = 0
     var titleShown: Boolean = false
+    private var adapterDataList = mutableListOf<Any>()
 
     companion object {
         private const val PrimaryColor = "#6200EE"
@@ -24,6 +25,7 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
         private const val TYPE_TEXTVIEW = 0
         private const val TYPE_IMAGEVIEW = 1
         private const val TYPE_SUBSECTION = 2
+        private const val TYPE_TITLE = 3
     }
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
@@ -54,11 +56,38 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
             0 -> TYPE_TEXTVIEW
             1 -> TYPE_IMAGEVIEW
             2 -> TYPE_SUBSECTION
+            3 -> TYPE_TITLE
             else -> throw java.lang.IllegalArgumentException("Invalid type of data " + position)
         }
     }
 
+    fun defineLesson(){
+        var counter = 0
+        var textBlockCounter = 0
+        var subSectionCounter = 0
+        var imageCounter = 0
+
+        adapterDataList.add(myDataSet.title)
+        for(i in 0 until myDataSet.estructura.size){
+            when(myDataSet.estructura[i]){
+                TYPE_TEXTVIEW -> {
+                    adapterDataList.add(myDataSet.textBlock[textBlockCounter])
+                    textBlockCounter++
+                }
+                TYPE_SUBSECTION -> {
+                    adapterDataList.add(myDataSet.subseccion[subSectionCounter])
+                    subSectionCounter++
+                }
+                TYPE_IMAGEVIEW -> {
+                    adapterDataList.add(myDataSet.images[imageCounter])
+                    imageCounter++
+                }
+            }
+        }
+    }
+
     override fun onBindViewHolder(holder: LeccionAdapter.MyViewHolder, position: Int) {
+        defineLesson()
 /*        if(!titleShown){
             holder.title.text = myDataSet.title
             titleShown = true
@@ -89,25 +118,23 @@ class LeccionAdapter (private val myDataSet: Leccion): RecyclerView.Adapter<Lecc
         }*/
         when(getItemViewType(position)){
             TYPE_TEXTVIEW -> {
-                holder.textBlock.text = myDataSet.textBlock[textBlockCounter]
-                textBlockCounter++
+                holder.textBlock.text = adapterDataList[position] as String
                 holder.subsection.visibility = View.GONE
                 holder.imageView.visibility = View.GONE
             }
             TYPE_SUBSECTION -> {
-                holder.subsection.text = myDataSet.subseccion[subSectionCounter]
-                subSectionCounter++
-                if(!titleShown){
-                    holder.title.text = myDataSet.title
-                    holder.title.visibility = View.VISIBLE
-                    titleShown = true
-                }
+                holder.subsection.text = adapterDataList[position] as String
                 holder.imageView.visibility = View.GONE
             }
             TYPE_IMAGEVIEW -> {
-                holder.imageView.setImageResource(myDataSet.images[imageCounter])
+                holder.imageView.setImageResource(adapterDataList[position] as Int)
                 holder.title.visibility = View.GONE
                 holder.subsection.visibility = View.GONE
+            }
+            TYPE_TITLE -> {
+                holder.title.text = adapterDataList[position] as String
+                holder.subsection.visibility = View.GONE
+                holder.imageView.visibility = View.GONE
             }
         }
     }

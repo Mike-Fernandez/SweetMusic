@@ -39,11 +39,11 @@ class BloqueLeccion : Fragment() {
 
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {
-                dataSet1 = Leccion(arguments?.getString("lesson")!! , arrayOf(2,0,1), arrayOf(resources.getString(R.string.L1T2)), arrayOf(R.drawable.imagen1), arrayOf(resources.getString(R.string.L1T1)))
+                dataSet1 = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2,0,1), arrayOf(resources.getString(R.string.L1T2)), arrayOf(R.drawable.imagen1), arrayOf(resources.getString(R.string.L1T1)))
 //                dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
             }
             "Lección: 2 Propiedades del sonido"-> {
-                dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L2T1), resources.getString(R.string.L2T2), R.drawable.imagen2, resources.getString(R.string.L2T3), R.drawable.imagen3, "imagen de ecualizador gráfico")
+                dataSet1 = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1,0,1,0), arrayOf(resources.getString(R.string.L2T2), resources.getString(R.string.L2T3), "imagen de ecualizador gráfico"), arrayOf(R.drawable.imagen2, R.drawable.imagen3), arrayOf(resources.getString(R.string.L2T1)))
             }
             "Lección: 3 Introducción a la música" -> {
                 dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L3T1), resources.getString(R.string.L3T2), R.drawable.imagen4, resources.getString(R.string.L3T3), resources.getString(R.string.L3T4), resources.getString(R.string.L3T5), R.drawable.imagen6, resources.getString(R.string.L3T6), R.drawable.imagen8 )

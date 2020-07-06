@@ -14,6 +14,7 @@ class Leccion(
         private const val ESTRUCTURA_TEXT = 0
         private const val ESTRUCTURA_IMAGE = 1
         private const val ESTRUCTURA_SECTION = 2
+        private const val ESTRUCTURA_TITLE = 3
     }
 /*    fun getTexto(): Array<String{
         return textBlock

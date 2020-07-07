@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             tools:text="@tools:sample/full_names"
             android:layout_gravity="center"
+            android:textSize="30dp"
             />
 <!--             android:text="@{game.currentQuestion.text}"-->
 
@@ -46,6 +47,8 @@
                     android:id="@+id/option1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    tools:text="@tools:sample/first_names"
                     />
                 <!--                    android:text="@{game.answers[0]}"-->
 
@@ -53,18 +56,24 @@
                     android:id="@+id/option2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    tools:text="@tools:sample/first_names"
                     />
                 <!--                    android:text="@{game.answers[0]}"-->
                 <RadioButton
                     android:id="@+id/option3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    tools:text="@tools:sample/first_names"
                     />
                 <!--                    android:text="@{game.answers[0]}"-->
                 <RadioButton
                     android:id="@+id/option4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    tools:text="@tools:sample/first_names"
                     />
                 <!--                    android:text="@{game.answers[0]}"-->
             </RadioGroup>

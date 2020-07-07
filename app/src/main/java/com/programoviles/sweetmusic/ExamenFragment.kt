@@ -74,8 +74,8 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E1P23), answers = listOf("Propia", "Impropia", "Accidente", "Precaución"), image = R.drawable.emagen12),
                     Question(text = resources.getString(R.string.E1P24), answers = listOf("Sol", "La", "Fa", "Si"), image = R.drawable.emagen13),
                     Question(text = resources.getString(R.string.E1P25), answers = listOf("Amalgama", "Simple binario", "Compuesto ternario", "Zorcico"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E1P26), answers = listOf("3 corcheas", "2 corcheas", "4 corcheas", "5 corcheas"), image = R.drawable.emagen14),
-                    Question(text = resources.getString(R.string.E1P27), answers = listOf("Tiene 5 tiempos y contamos a corcheas", "Tiene 8 tiempos y contamos a corcheas", "Tiene 5 tiempos y contamos a negras", "Tiene 8 tiempos y contamos a negras"), image = R.drawable.emagen14),
+                    Question(text = resources.getString(R.string.E1P27), answers = listOf("3 corcheas", "2 corcheas", "4 corcheas", "5 corcheas"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E1P26), answers = listOf("Tiene 7 tiempos y contamos a corcheas", "Tiene 8 tiempos y contamos a corcheas", "Tiene 5 tiempos y contamos a negras", "Tiene 8 tiempos y contamos a negras"), image = R.drawable.emagen14),
                     Question(text = resources.getString(R.string.E1P28), answers = listOf("Negra", "Blanca", "Redonda", "Fusa"), image = R.drawable.emagen19),
                     Question(text = resources.getString(R.string.E1P29), answers = listOf("1-8", "1-16", "1-32", "1-4"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E1P30), answers = listOf("Semicorchea", "Semifusa", "Corchea", "Blanca"), image = R.drawable.emagen15)
@@ -110,10 +110,10 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E2P11), answers = listOf("5+2", "2+3+2", "3+4", "6+1"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E2P12), answers = listOf("8/8", "15/8", "27/8", "21/8"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E2P13), answers = listOf("Fuerte-Débil-Semifuerte-Débil", "Fuerte-Débil-Débil-Semifuerte", "Fuerte-Débil-Débil-Débil", "Fuerte-Semifuerte-Débil-Débil"), image = R.drawable.emagen20),
-                    Question(text = resources.getString(R.string.E2P14), answers = listOf("5/8", "5/4", "6/8", "6/8"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E2P14), answers = listOf("7/8", "5/4", "6/8", "6/8"), image = R.drawable.emagen14),
                     Question(text = resources.getString(R.string.E2P15), answers = listOf("F-D-D-SF-D-D-SF-D-D", "F-D-D-D-D-D-SF-D-D", "F-D-SF-SF-D-D-D-D-D", "F-D-SF-D-D-SF-D-D-D"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E2P16), answers = listOf("F-D-D-SF-D- SF-D-D-SF-D", "F-D-D-D- SF-D-SF-D-SF-D", "F-D-D-SF-D- SF-D-D-D-SF", "F-D-D-D-D- SF-D-D-SF-D"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E2P17), answers = listOf("9/8", "7/8", "5/8", "8/8"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E2P17), answers = listOf("12/8", "7/8", "5/8", "8/8"), image = R.drawable.emagen18),
                     Question(text = resources.getString(R.string.E2P18), answers = listOf("Casilla de repetición", "Barra repetición", "Coda", "D.C"), image = R.drawable.emagen23),
                     Question(text = resources.getString(R.string.E2P19), answers = listOf("Contratiempo", "Sincopa", "Poliritmia", "Amalgación"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E2P20), answers = listOf("Solo la primera vez", "Solo en la repetición", "No se repite", "No se toca"), image = R.drawable.emagen23),
@@ -162,7 +162,7 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E3P18), answers = listOf("Si-Do#-Re-Mi-Fa#-Sol-La#", "Si-Do#-Re-Mi-Fa-Sol-La", "Si-Do-Re#-Mi-Fa-Sol-La", "Si-Do#-Re-Mi-Fa-Sol-La#"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P19), answers = listOf("La-Si-Do-Re-Mi-Fa#-Sol#", "La-Si-Do-Re-Mi-Fa-Sol#", "La-Si-Do#-Re-Mi-Fa-Sol", "La-Si-Do-Re#-Mi-Fa#-Sol#"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P20), answers = listOf("Subdominante y Sensible", "Dominante y Subtónica ", "Mediante y Sensible", "Super tónica y Super dominante"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E3P21), answers = listOf("Super Tónica y Super dominante\n", "Super Tónica y Sub tónica", "Mediante y Super dominante", "Super Tónica y Dominante"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E3P21), answers = listOf("Super Tónica y Super dominante", "Super Tónica y Sub tónica", "Mediante y Super dominante", "Super Tónica y Dominante"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P22), answers = listOf("Do -Mib-Fa-Sol- La#", "Do-Re-Fa-Sol-Sol#", "Do-Re -Mib-Fa- La#", "Do -Mib-Fa-Sol#- La#"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P23), answers = listOf("Re-Mi-Fa-Sol-La-Sib-Do", "La-Si-Do-Re-Mi-Fa-Sol#", "Do-Re-Mib-Fa-Sol-Sol#-Si", "Fa-Sol-Lab-Sib-Do-Reb-Mi"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E3P24), answers = listOf("Re-Mi-Fa-Sol-La-Sib-Do", "La-Si-Do-Re-Mi-Fa#-Sol#", "Do-Re-Mib-Fa-Sol-La-Si", "Fa-Sol-Lab-Sib-Do-Re-Mi"), image = R.drawable.sweet_music_icon),
@@ -185,7 +185,7 @@ class ExamenFragment : Fragment() {
             }
             "Exámen de unidad 4" ->{
                 var preguntas: MutableList<Question> = mutableListOf(
-                    Question(text = resources.getString(R.string.E4P1), answers = listOf("4ta aumentada", "5ta aumentada", "5ta disminuida", "4ta aumentada"), image = R.drawable.emagen28),
+                    Question(text = resources.getString(R.string.E4P1), answers = listOf("5ta justa", "5ta aumentada", "5ta disminuida", "4ta aumentada"), image = R.drawable.emagen28),
                     Question(text = resources.getString(R.string.E4P2), answers = listOf("3ra menor", "3ra mayor", "3ra aumentada", "3ra disminuida"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E4P3), answers = listOf("8va justa", "8va aumentada", "8va disminuida", "8va mayor"), image = R.drawable.emagen29),
                     Question(text = resources.getString(R.string.E4P4), answers = listOf("7ma menor", "7ma mayor", "7ma aumentada", "7ma disminuida"), image = R.drawable.sweet_music_icon),
@@ -200,11 +200,11 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E4P13), answers = listOf("A dim", "A", "Am", "A aug"), image = R.drawable.emagen33),
                     Question(text = resources.getString(R.string.E4P14), answers = listOf("1ra inversión", "Fundamental", "2da inversión", "3ra inversión"), image = R.drawable.emagen34),
                     Question(text = resources.getString(R.string.E4P15), answers = listOf("2da inversión", "Fundamental", "1ra inversión", "3ra inversión"), image = R.drawable.emagen35),
-                    Question(text = resources.getString(R.string.E4P16), answers = listOf("G7", "Gmaj7", "Gm maj7", "Gm7"), image = R.drawable.emagen37),
-                    Question(text = resources.getString(R.string.E4P17), answers = listOf("Fmaj7", "F7", "Fm maj7", "Fm7"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E4P16), answers = listOf("G7", "Gmaj7", "Gm maj7", "Gm7"), image = R.drawable.emagen36),
+                    Question(text = resources.getString(R.string.E4P17), answers = listOf("Fmaj7", "F7", "Fm maj7", "Fm7"), image = R.drawable.emagen37),
                     Question(text = resources.getString(R.string.E4P18), answers = listOf("A-B-E", "C-F-G", "G-C-D", "D-E-A"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E4P19), answers = listOf("B-D-F#", "E-F#-B", "C#-D#-G#", "A-B-E"), image = R.drawable.sweet_music_icon),
-                    Question(text = resources.getString(R.string.E4P20), answers = listOf("Cadd2", "Cmaj7", "C7", "Cadd4"), image = R.drawable.sweet_music_icon),
+                    Question(text = resources.getString(R.string.E4P20), answers = listOf("Cadd2", "Cmaj7", "C7", "Cadd4"), image = R.drawable.emagen34),
                     Question(text = resources.getString(R.string.E4P21), answers = listOf("2da inversión", "Fundamental", "1er inversión ", "3ra inversión"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E4P22), answers = listOf("A-E-A", "A-D-A", "A-E-G", "A-D-E"), image = R.drawable.sweet_music_icon)
 
@@ -342,7 +342,7 @@ class ExamenFragment : Fragment() {
         }
 
         answers = currentQuestion.answers.toMutableList()
-        answers.shuffle()
+//        answers.shuffle()
         option1.text = answers[0]
         option2.text = answers[1]
         option3.text = answers[2]

@@ -285,13 +285,13 @@ Su utilidad abarca las distintas facetas que atañen al músico:
         Los compases pueden ser (más adelante profundizaremos):
 2 tiempos (binario)
 3 tiempos (ternario)
-4 tiempos (cuartanario)
+4 tiempos (cuartenario)
 5 tiempos (amalgama 2+3, o 3+2)
 6 tiempos (binario compuesto)
 7 tiempos (amalgama 4+3, o 3+4)
 9 tiempos (ternario compuesto)
 10 tiempos (zorcico 5+5)
-12 tiempos (cuartanario compuesto)
+12 tiempos (cuartenario compuesto)
     </string>
     <string name="L8T4">Figuras simples</string>
     <string name="L8T5">
@@ -326,7 +326,7 @@ Veamos otras equivalencias:
     </string>
     <string name="L10T1">Compases simple</string>
     <string name="L10T2">
-Son compases que tienen como numerador 2, 3 o 4. Como vimos anteriormente está el binario (2), ternario (3), cuartanario (4). Pueden tener cualquier denominador, pero generalmente se ocupa 4(negras). Con los compases simples podemos formas los compases compuesto y amalgama.
+Son compases que tienen como numerador 2, 3 o 4. Como vimos anteriormente está el binario (2), ternario (3), cuartenario (4). Pueden tener cualquier denominador, pero generalmente se ocupa 4(negras). Con los compases simples podemos formas los compases compuesto y amalgama.
     </string>
     <string name="L10T3">Compases compuestos</string>
     <string name="L10T4">
@@ -802,11 +802,11 @@ Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letr
     <string name="E1P20">¿ Que nota es? </string>
     <string name="E1P21">¿Qué sistema es? </string>
     <string name="E1P22">La siguiente alteración, ¿Cómo afecta la altura de la nota? </string>
-    <string name="E1P23">¿ Qué clase de alteración es esta? </string>
-    <string name="E1P24">¿ Que nota es? </string>
-    <string name="E1P25">¿Qué tipo de compas es 5/8 ?</string>
+    <string name="E1P23">¿Qué clase de alteración es esta? </string>
+    <string name="E1P24">¿Que nota es? </string>
+    <string name="E1P25">¿Qué tipo de compas es 5/8?</string>
     <string name="E1P26">¿Qué podemos afirmar del siguiente compas?</string>
-    <string name="E1P27">¿Qué silencio es? </string>
+    <string name="E1P27">¿Cuánto equivale una negra con puntillo? </string>
     <string name="E1P28">¿Qué silencio es? </string>
     <string name="E1P29">¿La relación entre blanca y corchea?</string>
     <string name="E1P30">¿Qué silencio es?</string>
@@ -814,7 +814,7 @@ Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letr
     <string name="E2P1">¿Cuáles son los compases simples?</string>
     <string name="E2P2">¿Qué clase de compas es 3/ 4 ?</string>
     <string name="E2P3">¿Qué clase de compas es 4/4?</string>
-    <string name="E2P4">¿Qué clase de compas es 4/4?</string>
+    <string name="E2P4">¿Son los compases simples la base de los compuestos?</string>
     <string name="E2P5">¿Qué clase de compas es 6/8?</string>
     <string name="E2P6">¿Cuál es el compás compuesto de 3/ 4?</string>
     <string name="E2P7">¿Qué clase de compas es 12/8?</string>
@@ -837,20 +837,22 @@ Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letr
     <string name="E2P24">¿Cuál no es una articulación?</string>
     <string name="E2P25">¿Qué articulación es esta?</string>
     <string name="E2P26">¿Cúal dinámica se usa para indicar suave y después fuerte?</string>
+
+
     <string name="E3P1">¿Qué es una escala?</string>
     <string name="E3P2">¿El quinto grado de la escala tiene el nombre de?</string>
     <string name="E3P3">¿Cuál de es la escala de re mayor?</string>
     <string name="E3P4">¿Cuál grado es la mediante?</string>
     <string name="E3P5">¿Qué escala es esta?</string>
     <string name="E3P6">¿Cuál es la estructura de la escala mayor natural?</string>
-    <string name="E3P7">¿ El 7mo grado de la escala mayor es?</string>
+    <string name="E3P7">¿El 7mo grado de la escala mayor es?</string>
     <string name="E3P8">¿Qué nota es la sensible de la escala de do mayor?</string>
-    <string name="E3P9">¿ El acorde para el 4to grado de la escala mayor es?</string>
+    <string name="E3P9">¿El acorde para el 4to grado de la escala mayor es?</string>
     <string name="E3P10">¿Cuál grado es la subtónica?</string>
     <string name="E3P11">¿Cuál es la estructura de la escala menor natural?</string>
     <string name="E3P12">¿El 3er grado de la escala menor es?</string>
-    <string name="E3P13">¿Cuál es la de sol menor?</string>
-    <string name="E3P14">Apoyándonos del círculos de quintas, ¿Cuál es la escala relativa menor de Sol mayor)</string>
+    <string name="E3P13">¿Cuál es la escala de sol menor?</string>
+    <string name="E3P14">Apoyándonos del círculo de quintas, ¿Cuál es la escala relativa menor de Sol mayor)</string>
     <string name="E3P15">Según esta armadura, ¿ Qué tonalidad es?</string>
     <string name="E3P16">¿Cuál es la escala de Do menor?</string>
     <string name="E3P17">¿Qué nombre tiene el 7mo grado en la escala menor armónica?</string>
@@ -866,12 +868,12 @@ Queda a tu preferencia si es instrumental. Si tienes problemas de crear una letr
 
 
     <string name="E4P1">¿Qué intervalo es?</string>
-    <string name="E4P2">Al invertir un intervalos de 6ta mayor obtenemos</string>
+    <string name="E4P2">Al invertir un intervalo de 6ta mayor obtenemos</string>
     <string name="E4P3">¿Qué intervalo es?</string>
     <string name="E4P4">Al invertir un intervalo de 2da mayor obtenemos?</string>
     <string name="E4P5">¿Un intervalo de 6 aumentada es equivalente a?</string>
-    <string name="E4P6">Un intervalo de 6ta mayor cuánto equivale </string>
-    <string name="E4P7">Un intervalo de 5 aumenta cuánto equivale</string>
+    <string name="E4P6">A cuanto equivale un intervalo de 6ta mayor</string>
+    <string name="E4P7">A cuanto equivale un intervalo de 5ta aumentada</string>
     <string name="E4P8">¿Qué intervalo es?</string>
     <string name="E4P9">¿Cuál no es una tríada?</string>
     <string name="E4P10">¿Cuál es una tríada mayor?</string>

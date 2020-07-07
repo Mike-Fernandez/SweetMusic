@@ -42,8 +42,6 @@ class ExamenFragment : Fragment() {
 
         var numQuestions: Int
 
-//        binding.game = this
-
         val args = arguments?.getString("unidad")
 
         when(args){
@@ -79,7 +77,6 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E1P28), answers = listOf("Negra", "Blanca", "Redonda", "Fusa"), image = R.drawable.emagen19),
                     Question(text = resources.getString(R.string.E1P29), answers = listOf("1-8", "1-16", "1-32", "1-4"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E1P30), answers = listOf("Semicorchea", "Semifusa", "Corchea", "Blanca"), image = R.drawable.emagen15)
-
                 )
                 questions.addAll(preguntas)
                 Log.d("Examen imageView", binding.questionImage.toString())
@@ -123,8 +120,6 @@ class ExamenFragment : Fragment() {
                     Question(text = resources.getString(R.string.E2P24), answers = listOf("Pizzicato", "Acento", "Legato", "Stacato"), image = R.drawable.sweet_music_icon),
                     Question(text = resources.getString(R.string.E2P25), answers = listOf("Legato", "Acento", "Pizzicato", "Stacato"), image = R.drawable.emagen25),
                     Question(text = resources.getString(R.string.E2P26), answers = listOf("Piano Forte", "Mezzo Forte", "Forte piano", "Forte fortissimo"), image = R.drawable.sweet_music_icon)
-
-
                 )
                 questions.addAll(preguntas)
                 Log.d("Examen imageView", binding.questionImage.toString())
@@ -286,7 +281,6 @@ class ExamenFragment : Fragment() {
                             binding.questionImage
                         )
                         binding.questionRadioGroup.clearCheck()
-//                        binding.invalidateAll()
                     } else {
                         view.findNavController()
                             .navigate(R.id.action_examenFragment_to_passedExamFragment)
@@ -328,21 +322,18 @@ class ExamenFragment : Fragment() {
         questionImage: ImageView
     ) {
         currentQuestion = questions[questionIndex]
-        Log.d("Exam settingquestions", questions.toString())
 
         questionTv.text = currentQuestion.text
 
         if(currentQuestion.image == null){
             questionImage.visibility = View.INVISIBLE
         } else {
-            Log.d("Examen image", questions[questionIndex].image.toString())
-//            Log.d("Examen imageView", questionImage.toString())
             questionImage.setImageResource(currentQuestion.image)
             questionImage.visibility = View.VISIBLE
         }
 
         answers = currentQuestion.answers.toMutableList()
-//        answers.shuffle()
+        answers.shuffle()
         option1.text = answers[0]
         option2.text = answers[1]
         option3.text = answers[2]

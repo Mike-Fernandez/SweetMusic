@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
-//        setContentView(R.layout.activity_main)
 
         drawerLayout = binding.drawerLayout
 
@@ -28,10 +27,6 @@ class MainActivity : AppCompatActivity() {
         val navController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this,navController)
 
-//        val actionBar: ActionBar? = supportActionBar
-/*        supportActionBar?.setDisplayShowHomeEnabled(true);
-        supportActionBar?.setLogo(R.mipmap.ic_launcher);
-        supportActionBar?.setDisplayUseLogoEnabled(true);*/
     }
 
     override fun onSupportNavigateUp(): Boolean {

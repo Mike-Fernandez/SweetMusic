@@ -26,7 +26,6 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
         val binding = DataBindingUtil.inflate<FragmentAcordesBinding>(inflater, R.layout.fragment_acordes,
             container, false)
 
-//        val spinnerAcordes = binding.spChordName
         val spinnerAcordes: Spinner = binding.spChordName
         this.context?.let {
             ArrayAdapter.createFromResource(it, R.array.acordes_array, android.R.layout.simple_spinner_item)
@@ -54,9 +53,6 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
     }
 
     override fun onItemSelected(parent: AdapterView<*>, view: View?, pos: Int, id: Long) {
-        // An item was selected. You can retrieve the selected item using
-        //parent.getItemAtPosition(pos)
-        //Toast.makeText(this.context,resources.getStringArray(R.array.acordes_array)[pos], Toast.LENGTH_LONG).show()
         when(pos){
             0 -> {//imagen
                 imgChord.setImageResource(R.drawable.triadamayor)
@@ -363,6 +359,4 @@ class AcordesFragment : Fragment(), AdapterView.OnItemSelectedListener {
         }
 
     }
-
-
 }

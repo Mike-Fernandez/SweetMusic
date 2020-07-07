@@ -28,16 +28,6 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
         }
     }
 
-    /*inner class titleViewHolder(itemView: TextView): MyViewHolder<TextView>(itemView){
-        override fun bind(item: TextView) {
-            item.text
-        }
-    }
-
-    abstract class MyViewHolder<T>(val textView: TextView) : RecyclerView.ViewHolder(textView) {
-        abstract fun bind(item: T)
-    }*/
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val textView = LayoutInflater.from(parent.context)
             .inflate(R.layout.textview, parent, false) as TextView

@@ -2,12 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-<!--    <data>
-        <variable
-            name="game"
-            type="com.programoviles.sweetmusic.ExamenFragment" />
-    </data>-->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,7 +16,6 @@
             android:src="@drawable/aug"
             android:visibility="invisible"
             />
-
         <TextView
             android:id="@+id/questionTV"
             android:layout_width="wrap_content"
@@ -31,8 +24,6 @@
             android:layout_gravity="center"
             android:textSize="30dp"
             />
-<!--             android:text="@{game.currentQuestion.text}"-->
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -50,8 +41,6 @@
                     android:textSize="20dp"
                     tools:text="@tools:sample/first_names"
                     />
-                <!--                    android:text="@{game.answers[0]}"-->
-
                 <RadioButton
                     android:id="@+id/option2"
                     android:layout_width="match_parent"
@@ -59,7 +48,6 @@
                     android:textSize="20dp"
                     tools:text="@tools:sample/first_names"
                     />
-                <!--                    android:text="@{game.answers[0]}"-->
                 <RadioButton
                     android:id="@+id/option3"
                     android:layout_width="match_parent"
@@ -67,7 +55,6 @@
                     android:textSize="20dp"
                     tools:text="@tools:sample/first_names"
                     />
-                <!--                    android:text="@{game.answers[0]}"-->
                 <RadioButton
                     android:id="@+id/option4"
                     android:layout_width="match_parent"
@@ -75,7 +62,6 @@
                     android:textSize="20dp"
                     tools:text="@tools:sample/first_names"
                     />
-                <!--                    android:text="@{game.answers[0]}"-->
             </RadioGroup>
         </ScrollView>
 
@@ -88,6 +74,5 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             />
-
     </LinearLayout>
 </layout>

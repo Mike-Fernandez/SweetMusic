@@ -7,7 +7,6 @@ class Leccion(
     var images: Array<Int>,
     var subseccion: Array<String>
 ){
-
     companion object{
         private const val TYPE_TEXT_IMAGE = 0
         private const val TYPE_AUDIO = 1
@@ -16,7 +15,4 @@ class Leccion(
         private const val ESTRUCTURA_SECTION = 2
         private const val ESTRUCTURA_TITLE = 3
     }
-/*    fun getTexto(): Array<String{
-        return textBlock
-    }*/
 }

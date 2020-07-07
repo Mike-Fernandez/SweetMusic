@@ -23,8 +23,6 @@ class Afinador : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-
         val binding = DataBindingUtil.inflate<FragmentAfinadorBinding>(inflater, R.layout.fragment_afinador,
         container, false)
 
@@ -70,5 +68,4 @@ class Afinador : Fragment() {
         return binding.root
 
     }
-
 }

@@ -91,7 +91,6 @@ class metronomo : Fragment() {
             }
         }
 
-        //updateBpmButtons()
         return binding.root
     }
 

@@ -24,14 +24,11 @@ class BloqueLeccion : Fragment() {
     private lateinit var viewManager: RecyclerView.LayoutManager
     private lateinit var dataSet2: ArrayList<Any>
     private lateinit var dataSet: Leccion
-//    private lateinit var dataSet: Array<Map<String, String>>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-
         val binding = DataBindingUtil.inflate<FragmentBloqueLeccionBinding>(inflater, R.layout.fragment_bloque_leccion,
             container, false)
 
@@ -40,7 +37,6 @@ class BloqueLeccion : Fragment() {
         when(arguments?.getString("lesson")){
             "Lección: 1 El sonido" -> {
                 dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2,0,1), arrayOf(resources.getString(R.string.L1T2)), arrayOf(R.drawable.imagen1), arrayOf(resources.getString(R.string.L1T1)))
-//                dataSet = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L1T1), resources.getString(R.string.L1T2), R.drawable.imagen1)
             }
             "Lección: 2 Propiedades del sonido"-> {
                 dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1,0,1,0), arrayOf(resources.getString(R.string.L2T2), resources.getString(R.string.L2T3), "imagen de ecualizador gráfico"), arrayOf(R.drawable.imagen2, R.drawable.imagen3), arrayOf(resources.getString(R.string.L2T1)))
@@ -125,45 +121,28 @@ class BloqueLeccion : Fragment() {
 
             }
             "Lección: 29 Modos menores" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,2,0,2,0), arrayOf(resources.getString(R.string.L29T2),resources.getString(R.string.L29T4),resources.getString(R.string.L29T6),resources.getString(R.string.L29T8)), arrayOf(R.drawable.imagen2), arrayOf(resources.getString(R.string.L29T1),resources.getString(R.string.L29T3),resources.getString(R.string.L29T5),resources.getString(R.string.L29T7))
-                    //resources.getString(R.string.L29T1), resources.getString(R.string.L29T2),resources.getString(R.string.L29T3), resources.getString(R.string.L29T4), resources.getString(R.string.L29T5), resources.getString(R.string.L29T6), resources.getString(R.string.L29T7), resources.getString(R.string.L29T8)
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,2,0,2,0), arrayOf(resources.getString(R.string.L29T2),resources.getString(R.string.L29T4),resources.getString(R.string.L29T6),resources.getString(R.string.L29T8)), arrayOf(R.drawable.imagen2), arrayOf(resources.getString(R.string.L29T1),resources.getString(R.string.L29T3),resources.getString(R.string.L29T5),resources.getString(R.string.L29T7)))
             }
             "Lección: 30 Otras escalas I" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1,2,0,2,0,2,0,2,0),arrayOf(resources.getString(R.string.L30T2),resources.getString(R.string.L30T4),resources.getString(R.string.L30T6),resources.getString(R.string.L30T8),resources.getString(R.string.L30T10)),arrayOf(R.drawable.imagen72), arrayOf(resources.getString(R.string.L30T1),resources.getString(R.string.L30T3),resources.getString(R.string.L30T5),resources.getString(R.string.L30T7),resources.getString(R.string.L30T9))
-                    //resources.getString(R.string.L30T1), resources.getString(R.string.L30T2), R.drawable.imagen72, resources.getString(R.string.L30T3), resources.getString(R.string.L30T4),resources.getString(R.string.L30T5), resources.getString(R.string.L30T6), resources.getString(R.string.L30T7), resources.getString(R.string.L30T8), resources.getString(R.string.L30T9), resources.getString(R.string.L30T10)
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1,2,0,2,0,2,0,2,0),arrayOf(resources.getString(R.string.L30T2),resources.getString(R.string.L30T4),resources.getString(R.string.L30T6),resources.getString(R.string.L30T8),resources.getString(R.string.L30T10)),arrayOf(R.drawable.imagen72), arrayOf(resources.getString(R.string.L30T1),resources.getString(R.string.L30T3),resources.getString(R.string.L30T5),resources.getString(R.string.L30T7),resources.getString(R.string.L30T9)))
             }
             "Lección: 31 Otras escalas II" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,1,0),arrayOf(resources.getString(R.string.L31T2),resources.getString(R.string.L31T4),resources.getString(R.string.L31T5)),arrayOf(R.drawable.imagen73),arrayOf(resources.getString(R.string.L31T1),resources.getString(R.string.L31T3))
-                    //resources.getString(R.string.L31T1), resources.getString(R.string.L31T2),resources.getString(R.string.L31T3), resources.getString(R.string.L31T4), R.drawable.imagen73, resources.getString(R.string.L31T5)
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,1,0),arrayOf(resources.getString(R.string.L31T2),resources.getString(R.string.L31T4),resources.getString(R.string.L31T5)),arrayOf(R.drawable.imagen73),arrayOf(resources.getString(R.string.L31T1),resources.getString(R.string.L31T3)))
             }
             "Lección: 32 Rango vocales" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0),arrayOf(resources.getString(R.string.L32T2)),arrayOf(R.drawable.imagen2),arrayOf(resources.getString(R.string.L32T1))
-                    //resources.getString(R.string.L32T1), resources.getString(R.string.L32T2)
-                )
-
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0),arrayOf(resources.getString(R.string.L32T2)),arrayOf(R.drawable.imagen2),arrayOf(resources.getString(R.string.L32T1)))
             }
             "Lección: 33 Improvisación" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1), arrayOf(resources.getString(R.string.L33T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L33T1))
-                    // resources.getString(R.string.L33T1), resources.getString(R.string.L33T2), R.drawable.imagen76
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1), arrayOf(resources.getString(R.string.L33T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L33T1)))
             }
             "Lección: 34 Progresiones de acordes" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0), arrayOf(resources.getString(R.string.L34T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L34T1))
-                    //resources.getString(R.string.L34T1), resources.getString(R.string.L34T2)
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0), arrayOf(resources.getString(R.string.L34T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L34T1)))
             }
             "Lección: 35 Re-armonización" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1),arrayOf(resources.getString(R.string.L35T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L35T1))
-                    //resources.getString(R.string.L35T1), resources.getString(R.string.L35T2), R.drawable.imagen75
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1),arrayOf(resources.getString(R.string.L35T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L35T1)))
             }
             "Lección: 36 Composión: ideas generales y básicas" -> {
-                dataSet = Leccion(arguments?.getString("lesson")!!,arrayOf(3,2,0) ,arrayOf(resources.getString(R.string.L36T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L36T1))
-                    // resources.getString(R.string.L36T1), resources.getString(R.string.L36T2)
-                )
+                dataSet = Leccion(arguments?.getString("lesson")!!,arrayOf(3,2,0) ,arrayOf(resources.getString(R.string.L36T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L36T1)))
             }
 
             else -> {

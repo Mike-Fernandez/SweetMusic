@@ -101,53 +101,69 @@ class BloqueLeccion : Fragment() {
                 dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3,2,0,1,0,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1), arrayOf(resources.getString(R.string.L20T2),resources.getString(R.string.L20T3),resources.getString(R.string.L20T5),resources.getString(R.string.L20T7),resources.getString(R.string.L20T9),resources.getString(R.string.L20T11),resources.getString(R.string.L20T13),resources.getString(R.string.L20T15),resources.getString(R.string.L20T17),resources.getString(R.string.L20T19),resources.getString(R.string.L20T21)),arrayOf(R.drawable.imagen44,R.drawable.imagen45,R.drawable.imagen46,R.drawable.imagen47,R.drawable.imagen48,R.drawable.imagen49,R.drawable.imagen50,R.drawable.imagen51,R.drawable.imagen52,R.drawable.imagen53),arrayOf(resources.getString(R.string.L20T1),resources.getString(R.string.L20T4),resources.getString(R.string.L20T6),resources.getString(R.string.L20T8),resources.getString(R.string.L20T10),resources.getString(R.string.L20T12),resources.getString(R.string.L20T14),resources.getString(R.string.L20T16),resources.getString(R.string.L20T18),resources.getString(R.string.L20T20)))
             }
             "Lección: 21 Intervalos II" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L21T1), resources.getString(R.string.L21T2), R.drawable.imagen54, resources.getString(R.string.L21T3), resources.getString(R.string.L21T4), resources.getString(R.string.L21T5), resources.getString(R.string.L21T6), resources.getString(R.string.L21T7), resources.getString(R.string.L21T8), resources.getString(R.string.L21T9), resources.getString(R.string.L21T10), R.drawable.imagen55, resources.getString(R.string.L21T11))
-            }
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 1, 0, 2, 0, 0, 0, 0, 2, 0, 1, 0), arrayOf(resources.getString(R.string.L21T2), resources.getString(R.string.L21T3), resources.getString(R.string.L21T5), resources.getString(R.string.L21T6), resources.getString(R.string.L21T7), resources.getString(R.string.L21T8), resources.getString(R.string.L21T10), resources.getString(R.string.L21T11)), arrayOf(R.drawable.imagen54, R.drawable.imagen55), arrayOf(resources.getString(R.string.L21T1), resources.getString(R.string.L21T4), resources.getString(R.string.L21T9)))            }
             "Lección: 22 Acordes I" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L22T1), resources.getString(R.string.L22T2), resources.getString(R.string.L22T3),  resources.getString(R.string.L22T4), resources.getString(R.string.L22T5), R.drawable.imagen56, "Un acorde D", resources.getString(R.string.L22T6), R.drawable.imagen57, "Un acorde Gm7")
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 2, 0, 0, 1, 0, 0, 1, 0), arrayOf(resources.getString(R.string.L22T2), resources.getString(R.string.L22T4), resources.getString(R.string.L22T5),"Un acorde D",resources.getString(R.string.L22T6), "Un acorde Gm7" ), arrayOf(R.drawable.imagen56, R.drawable.imagen57), arrayOf(resources.getString(R.string.L22T1), resources.getString(R.string.L22T3)))
             }
             "Lección: 23 Acordes II" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L23T1), R.drawable.imagen58, "Acorde C aug", resources.getString(R.string.L23T2), R.drawable.imagen59, "Acorde B dim", resources.getString(R.string.L23T3), resources.getString(R.string.L23T4), R.drawable.imagen60, resources.getString(R.string.L23T5), resources.getString(R.string.L23T6)    )
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 0, 1, 0, 0, 1, 0, 2, 0, 1, 2, 0), arrayOf(resources.getString(R.string.L23T1), "Acorde C aug", resources.getString(R.string.L23T2), "Acorde B dim",resources.getString(R.string.L23T4), resources.getString(R.string.L23T6)), arrayOf(R.drawable.imagen58, R.drawable.imagen59), arrayOf(resources.getString(R.string.L23T3), resources.getString(R.string.L23T5)))
             }
             "Lección: 24 Acordes III" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L24T1), resources.getString(R.string.L24T2), R.drawable.imagen61, resources.getString(R.string.L24T3), resources.getString(R.string.L24T4), R.drawable.imagen62, resources.getString(R.string.L24T5), resources.getString(R.string.L24T6), R.drawable.imagen63, "Acorde C add2")
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 1, 2, 0, 1, 2, 0, 1, 0), arrayOf(resources.getString(R.string.L24T2), resources.getString(R.string.L24T4), resources.getString(R.string.L24T6), "Acorde C add2"), arrayOf(R.drawable.imagen61, R.drawable.imagen62, R.drawable.imagen63), arrayOf(resources.getString(R.string.L24T1), resources.getString(R.string.L24T3), resources.getString(R.string.L24T5)))
             }
             "Lección: 25 Acordes IV" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L25T1), resources.getString(R.string.L25T2), resources.getString(R.string.L25T3),  R.drawable.imagen64, "Acorde C Maj7", resources.getString(R.string.L25T4),  R.drawable.imagen65, "Acorde G7", resources.getString(R.string.L25T5), resources.getString(R.string.L25T6), R.drawable.imagen66, resources.getString(R.string.L25T7) )
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0), arrayOf(resources.getString(R.string.L25T2), resources.getString(R.string.L25T3), "Acorde C Maj7", resources.getString(R.string.L25T4), "Acorde G7", resources.getString(R.string.L25T5), resources.getString(R.string.L25T6), resources.getString(R.string.L25T7)), arrayOf(R.drawable.imagen64, R.drawable.imagen65, R.drawable.imagen66), arrayOf(resources.getString(R.string.L25T1)))
             }
             "Lección: 26 Acordes V" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L26T1), resources.getString(R.string.L26T2), R.drawable.imagen67, "Acorde B° maj7", resources.getString(R.string.L26T3), resources.getString(R.string.L26T4), R.drawable.imagen68, "Acorde A# add9", resources.getString(R.string.L26T5), resources.getString(R.string.L26T6), R.drawable.imagen69, "Ejemplos de inversiones")
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 0, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0), arrayOf(resources.getString(R.string.L26T1), resources.getString(R.string.L26T2), "Acorde B° maj7", resources.getString(R.string.L26T4), "Acorde A# add9", resources.getString(R.string.L26T6), "Ejemplos de inversiones"), arrayOf(R.drawable.imagen67, R.drawable.imagen68, R.drawable.imagen69), arrayOf(resources.getString(R.string.L26T3), resources.getString(R.string.L26T5)))
             }
             "Lección: 27 Introducción a las escalas modales" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L27T1), resources.getString(R.string.L27T2), R.drawable.imagen70, resources.getString(R.string.L27T3), R.drawable.imagen71)
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 1, 0, 1), arrayOf(resources.getString(R.string.L27T2), resources.getString(R.string.L27T3)), arrayOf(R.drawable.imagen70, R.drawable.imagen71), arrayOf(resources.getString(R.string.L27T1)))
             }
             "Lección: 28 Modos mayores" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L28T1), resources.getString(R.string.L28T2),resources.getString(R.string.L28T3), resources.getString(R.string.L28T4), resources.getString(R.string.L28T5), resources.getString(R.string.L28T6) )
+                dataSet = Leccion(arguments?.getString("lesson")!! , arrayOf(3, 2, 0, 2, 0, 2, 0), arrayOf(resources.getString(R.string.L28T2), resources.getString(R.string.L28T4), resources.getString(R.string.L28T6)), arrayOf(R.drawable.imagen1), arrayOf(resources.getString(R.string.L28T1), resources.getString(R.string.L28T3), resources.getString(R.string.L28T5)))
+
             }
             "Lección: 29 Modos menores" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L29T1), resources.getString(R.string.L29T2),resources.getString(R.string.L29T3), resources.getString(R.string.L29T4), resources.getString(R.string.L29T5), resources.getString(R.string.L29T6), resources.getString(R.string.L29T7), resources.getString(R.string.L29T8))
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,2,0,2,0), arrayOf(resources.getString(R.string.L29T2),resources.getString(R.string.L29T4),resources.getString(R.string.L29T6),resources.getString(R.string.L29T8)), arrayOf(R.drawable.imagen2), arrayOf(resources.getString(R.string.L29T1),resources.getString(R.string.L29T3),resources.getString(R.string.L29T5),resources.getString(R.string.L29T7))
+                    //resources.getString(R.string.L29T1), resources.getString(R.string.L29T2),resources.getString(R.string.L29T3), resources.getString(R.string.L29T4), resources.getString(R.string.L29T5), resources.getString(R.string.L29T6), resources.getString(R.string.L29T7), resources.getString(R.string.L29T8)
+                )
             }
             "Lección: 30 Otras escalas I" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L30T1), resources.getString(R.string.L30T2), R.drawable.imagen72, resources.getString(R.string.L30T3), resources.getString(R.string.L30T4),resources.getString(R.string.L30T5), resources.getString(R.string.L30T6), resources.getString(R.string.L30T7), resources.getString(R.string.L30T8), resources.getString(R.string.L30T9), resources.getString(R.string.L30T10))
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1,2,0,2,0,2,0,2,0),arrayOf(resources.getString(R.string.L30T2),resources.getString(R.string.L30T4),resources.getString(R.string.L30T6),resources.getString(R.string.L30T8),resources.getString(R.string.L30T10)),arrayOf(R.drawable.imagen72), arrayOf(resources.getString(R.string.L30T1),resources.getString(R.string.L30T3),resources.getString(R.string.L30T5),resources.getString(R.string.L30T7),resources.getString(R.string.L30T9))
+                    //resources.getString(R.string.L30T1), resources.getString(R.string.L30T2), R.drawable.imagen72, resources.getString(R.string.L30T3), resources.getString(R.string.L30T4),resources.getString(R.string.L30T5), resources.getString(R.string.L30T6), resources.getString(R.string.L30T7), resources.getString(R.string.L30T8), resources.getString(R.string.L30T9), resources.getString(R.string.L30T10)
+                )
             }
             "Lección: 31 Otras escalas II" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L31T1), resources.getString(R.string.L31T2),resources.getString(R.string.L31T3), resources.getString(R.string.L31T4), R.drawable.imagen73, resources.getString(R.string.L31T5))
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,2,0,1,0),arrayOf(resources.getString(R.string.L31T2),resources.getString(R.string.L31T4),resources.getString(R.string.L31T5)),arrayOf(R.drawable.imagen73),arrayOf(resources.getString(R.string.L31T1),resources.getString(R.string.L31T3))
+                    //resources.getString(R.string.L31T1), resources.getString(R.string.L31T2),resources.getString(R.string.L31T3), resources.getString(R.string.L31T4), R.drawable.imagen73, resources.getString(R.string.L31T5)
+                )
             }
             "Lección: 32 Rango vocales" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L32T1), resources.getString(R.string.L32T2))
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0),arrayOf(resources.getString(R.string.L32T2)),arrayOf(R.drawable.imagen2),arrayOf(resources.getString(R.string.L32T1))
+                    //resources.getString(R.string.L32T1), resources.getString(R.string.L32T2)
+                )
 
             }
             "Lección: 33 Improvisación" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L33T1), resources.getString(R.string.L33T2), R.drawable.imagen76)
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1), arrayOf(resources.getString(R.string.L33T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L33T1))
+                    // resources.getString(R.string.L33T1), resources.getString(R.string.L33T2), R.drawable.imagen76
+                )
             }
             "Lección: 34 Progresiones de acordes" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L34T1), resources.getString(R.string.L34T2))
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0), arrayOf(resources.getString(R.string.L34T2)),arrayOf(R.drawable.imagen76),arrayOf(resources.getString(R.string.L34T1))
+                    //resources.getString(R.string.L34T1), resources.getString(R.string.L34T2)
+                )
             }
             "Lección: 35 Re-armonización" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L35T1), resources.getString(R.string.L35T2), R.drawable.imagen75)
+                dataSet = Leccion(arguments?.getString("lesson")!!, arrayOf(3,2,0,1),arrayOf(resources.getString(R.string.L35T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L35T1))
+                    //resources.getString(R.string.L35T1), resources.getString(R.string.L35T2), R.drawable.imagen75
+                )
             }
             "Lección: 36 Composión: ideas generales y básicas" -> {
-                dataSet2 = arrayListOf<Any>("*" + arguments?.getString("lesson")!!, resources.getString(R.string.L36T1), resources.getString(R.string.L36T2))
+                dataSet = Leccion(arguments?.getString("lesson")!!,arrayOf(3,2,0) ,arrayOf(resources.getString(R.string.L36T2)),arrayOf(R.drawable.imagen75),arrayOf(resources.getString(R.string.L36T1))
+                    // resources.getString(R.string.L36T1), resources.getString(R.string.L36T2)
+                )
             }
 
             else -> {

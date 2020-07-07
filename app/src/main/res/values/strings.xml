@@ -212,8 +212,8 @@ LA/A-SI/B-DO/C-RE/D-MI/E-FA/F-SOL/G
     <string name="L4T2">
 Pentagrama o pauta musical es el lugar donde se escriben las notas y todos los demás signos musicales en el sistema de notación musical occidental. Está formado por cinco líneas horizontales y cuatro espacios o interlíneas equidistantes que se enumeran de abajo hacia arriba. Existen también las líneas y espacios adicionales, los cuales sirven para escribir sobre o debajo del pentagrama
     </string>
-    <string name="L4T3">
-        Tono y semitono
+    <string name="L4T3">Tono y semitono</string>
+    <string name="L4T4">
         Son las distancias básicas entre 2 notas seguidas. El semitono equivale a un medio todo, en el piano se puede interpretar como una tecla de distancia. El tono equivale a 2 semitonos, en el piano se puede interpretar como 2 teclas.
     </string>
     <string name="L5T1">Las alteraciones</string>
@@ -356,8 +356,8 @@ Ahora escribe 7/8, 6/8 y 11/8
 Sincopa
 Observa las flechas que señalan la nota sincopada y cómo en el tiempo siguiente no hay nota. En el penúltimo compás también tenemos una sincopa con ligadura. Escucha el audio para ver el efecto.
     </string>
-    <string name="L12T3">
-        Contratiempo
+    <string name="L12T3">Contratiempo</string>
+    <string name="L12T4">
 En el contratiempo, como se ha explicado antes, ocurre que tenemos silencios en los tiempos fuertes, consiguiendo un sonido distinto.
     </string>
     <string name="L13T1">Signo de repetición</string>

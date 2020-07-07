@@ -21,7 +21,6 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
 
         //Funcion a ejecutar en el ViewHolderBind
         fun initialize(lesson: String, action: OnLessonClickListener){
-            textView.text = (textView.text as String).replace("*", "")
             textView.setOnClickListener {
                 action.onItemClick(textView.text.toString(), adapterPosition)
             }
@@ -31,13 +30,13 @@ class UnidadAdapter(private val myDataSet: Array<String>, var clickListener: OnL
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val textView = LayoutInflater.from(parent.context)
             .inflate(R.layout.textview, parent, false) as TextView
-        textView.textSize = 20F
         return MyViewHolder(textView)
     }
 
     //Se le da los valores a los textos y se llama a initialize para darle clicklistener a cada item
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.textView.text = myDataSet[position]
+        holder.textView.textSize = 25F
         holder.initialize(myDataSet[position], clickListener)
     }
 

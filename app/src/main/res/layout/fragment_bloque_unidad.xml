@@ -12,7 +12,7 @@
             android:id="@+id/recyclerViewUnidad"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_constraintBottom_toTopOf="@+id/toolbar_main_menu"
+            android:paddingBottom="58dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -22,9 +22,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
+            android:layout_marginTop="70dp"
             app:itemIconTint="#FFFFFF"
             app:itemTextColor="#FFFFFF"
             app:labelVisibilityMode="labeled"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:menu="@menu/menu_toolbar" />
 

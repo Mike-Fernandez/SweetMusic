@@ -100,15 +100,15 @@
     <string name="Unisono_glosario"><b>Unísono: </b>Es un intervalo musical de proporción 1:1 y ningún semitono ni cent. Se considera que dos tonos al unísono tienen la misma altura.</string>
 
     <string-array name="unidad1">
-        <item>*Lección: 1 El sonido</item>
-        <item>*Lección: 2 Propiedades del sonido</item>
-        <item>*Lección: 3 Introducción a la música</item>
-        <item>*Lección: 4 Introducción a la música(Continuación)</item>
-        <item>*Lección: 5 Alteraciones y Diatonismo vs cromatismo</item>
-        <item>*Lección: 6 Introducción a la lectura musical (Claves y notas)</item>
-        <item>*Lección: 7 Lectura musical I</item>
-        <item>*Lección: 8 Lectura musical II</item>
-        <item>*Lección: 9 Lectura musical III</item>
+        <item>Lección: 1 El sonido</item>
+        <item>Lección: 2 Propiedades del sonido</item>
+        <item>Lección: 3 Introducción a la música</item>
+        <item>Lección: 4 Introducción a la música(Continuación)</item>
+        <item>Lección: 5 Alteraciones y Diatonismo vs cromatismo</item>
+        <item>Lección: 6 Introducción a la lectura musical (Claves y notas)</item>
+        <item>Lección: 7 Lectura musical I</item>
+        <item>Lección: 8 Lectura musical II</item>
+        <item>Lección: 9 Lectura musical III</item>
         <item>Exámen de unidad 1</item>
     </string-array>
 
